@@ -1,0 +1,2 @@
+	KMeans	Agglomerative	GMM	Spectral	DBSCAN
+highest_silhouette	0.17	0.14	0.13	0.16	0.18
