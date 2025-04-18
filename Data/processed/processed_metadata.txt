@@ -1,501 +1,501 @@
-patient_id	age	OS	OS_time	DSS	DSS_time	DFI	DFI_time	gender	tumor_site	tumor_class	tumor_stage
-TCGA-4P-AA8J	66.0	0.0	102.0	0.0	102.0			MALE	tongue	primary	Stage IVA
-TCGA-BA-4074	69.0	1.0	462.0	1.0	462.0			MALE	tongue	primary	Stage IVA
-TCGA-BA-4075	49.0	1.0	283.0	1.0	283.0			MALE	tongue	primary	Stage III
-TCGA-BA-4076	39.0	1.0	415.0	1.0	415.0			MALE	Larynx	primary	NA
-TCGA-BA-4077	45.0	1.0	1134.0	1.0	1134.0			FEMALE	tongue	primary	Stage IVA
-TCGA-BA-4078	83.0	1.0	276.0	1.0	276.0			MALE	Larynx	primary	NA
-TCGA-BA-5149	47.0	1.0	806.0	1.0	806.0			MALE	mouth	primary	Stage IVA
-TCGA-BA-5151	72.0	0.0	722.0	0.0	722.0			MALE	mouth	primary	Stage IVA
-TCGA-BA-5152	56.0	0.0	1288.0	0.0	1288.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-BA-5153	51.0	1.0	1762.0	1.0	1762.0	1.0	1522.0	MALE	Tonsil	metastasis	NA
-TCGA-BA-5555	54.0	0.0	520.0	0.0	520.0			MALE	Larynx	recurrence	NA
-TCGA-BA-5556	58.0	0.0	725.0	0.0	725.0	0.0	725.0	FEMALE	mouth	primary	Stage II
-TCGA-BA-5557	41.0	0.0	623.0	0.0	623.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA
-TCGA-BA-5558	65.0	0.0	1995.0	0.0	1995.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA
-TCGA-BA-5559	71.0	1.0	2083.0	1.0	2083.0			MALE	Tonsil	primary	NA
-TCGA-BA-6868	53.0	1.0	472.0	1.0	472.0			MALE	Larynx	metastasis	NA
-TCGA-BA-6869	62.0	0.0	644.0	0.0	644.0	0.0	644.0	MALE	Larynx	primary	Stage III
-TCGA-BA-6870	60.0	1.0	451.0		451.0			FEMALE	Larynx	primary	NA
-TCGA-BA-6871	75.0	1.0	108.0	1.0	108.0			MALE	tongue	primary	NA
-TCGA-BA-6872	47.0	1.0	384.0	1.0	384.0			MALE	mouth	primary	NA
-TCGA-BA-6873	28.0	0.0	122.0	0.0	122.0			MALE	tongue	primary	Stage IVA
-TCGA-BA-7269	61.0	0.0	1273.0	0.0	1273.0	0.0	1273.0	MALE	tongue	primary	Stage III
-TCGA-BA-A4IF	59.0	0.0	895.0	0.0	895.0			MALE	Oropharynx	primary	NA
-TCGA-BA-A4IG	77.0	0.0	855.0	0.0	855.0			MALE	Oropharynx	primary	NA
-TCGA-BA-A4IH	57.0	0.0	622.0	0.0	622.0			MALE	Oropharynx	primary	NA
-TCGA-BA-A4II	46.0	0.0	918.0	0.0	918.0	1.0	197.0	MALE	Oropharynx	primary	Stage II
-TCGA-BA-A6D8	59.0	0.0	850.0	0.0	850.0			MALE	mouth	metastasis	NA
-TCGA-BA-A6DA	41.0	0.0	351.0	0.0	351.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-BA-A6DB	24.0	0.0	216.0	0.0	216.0	1.0	208.0	FEMALE	tongue	recurrence	NA
-TCGA-BA-A6DD	44.0	1.0	173.0	1.0	173.0			MALE	mouth	recurrence	NA
-TCGA-BA-A6DE	70.0	0.0	440.0	0.0	440.0	0.0	440.0	FEMALE	tongue	primary	Stage II
-TCGA-BA-A6DG	49.0	1.0	69.0	1.0	69.0			MALE	tongue	primary	NA
-TCGA-BA-A6DI	62.0	1.0	336.0	1.0	336.0	1.0	266.0	MALE	Larynx	primary	NA
-TCGA-BA-A6DJ	62.0	1.0	407.0	1.0	407.0			MALE	Gum	metastasis	NA
-TCGA-BA-A6DL	59.0	0.0	623.0	0.0	623.0	0.0	623.0	MALE	Oropharynx	primary	NA
-TCGA-BA-A8YP	50.0	0.0	499.0	0.0	499.0			MALE	Oropharynx	primary	Stage IVB
-TCGA-BB-4217	68.0	0.0	187.0	0.0	187.0			MALE	Larynx	primary	Stage IVA
-TCGA-BB-4223	48.0	0.0	3221.0	0.0	3221.0			MALE	Tonsil	primary	Stage IVA
-TCGA-BB-4224	52.0	0.0	278.0	0.0	278.0			MALE	tongue	recurrence	NA
-TCGA-BB-4225	73.0	0.0	146.0	0.0	146.0			MALE	tongue	primary	NA
-TCGA-BB-4227	66.0	0.0	134.0	0.0	134.0			MALE	Hypopharynx	recurrence	NA
-TCGA-BB-4228	50.0	0.0	559.0	0.0	559.0	0.0	559.0	MALE	tongue	primary	Stage III
-TCGA-BB-7870	58.0	0.0	2016.0	0.0	2016.0			MALE	Larynx	primary	Stage IVA
-TCGA-BB-8596	69.0	0.0	2161.0	0.0	2161.0			FEMALE	Hypopharynx	primary	Stage IVA
-TCGA-BB-8601	84.0	0.0	624.0	0.0	624.0			MALE	mouth	recurrence	NA
-TCGA-BB-A5HU	47.0	0.0	782.0	0.0	782.0			MALE	mouth	primary	NA
-TCGA-BB-A5HY	64.0	1.0	321.0	1.0	321.0			MALE	Hypopharynx	metastasis	NA
-TCGA-BB-A5HZ	65.0	0.0	827.0	0.0	827.0			MALE	mouth	primary	Stage IVA
-TCGA-BB-A6UM	52.0	0.0	393.0	0.0	393.0	0.0	393.0	MALE	Tonsil	primary	Stage III
-TCGA-BB-A6UO	61.0	1.0	268.0	1.0	268.0			FEMALE	tongue	metastasis	NA
-TCGA-C9-A47Z	72.0	1.0	191.0	0.0	191.0	0.0	191.0	FEMALE	tongue	primary	Stage III
-TCGA-C9-A480	45.0	0.0	386.0	0.0	386.0	0.0	386.0	FEMALE	tongue	primary	Stage III
-TCGA-CN-4723	67.0	0.0	1699.0	0.0	1699.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-4725	60.0	0.0	1157.0	0.0	1157.0	0.0	1157.0	MALE	tongue	primary	Stage II
-TCGA-CN-4726	68.0	1.0	142.0	1.0	142.0			MALE	mouth	metastasis	NA
-TCGA-CN-4727	56.0	0.0	1560.0	0.0	1560.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-4728	56.0	0.0	1724.0	0.0	1724.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CN-4729	73.0	0.0	392.0	0.0	392.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CN-4730	62.0	0.0	817.0	0.0	817.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CN-4731	63.0	1.0	998.0	1.0	998.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CN-4733	61.0	0.0	1586.0	0.0	1586.0	0.0	1586.0	MALE	tongue	primary	Stage III
-TCGA-CN-4734	70.0	0.0	1690.0	0.0	1690.0	0.0	1690.0	MALE	mouth	primary	Stage II
-TCGA-CN-4735	52.0	0.0	1737.0	0.0	1737.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-4736	70.0	1.0	395.0	1.0	395.0	1.0	209.0	FEMALE	tongue	recurrence	NA
-TCGA-CN-4737	19.0	0.0	625.0	0.0	625.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-4738	53.0	1.0	436.0		436.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-4739	71.0	1.0	1394.0	1.0	1394.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-4740	79.0	1.0	839.0	1.0	839.0			FEMALE	mouth	primary	Stage IVA
-TCGA-CN-4741	75.0	0.0	2239.0	0.0	2239.0			MALE	Gum	metastasis	NA
-TCGA-CN-4742	48.0	1.0	397.0	1.0	397.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CN-5355	64.0	0.0	1278.0	0.0	1278.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-5356	56.0	0.0	1409.0	0.0	1409.0	0.0	1409.0	MALE	Larynx	primary	Stage III
-TCGA-CN-5358	60.0	1.0	261.0	0.0	261.0	1.0	145.0	MALE	mouth	primary	Stage II
-TCGA-CN-5359	59.0	1.0	377.0	1.0	377.0			MALE	mouth	primary	Stage IVA
-TCGA-CN-5360	68.0	0.0	2169.0	0.0	2169.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-5361	80.0	1.0	2120.0	0.0	2120.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-5363	48.0	1.0	253.0	1.0	253.0			MALE	Larynx	metastasis	NA
-TCGA-CN-5364	55.0	1.0	493.0	0.0	493.0			MALE	mouth	primary	Stage IVA
-TCGA-CN-5365	38.0	1.0	351.0	1.0	351.0			MALE	Tonsil	primary	Stage IVB
-TCGA-CN-5366	51.0	1.0	360.0	1.0	360.0			MALE	Larynx	recurrence	NA
-TCGA-CN-5367	60.0	1.0	352.0	0.0	352.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CN-5369	90.0	1.0	380.0	0.0	380.0			FEMALE	Palate	primary	Stage IVA
-TCGA-CN-5370	78.0	1.0	259.0	1.0	259.0	1.0	123.0	MALE	tongue	recurrence	NA
-TCGA-CN-5373	55.0	0.0	1584.0	0.0	1584.0	0.0	1584.0	FEMALE	mouth	primary	Stage I
-TCGA-CN-5374	56.0	1.0	1732.0	0.0	1732.0			FEMALE	Tonsil	metastasis	NA
-TCGA-CN-6010	53.0	0.0	1523.0	0.0	1523.0			MALE	Larynx	primary	NA
-TCGA-CN-6011	57.0	0.0	933.0	0.0	933.0			MALE	Gum	primary	Stage IVA
-TCGA-CN-6012	66.0	0.0	1460.0	0.0	1460.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-6013	56.0	1.0	727.0	1.0	727.0			MALE	Gum	metastasis	NA
-TCGA-CN-6016	64.0	0.0	1443.0	0.0	1443.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-6017	55.0	1.0	853.0	0.0	853.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-6018	85.0	1.0	580.0	0.0	580.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CN-6019	61.0	0.0	1038.0	0.0	1038.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-6020	58.0	1.0	205.0	0.0	205.0			MALE	mouth	primary	Stage III
-TCGA-CN-6021	63.0	1.0	276.0	1.0	276.0			FEMALE	Larynx	primary	NA
-TCGA-CN-6022	49.0	1.0	281.0	1.0	281.0			MALE	Larynx	recurrence	NA
-TCGA-CN-6023	73.0	0.0	1584.0	0.0	1584.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-6024	66.0	1.0	337.0	1.0	337.0			MALE	tongue	recurrence	NA
-TCGA-CN-6988	47.0	0.0	318.0	0.0	318.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-6989	64.0	1.0	980.0	1.0	980.0			MALE	Larynx	metastasis	NA
-TCGA-CN-6992	61.0	0.0	1066.0	0.0	1066.0			MALE	Larynx	primary	NA
-TCGA-CN-6994	67.0	0.0	1183.0	0.0	1183.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CN-6995	78.0	1.0	112.0	0.0	112.0			MALE	mouth	primary	Stage IVA
-TCGA-CN-6996	58.0	1.0	530.0	1.0	530.0			FEMALE	tongue	recurrence	NA
-TCGA-CN-6997	66.0	1.0	988.0	0.0	988.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-6998	53.0	1.0	357.0	1.0	357.0			MALE	tongue	recurrence	NA
-TCGA-CN-A497	63.0	0.0	1065.0	0.0	1065.0			MALE	Larynx	primary	Stage III
-TCGA-CN-A498	61.0	1.0	773.0	1.0	773.0	1.0	186.0	FEMALE	tongue	recurrence	NA
-TCGA-CN-A499	60.0	0.0	717.0	0.0	717.0	0.0	717.0	FEMALE	Tonsil	primary	Stage II
-TCGA-CN-A49A	60.0	1.0	526.0	1.0	526.0			MALE	Palate	metastasis	NA
-TCGA-CN-A49B	71.0	0.0	904.0	0.0	904.0	0.0	904.0	MALE	Larynx	primary	Stage III
-TCGA-CN-A49C	67.0	0.0	645.0	0.0	645.0			MALE	Tonsil	primary	NA
-TCGA-CN-A63T	60.0	0.0	225.0	0.0	225.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-A63U	50.0	0.0	964.0	0.0	964.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-A63V	59.0	0.0	679.0	0.0	679.0			MALE	mouth	primary	Stage IVA
-TCGA-CN-A63W	48.0	1.0	377.0	0.0	377.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-CN-A641	47.0	0.0	367.0	0.0	367.0			MALE	Larynx	primary	Stage IVA
-TCGA-CN-A642	57.0	1.0	82.0	1.0	82.0			MALE	tongue	primary	Stage IVB
-TCGA-CN-A6UY	57.0	0.0	713.0	0.0	713.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-A6V1	59.0	0.0	603.0	0.0	603.0			MALE	Tonsil	primary	Stage IVA
-TCGA-CN-A6V3	61.0	0.0	742.0	0.0	742.0			MALE	Larynx	primary	NA
-TCGA-CN-A6V6	59.0	0.0	635.0	0.0	635.0			MALE	tongue	primary	Stage IVA
-TCGA-CN-A6V7	40.0	0.0	594.0	0.0	594.0			MALE	Tonsil	primary	Stage IVA
-TCGA-CQ-5323	82.0	0.0	1466.0	0.0	1466.0	0.0	1466.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I
-TCGA-CQ-5324	59.0	0.0	1593.0	0.0	1593.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CQ-5325	65.0	1.0	654.0	1.0	654.0	1.0	204.0	MALE	tongue	recurrence	NA
-TCGA-CQ-5326	67.0	1.0	89.0	1.0	89.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CQ-5327	61.0	0.0	1660.0	0.0	1660.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CQ-5329	46.0	0.0	2143.0	0.0	2143.0	0.0	2143.0	FEMALE	tongue	primary	Stage II
-TCGA-CQ-5330	69.0	0.0	1897.0	0.0	1897.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CQ-5331	73.0	0.0	1399.0	0.0	1399.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA
-TCGA-CQ-5332	87.0	1.0	317.0		317.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CQ-5333	74.0	1.0	341.0	1.0	341.0	1.0	176.0	MALE	tongue	primary	Stage II
-TCGA-CQ-5334	87.0	1.0	129.0	1.0	129.0			MALE	mouth	recurrence	NA
-TCGA-CQ-6218	52.0	0.0	1253.0	0.0	1253.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CQ-6219	50.0	1.0	479.0	1.0	479.0			FEMALE	tongue	recurrence	NA
-TCGA-CQ-6220	69.0	1.0	985.0		985.0	0.0	985.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CQ-6221	79.0	0.0	1000.0	0.0	1000.0	0.0	1000.0	MALE	tongue	primary	NA
-TCGA-CQ-6222	63.0	0.0	2016.0	0.0	2016.0			MALE	tongue	primary	Stage IVA
-TCGA-CQ-6223	69.0	0.0	1428.0	0.0	1428.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CQ-6224	52.0	0.0	1721.0	0.0	1721.0			MALE	tongue	primary	Stage IVA
-TCGA-CQ-6225	65.0	1.0	403.0		403.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CQ-6227	77.0	1.0	129.0	1.0	129.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CQ-6228	71.0	1.0	456.0		456.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CQ-6229	61.0	0.0	1179.0	0.0	1179.0	0.0	1179.0	MALE	tongue	primary	Stage II
-TCGA-CQ-7063	59.0	0.0	2133.0	0.0	2133.0	1.0	1160.0	FEMALE	mouth	primary	Stage I
-TCGA-CQ-7065	40.0	0.0	1628.0	0.0	1628.0	1.0	230.0	MALE	tongue	primary	Stage II
-TCGA-CQ-7068	80.0	0.0	1309.0	0.0	1309.0	0.0	1309.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA
-TCGA-CQ-7069	77.0	0.0	1274.0	0.0	1274.0	0.0	1274.0	FEMALE	mouth	primary	Stage II
-TCGA-CQ-7071	76.0	0.0	1311.0	0.0	1311.0			FEMALE	mouth	primary	Stage III
-TCGA-CQ-7072	51.0	0.0	2359.0	0.0	2359.0			MALE	tongue	primary	Stage II
-TCGA-CQ-A4C6	63.0	0.0	1353.0	0.0	1353.0	0.0	1353.0	MALE	mouth	primary	Stage II
-TCGA-CQ-A4C7	88.0	1.0	353.0		353.0	1.0	207.0	MALE	mouth	recurrence	NA
-TCGA-CQ-A4C9	56.0	0.0	707.0	0.0	707.0	1.0	287.0	MALE	mouth	recurrence	NA
-TCGA-CQ-A4CB	59.0	0.0	893.0	0.0	893.0	0.0	893.0	MALE	mouth	primary	Stage III
-TCGA-CQ-A4CD	69.0	0.0	1022.0	0.0	1022.0			MALE	Bones, joints and articular cartilage of other and unspecified sites	primary	Stage IVA
-TCGA-CQ-A4CE	76.0	0.0	897.0	0.0	897.0	0.0	897.0	FEMALE	tongue	primary	Stage II
-TCGA-CQ-A4CG	78.0	1.0	430.0	1.0	430.0	1.0	350.0	FEMALE	mouth	primary	Stage III
-TCGA-CQ-A4CH	58.0	1.0	379.0	1.0	379.0			MALE	tongue	metastasis	NA
-TCGA-CQ-A4CI	73.0	0.0	950.0	0.0	950.0	1.0	517.0	MALE	mouth	metastasis	NA
-TCGA-CR-5243	51.0	0.0	2562.0	0.0	2562.0			MALE	Tonsil	primary	NA
-TCGA-CR-5247	48.0	0.0	358.0	0.0	358.0	0.0	358.0	MALE	Tonsil	primary	NA
-TCGA-CR-5248	53.0	0.0	1663.0	0.0	1663.0			MALE	Tonsil	metastasis	NA
-TCGA-CR-5249	35.0	0.0	1152.0	0.0	1152.0	0.0	1152.0	FEMALE	Tonsil	primary	Stage II
-TCGA-CR-5250	71.0	0.0	799.0	0.0	799.0	0.0	799.0	MALE	tongue	primary	NA
-TCGA-CR-6467	59.0	0.0	1777.0	0.0	1777.0			MALE	Tonsil	primary	Stage III
-TCGA-CR-6470	38.0	0.0	1521.0	0.0	1521.0			MALE	Tonsil	primary	Stage II
-TCGA-CR-6471	58.0	1.0	1202.0	1.0	1202.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA
-TCGA-CR-6472	59.0	0.0	1050.0	0.0	1050.0			MALE	tongue	primary	NA
-TCGA-CR-6473	68.0	0.0	1125.0	0.0	1125.0			MALE	Hypopharynx	primary	NA
-TCGA-CR-6474	51.0	1.0	564.0	1.0	564.0			MALE	Larynx	primary	Stage IVA
-TCGA-CR-6477	56.0	0.0	514.0	0.0	514.0			FEMALE	tongue	primary	NA
-TCGA-CR-6478	66.0	1.0	183.0		183.0			FEMALE	Tonsil	primary	NA
-TCGA-CR-6480	53.0	0.0	362.0	0.0	362.0			MALE	Tonsil	primary	NA
-TCGA-CR-6481	47.0	0.0	311.0	0.0	311.0			MALE	Tonsil	primary	NA
-TCGA-CR-6482	62.0	0.0	345.0	0.0	345.0			MALE	Tonsil	primary	NA
-TCGA-CR-6484	67.0	0.0	354.0	0.0	354.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-6487	50.0	0.0	234.0	0.0	234.0	0.0	234.0	MALE	Tonsil	primary	Stage I
-TCGA-CR-6488	68.0	0.0	379.0	0.0	379.0	0.0	379.0	FEMALE	tongue	primary	Stage II
-TCGA-CR-6491	60.0	0.0	693.0	0.0	693.0			MALE	mouth	primary	NA
-TCGA-CR-6492	78.0	0.0	479.0	0.0	479.0			MALE	Palate	primary	Stage III
-TCGA-CR-6493	69.0	1.0	282.0	1.0	282.0			MALE	tongue	primary	Stage IVA
-TCGA-CR-7364	66.0	0.0	1435.0	0.0	1435.0	0.0	1435.0	MALE	Larynx	primary	Stage III
-TCGA-CR-7365	60.0	0.0	1191.0	0.0	1191.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7367	52.0	0.0	1440.0	0.0	1440.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7368	54.0	0.0	1245.0	0.0	1245.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7369	59.0	1.0	1090.0	0.0	1090.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7370	72.0	0.0	105.0	0.0	105.0	0.0	105.0	FEMALE	Larynx	primary	NA
-TCGA-CR-7371	45.0	1.0	94.0		94.0			FEMALE	Larynx	primary	Stage III
-TCGA-CR-7372	45.0	0.0	759.0	0.0	759.0	0.0	759.0	MALE	tongue	primary	Stage I
-TCGA-CR-7373	66.0	0.0	889.0	0.0	889.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7374	67.0	0.0	30.0	0.0	30.0			FEMALE	Larynx	primary	NA
-TCGA-CR-7376	83.0	0.0	972.0	0.0	972.0	0.0	972.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CR-7377	58.0	1.0	279.0		279.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7379	78.0	0.0	1036.0	0.0	1036.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CR-7380	58.0	1.0	606.0	1.0	606.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVB
-TCGA-CR-7382	49.0	0.0	796.0	0.0	796.0			MALE	tongue	primary	Stage IVA
-TCGA-CR-7383	79.0	1.0	521.0	1.0	521.0	1.0	454.0	FEMALE	Tonsil	recurrence	NA
-TCGA-CR-7385	42.0	0.0	997.0	0.0	997.0			MALE	Tonsil	primary	NA
-TCGA-CR-7386	69.0	0.0	1430.0	0.0	1430.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	metastasis	NA
-TCGA-CR-7388	70.0	1.0	823.0	1.0	823.0			FEMALE	Larynx	recurrence	NA
-TCGA-CR-7389	55.0	0.0	392.0	0.0	392.0	0.0	392.0	MALE	Larynx	primary	NA
-TCGA-CR-7390	67.0	0.0	1508.0	0.0	1508.0			MALE	tongue	primary	Stage IVA
-TCGA-CR-7391	36.0	0.0	913.0	0.0	913.0	0.0	913.0	FEMALE	tongue	primary	Stage I
-TCGA-CR-7392	67.0	0.0	1425.0	0.0	1425.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CR-7394	70.0	0.0	1346.0	0.0	1346.0			MALE	tongue	primary	Stage IVA
-TCGA-CR-7395	80.0	0.0	930.0	0.0	930.0	0.0	930.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CR-7397	44.0	0.0	754.0	0.0	754.0			MALE	tongue	primary	Stage IVA
-TCGA-CR-7398	53.0	0.0	156.0	0.0	156.0	0.0	156.0	FEMALE	Larynx	primary	Stage II
-TCGA-CR-7399	60.0	0.0	181.0	0.0	181.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-CR-7401	64.0	0.0	1077.0	0.0	1077.0	0.0	1077.0	MALE	tongue	primary	Stage I
-TCGA-CR-7402	68.0	0.0	911.0	0.0	911.0	0.0	911.0	MALE	Larynx	primary	NA
-TCGA-CR-7404	53.0	0.0	1472.0	0.0	1472.0			MALE	Tonsil	recurrence	NA
-TCGA-CV-5430	61.0	0.0	4241.0	0.0	4241.0			MALE	Larynx	metastasis	NA
-TCGA-CV-5432	68.0	0.0	3930.0	0.0	3930.0			MALE	Larynx	primary	Stage III
-TCGA-CV-5434	60.0	1.0	3314.0	0.0	3314.0			MALE	Larynx	metastasis	NA
-TCGA-CV-5435	57.0	1.0	2319.0	1.0	2319.0			MALE	Larynx	metastasis	NA
-TCGA-CV-5436	65.0	1.0	584.0	1.0	584.0			MALE	mouth	primary	Stage IVA
-TCGA-CV-5439	62.0	1.0	546.0	1.0	546.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-5440	52.0	0.0	3270.0	0.0	3270.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-5441	58.0	0.0	2886.0	0.0	2886.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-5442	76.0	0.0	2327.0	0.0	2327.0			FEMALE	Palate	primary	Stage IVA
-TCGA-CV-5443	63.0	0.0	2784.0	0.0	2784.0			MALE	Larynx	primary	Stage III
-TCGA-CV-5444	64.0	0.0	2437.0	0.0	2437.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-5966	63.0	1.0	545.0	0.0	545.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-5970	59.0	1.0	406.0	1.0	406.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-5971	60.0	0.0	701.0	0.0	701.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-5973	62.0	0.0	2641.0	0.0	2641.0	0.0	2641.0	FEMALE	tongue	primary	Stage III
-TCGA-CV-5976	50.0	0.0	1478.0	0.0	1478.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-5977	66.0	0.0	1840.0	0.0	1840.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-5978	53.0	1.0	215.0	1.0	215.0			FEMALE	Larynx	primary	Stage IVB
-TCGA-CV-5979	26.0	0.0	1315.0	0.0	1315.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6003	50.0	0.0	1665.0	0.0	1665.0			FEMALE	tongue	primary	Stage III
-TCGA-CV-6433	57.0	0.0	641.0	0.0	641.0	0.0	641.0	MALE	tongue	primary	Stage II
-TCGA-CV-6436	62.0	0.0	1899.0	0.0	1899.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6441	60.0	1.0	292.0	1.0	292.0			MALE	tongue	primary	Stage III
-TCGA-CV-6933	53.0	1.0	2741.0	0.0	2741.0			MALE	tongue	primary	Stage III
-TCGA-CV-6934	66.0	1.0	65.0	1.0	65.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CV-6935	67.0	1.0	295.0	1.0	295.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-6936	68.0	1.0	166.0	1.0	166.0			MALE	mouth	primary	Stage IVA
-TCGA-CV-6937	71.0	1.0	624.0	0.0	624.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-6938	87.0	1.0	144.0	0.0	144.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-6939	60.0	1.0	666.0	1.0	666.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6940	80.0	1.0	804.0	0.0	804.0	0.0	804.0	FEMALE	mouth	primary	Stage III
-TCGA-CV-6941	51.0	1.0	342.0	0.0	342.0	0.0	342.0	MALE	tongue	primary	Stage III
-TCGA-CV-6942	73.0	0.0	4282.0	0.0	4282.0	0.0	4282.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-6943	74.0	1.0	602.0	1.0	602.0			MALE	tongue	primary	Stage III
-TCGA-CV-6945	41.0	1.0	366.0	1.0	366.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6948	79.0	1.0	1289.0	0.0	1289.0			FEMALE	mouth	primary	Stage IVB
-TCGA-CV-6950	64.0	1.0	459.0	1.0	459.0			MALE	tongue	recurrence	NA
-TCGA-CV-6951	57.0	1.0	915.0	1.0	915.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6952	65.0	1.0	185.0	0.0	185.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CV-6953	80.0	1.0	1641.0	1.0	1641.0	1.0	1521.0	FEMALE	mouth	recurrence	NA
-TCGA-CV-6954	59.0	1.0	2002.0	0.0	2002.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-6955	74.0	1.0	334.0	1.0	334.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-6956	67.0	1.0	217.0	1.0	217.0			MALE	tongue	primary	Stage III
-TCGA-CV-6959	48.0	1.0	256.0	1.0	256.0			MALE	tongue	primary	Stage III
-TCGA-CV-6960	49.0	1.0	862.0	0.0	862.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CV-6961	61.0	1.0	76.0	1.0	76.0			MALE	tongue	primary	Stage II
-TCGA-CV-6962	65.0	1.0	126.0	0.0	126.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7089	74.0	1.0	1972.0	0.0	1972.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7090	39.0	0.0	5252.0	0.0	5252.0	0.0	5252.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7091	54.0	0.0	3381.0	0.0	3381.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I
-TCGA-CV-7095	87.0	1.0	572.0	0.0	572.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7097	53.0	1.0	385.0	1.0	385.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7099	85.0	1.0	243.0	0.0	243.0	0.0	243.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7100	66.0	1.0	274.0	1.0	274.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CV-7101	80.0	1.0	160.0	0.0	160.0			MALE	Larynx	primary	Stage II
-TCGA-CV-7102	76.0	1.0	56.0		56.0			FEMALE	mouth	primary	Stage IVA
-TCGA-CV-7103	49.0	1.0	1591.0	1.0	1591.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-7104	61.0	1.0	393.0	0.0	393.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CV-7177	82.0	1.0	663.0	1.0	663.0			FEMALE	Larynx	primary	Stage II
-TCGA-CV-7178	64.0	1.0	2166.0	1.0	2166.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7180	34.0	1.0	327.0	1.0	327.0			MALE	tongue	primary	Stage II
-TCGA-CV-7183	53.0	0.0	3981.0	0.0	3981.0	0.0	3981.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7235	67.0	0.0	2347.0	0.0	2347.0	0.0	2347.0	MALE	mouth	primary	Stage II
-TCGA-CV-7236	77.0	1.0	144.0	0.0	144.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CV-7238	69.0	0.0	2727.0	0.0	2727.0	0.0	2727.0	FEMALE	tongue	primary	Stage II
-TCGA-CV-7242	60.0	0.0	1095.0	0.0	1095.0			FEMALE	Larynx	primary	Stage II
-TCGA-CV-7243	50.0	0.0	954.0	0.0	954.0			MALE	tongue	primary	Stage III
-TCGA-CV-7245	62.0	0.0	797.0	0.0	797.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7247	55.0	1.0	577.0	1.0	577.0			MALE	Larynx	primary	Stage III
-TCGA-CV-7248	63.0	1.0	521.0	0.0	521.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-CV-7250	64.0	1.0	2900.0	0.0	2900.0			MALE	Larynx	metastasis	NA
-TCGA-CV-7252	62.0	1.0	151.0	1.0	151.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7253	58.0	1.0	361.0	1.0	361.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7254	55.0	1.0	1459.0	1.0	1459.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7255	32.0	1.0	64.0	1.0	64.0			FEMALE	tongue	primary	Stage IVA
-TCGA-CV-7261	57.0	0.0	1512.0	0.0	1512.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7263	64.0	1.0	560.0	1.0	560.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7406	49.0	1.0	1748.0		1748.0			MALE	tongue	primary	Stage II
-TCGA-CV-7407	67.0	1.0	1081.0		1081.0			FEMALE	mouth	primary	Stage II
-TCGA-CV-7410	61.0	1.0	6417.0	1.0	6417.0			MALE	Larynx	primary	Stage III
-TCGA-CV-7411	64.0	1.0	2717.0		2717.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7413	74.0	1.0	294.0		294.0	0.0	294.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7414	78.0	1.0	14.0		14.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7415	60.0	1.0	695.0	1.0	695.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7416	29.0	1.0	763.0		763.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7418	62.0	1.0	789.0	0.0	789.0			MALE	Larynx	recurrence	NA
-TCGA-CV-7421	76.0	1.0	2.0		2.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7422	60.0	1.0	1037.0	1.0	1037.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-CV-7423	65.0	1.0	3059.0		3059.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7424	67.0	1.0	453.0	1.0	453.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7425	77.0	1.0	1718.0	1.0	1718.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III
-TCGA-CV-7427	73.0	1.0	4760.0	0.0	4760.0	1.0	3282.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA
-TCGA-CV-7429	55.0	1.0	107.0	1.0	107.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7430	56.0	1.0	495.0	1.0	495.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-7432	79.0	1.0	2570.0	1.0	2570.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II
-TCGA-CV-7433	49.0	1.0	601.0	1.0	601.0			MALE	Larynx	metastasis	NA
-TCGA-CV-7434	64.0	1.0	218.0	0.0	218.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7435	57.0	1.0	4680.0	0.0	4680.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-7437	77.0	1.0	506.0	1.0	506.0			MALE	Larynx	primary	Stage II
-TCGA-CV-7438	87.0	1.0	194.0	1.0	194.0			FEMALE	tongue	primary	Stage I
-TCGA-CV-7440	38.0	1.0	675.0		675.0			MALE	Larynx	primary	Stage II
-TCGA-CV-7446	66.0	1.0	1093.0	1.0	1093.0			MALE	tongue	primary	Stage IVA
-TCGA-CV-7568	48.0	1.0	927.0		927.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-CV-A45O	57.0	0.0	851.0	0.0	851.0			MALE	Gum	primary	NA
-TCGA-CV-A45P	82.0	0.0	639.0	0.0	639.0	1.0	639.0	FEMALE	tongue	primary	Stage I
-TCGA-CV-A45Q	69.0	1.0	5152.0	0.0	5152.0			FEMALE	mouth	primary	NA
-TCGA-CV-A45R	46.0	0.0	5480.0	0.0	5480.0	0.0	5480.0	MALE	tongue	primary	Stage III
-TCGA-CV-A45T	64.0	1.0	4856.0	0.0	4856.0			FEMALE	tongue	primary	NA
-TCGA-CV-A45U	59.0	1.0	1079.0	1.0	1079.0			MALE	mouth	metastasis	NA
-TCGA-CV-A45V	87.0	1.0	32.0		32.0			FEMALE	mouth	primary	Stage IVA
-TCGA-CV-A45W	75.0	1.0	1398.0	0.0	1398.0			MALE	Larynx	primary	Stage II
-TCGA-CV-A45X	47.0	1.0	198.0	0.0	198.0			MALE	mouth	primary	Stage IVA
-TCGA-CV-A45Y	61.0	1.0	2703.0	0.0	2703.0			MALE	Larynx	metastasis	NA
-TCGA-CV-A45Z	75.0	1.0	1466.0	1.0	1466.0			MALE	Larynx	primary	NA
-TCGA-CV-A460	72.0	1.0	1838.0		1838.0			MALE	Larynx	primary	NA
-TCGA-CV-A461	65.0	1.0	2064.0	0.0	2064.0	0.0	2064.0	MALE	Larynx	primary	NA
-TCGA-CV-A463	82.0	1.0	23.0	0.0	23.0			FEMALE	mouth	primary	Stage IVA
-TCGA-CV-A464	48.0	0.0	1722.0	0.0	1722.0			MALE	mouth	recurrence	NA
-TCGA-CV-A465	24.0	1.0	215.0	0.0	215.0	0.0	215.0	MALE	tongue	primary	Stage III
-TCGA-CV-A468	42.0	1.0	464.0	0.0	464.0			MALE	Lip	primary	Stage IVA
-TCGA-CV-A6JD	82.0	1.0	182.0	0.0	182.0			FEMALE	mouth	primary	NA
-TCGA-CV-A6JE	78.0	0.0	1075.0	0.0	1075.0	0.0	1075.0	MALE	mouth	primary	NA
-TCGA-CV-A6JM	85.0	1.0	194.0	0.0	194.0			MALE	Larynx	recurrence	NA
-TCGA-CV-A6JN	53.0	0.0	906.0	0.0	906.0	0.0	906.0	MALE	mouth	primary	NA
-TCGA-CV-A6JO	69.0	1.0	197.0	1.0	197.0			MALE	tongue	recurrence	NA
-TCGA-CV-A6JT	65.0	0.0	852.0	0.0	852.0	0.0	852.0	MALE	tongue	primary	Stage II
-TCGA-CV-A6JU	61.0	0.0	110.0	0.0	110.0			FEMALE	tongue	primary	Stage IVB
-TCGA-CV-A6JY	69.0	0.0	646.0	0.0	646.0			MALE	mouth	primary	Stage IVA
-TCGA-CV-A6JZ	68.0	0.0	714.0	0.0	714.0			MALE	mouth	recurrence	NA
-TCGA-CV-A6K0	58.0	0.0	606.0	0.0	606.0	1.0	146.0	MALE	tongue	primary	Stage I
-TCGA-CV-A6K1	65.0	0.0	685.0	0.0	685.0			MALE	Larynx	primary	Stage IVA
-TCGA-CV-A6K2	79.0	1.0	317.0	1.0	317.0			MALE	mouth	recurrence	NA
-TCGA-CX-7082	82.0	1.0	11.0	0.0	11.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I
-TCGA-CX-7085	77.0	0.0	321.0	0.0	321.0	1.0	92.0	FEMALE	tongue	recurrence	NA
-TCGA-CX-7086	53.0	0.0	573.0	0.0	573.0			MALE	mouth	primary	Stage III
-TCGA-CX-7219	47.0	0.0	1045.0	0.0	1045.0			MALE	mouth	primary	Stage IVA
-TCGA-CX-A4AQ	56.0	0.0	1555.0	0.0	1555.0			MALE	mouth	primary	Stage IVA
-TCGA-D6-6515	82.0	1.0	403.0	0.0	403.0	1.0	195.0	FEMALE	tongue	primary	Stage II
-TCGA-D6-6516	69.0	0.0	773.0	0.0	773.0	0.0	773.0	MALE	Lip	primary	Stage I
-TCGA-D6-6517	59.0	0.0	292.0	0.0	292.0			MALE	Larynx	metastasis	NA
-TCGA-D6-6823	50.0	0.0	701.0	0.0	701.0	0.0	701.0	MALE	tongue	primary	Stage II
-TCGA-D6-6824	61.0	0.0	77.0	0.0	77.0			MALE	Larynx	primary	Stage IVA
-TCGA-D6-6825	73.0	0.0	491.0	0.0	491.0	0.0	491.0	MALE	tongue	primary	Stage I
-TCGA-D6-6826	64.0	1.0	348.0	0.0	348.0			FEMALE	Larynx	primary	Stage IVA
-TCGA-D6-6827	55.0	0.0	568.0	0.0	568.0	0.0	568.0	FEMALE	Lip	primary	Stage I
-TCGA-D6-8568	62.0	0.0	759.0	0.0	759.0			MALE	Larynx	primary	Stage II
-TCGA-D6-8569	52.0	0.0	770.0	0.0	770.0			MALE	tongue	primary	Stage II
-TCGA-D6-A4Z9	59.0	0.0	539.0	0.0	539.0			MALE	tongue	primary	Stage IVA
-TCGA-D6-A4ZB	61.0	0.0	376.0	0.0	376.0	0.0	376.0	MALE	tongue	primary	Stage III
-TCGA-D6-A6EK	67.0	0.0	875.0	0.0	875.0			MALE	Larynx	primary	Stage III
-TCGA-D6-A6EM	65.0	0.0	232.0	0.0	232.0	1.0	232.0	FEMALE	mouth	primary	Stage III
-TCGA-D6-A6EN	71.0	0.0	687.0	0.0	687.0	0.0	687.0	MALE	mouth	primary	Stage III
-TCGA-D6-A6EO	44.0	0.0	759.0	0.0	759.0			MALE	mouth	primary	Stage IVA
-TCGA-D6-A6EP	62.0	0.0	424.0	0.0	424.0	0.0	424.0	MALE	Hypopharynx	primary	Stage III
-TCGA-D6-A6EQ	57.0	0.0	368.0	0.0	368.0			MALE	Larynx	primary	Stage IVA
-TCGA-D6-A6ES	50.0	0.0	389.0	0.0	389.0			MALE	Larynx	primary	Stage IVA
-TCGA-D6-A74Q	67.0	0.0	710.0	0.0	710.0			MALE	Larynx	primary	Stage IVA
-TCGA-DQ-5624	43.0	0.0	1778.0	0.0	1778.0			FEMALE	tongue	primary	NA
-TCGA-DQ-5625	52.0	1.0	1133.0	0.0	1133.0	1.0	1058.0	FEMALE	tongue	recurrence	NA
-TCGA-DQ-5629	64.0	1.0	941.0	0.0	941.0			MALE	Larynx	primary	NA
-TCGA-DQ-5630	73.0	0.0	1030.0	0.0	1030.0	0.0	1030.0	MALE	tongue	primary	NA
-TCGA-DQ-5631	52.0	1.0	548.0	1.0	548.0			MALE	tongue	primary	NA
-TCGA-DQ-7588	66.0	1.0	427.0	1.0	427.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA
-TCGA-DQ-7591	62.0	0.0	622.0	0.0	622.0			MALE	tongue	primary	NA
-TCGA-DQ-7592	57.0	0.0	1143.0	0.0	1143.0			MALE	tongue	primary	NA
-TCGA-DQ-7593	58.0	0.0	1224.0	0.0	1224.0			MALE	tongue	primary	NA
-TCGA-DQ-7596	48.0	0.0	1265.0	0.0	1265.0			MALE	Tonsil	primary	NA
-TCGA-F7-7848	47.0	0.0	1131.0	0.0	1131.0			MALE	Larynx	primary	Stage IVA
-TCGA-F7-8298	58.0	0.0	995.0	0.0	995.0	0.0	995.0	MALE	Larynx	primary	Stage I
-TCGA-F7-8489	48.0	0.0	658.0	0.0	658.0	0.0	658.0	MALE	mouth	primary	Stage II
-TCGA-F7-A50G	66.0	0.0	616.0	0.0	616.0	0.0	616.0	MALE	tongue	primary	Stage III
-TCGA-F7-A50I	72.0	0.0	92.0	0.0	92.0			MALE	Larynx	primary	Stage IVA
-TCGA-F7-A50J	67.0	0.0	947.0	0.0	947.0	0.0	947.0	FEMALE	tongue	primary	Stage III
-TCGA-F7-A61S	62.0	0.0	576.0	0.0	576.0	1.0	213.0	MALE	tongue	primary	Stage III
-TCGA-F7-A61V	54.0	0.0	759.0	0.0	759.0	0.0	759.0	MALE	tongue	primary	Stage II
-TCGA-F7-A61W	51.0	0.0	14.0	0.0	14.0			MALE	tongue	primary	Stage IVA
-TCGA-F7-A620	47.0	0.0	543.0	0.0	543.0	0.0	543.0	MALE	tongue	primary	Stage III
-TCGA-F7-A622	75.0	1.0	359.0	1.0	359.0			MALE	Larynx	recurrence	NA
-TCGA-F7-A623	70.0	0.0	616.0	0.0	616.0			MALE	Larynx	primary	Stage IVA
-TCGA-F7-A624	73.0	0.0	378.0	0.0	378.0	0.0	378.0	MALE	mouth	primary	Stage II
-TCGA-H7-7774	75.0	0.0	407.0	0.0	407.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-H7-8501	54.0	0.0	461.0	0.0	461.0			MALE	mouth	primary	Stage IVA
-TCGA-H7-A6C4	35.0	0.0	414.0	0.0	414.0			FEMALE	tongue	recurrence	NA
-TCGA-H7-A6C5	65.0	0.0	642.0	0.0	642.0	0.0	642.0	MALE	Larynx	primary	Stage II
-TCGA-H7-A76A	57.0	0.0	637.0	0.0	637.0			MALE	Tonsil	primary	NA
-TCGA-HD-7229	60.0	0.0	1027.0	0.0	1027.0			MALE	Larynx	recurrence	NA
-TCGA-HD-7753	62.0	0.0	866.0	0.0	866.0	0.0	866.0	MALE	Oropharynx	primary	Stage I
-TCGA-HD-7754	69.0	0.0	783.0	0.0	783.0			MALE	Oropharynx	primary	Stage IVA
-TCGA-HD-7831	74.0	0.0	667.0	0.0	667.0			MALE	tongue	metastasis	NA
-TCGA-HD-7832	52.0	0.0	836.0	0.0	836.0			MALE	mouth	primary	Stage IVA
-TCGA-HD-8224	63.0	1.0	446.0	1.0	446.0			MALE	tongue	primary	Stage IVA
-TCGA-HD-8314	58.0	0.0	670.0	0.0	670.0	0.0	670.0	MALE	tongue	primary	Stage III
-TCGA-HD-8634	51.0	1.0	385.0	0.0	385.0	0.0	385.0	FEMALE	tongue	primary	Stage I
-TCGA-HD-8635	61.0	0.0	695.0	0.0	695.0	0.0	695.0	FEMALE	tongue	primary	Stage 0
-TCGA-HD-A4C1	41.0	0.0	11.0	0.0	11.0			FEMALE	mouth	primary	Stage IVA
-TCGA-HD-A633	74.0	0.0	421.0	0.0	421.0			MALE	mouth	primary	Stage IVA
-TCGA-HD-A634	56.0	1.0	130.0	1.0	130.0			MALE	Tonsil	primary	Stage IVA
-TCGA-HD-A6HZ	79.0	0.0	111.0	0.0	111.0			FEMALE	tongue	primary	Stage III
-TCGA-HD-A6I0	56.0	0.0	210.0	0.0	210.0			MALE	mouth	primary	Stage IVA
-TCGA-IQ-7630	49.0	0.0	485.0	0.0	485.0	0.0	485.0	MALE	Oropharynx	primary	Stage II
-TCGA-IQ-7631	60.0	0.0	1172.0	0.0	1172.0	0.0	1172.0	FEMALE	mouth	primary	Stage II
-TCGA-IQ-7632	68.0	0.0	441.0	0.0	441.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA
-TCGA-IQ-A61E	55.0	0.0	1147.0	0.0	1147.0	0.0	1147.0	FEMALE	tongue	primary	Stage III
-TCGA-IQ-A61G	57.0	0.0	360.0	0.0	360.0			MALE	mouth	primary	Stage IVA
-TCGA-IQ-A61H	76.0	0.0	1138.0	0.0	1138.0	0.0	1138.0	MALE	tongue	primary	Stage II
-TCGA-IQ-A61I	63.0	1.0	2.0	0.0	2.0			MALE	Tonsil	primary	Stage IVA
-TCGA-IQ-A61J	54.0	0.0	1021.0	0.0	1021.0			MALE	tongue	primary	Stage IVA
-TCGA-IQ-A61O	43.0	1.0	421.0	0.0	421.0			MALE	tongue	primary	Stage IVA
-TCGA-IQ-A6SG	61.0	0.0	579.0	0.0	579.0	0.0	579.0	FEMALE	tongue	primary	Stage III
-TCGA-IQ-A6SH	55.0	0.0	471.0	0.0	471.0			MALE	tongue	primary	Stage III
-TCGA-KU-A66S	69.0	1.0	406.0	1.0	406.0	1.0	389.0	FEMALE	Larynx	metastasis	NA
-TCGA-KU-A66T	53.0	0.0	552.0	0.0	552.0			FEMALE	mouth	recurrence	NA
-TCGA-KU-A6H7	55.0	0.0	586.0	0.0	586.0			FEMALE	Tonsil	primary	Stage IVA
-TCGA-KU-A6H8	41.0	1.0	327.0	1.0	327.0			MALE	tongue	primary	Stage IVA
-TCGA-MT-A51W	52.0	0.0	437.0	0.0	437.0	0.0	437.0	FEMALE	tongue	primary	Stage I
-TCGA-MT-A51X	30.0	0.0	242.0	0.0	242.0			MALE	tongue	primary	Stage IVA
-TCGA-MT-A67A	85.0	0.0	914.0	0.0	914.0	0.0	914.0	FEMALE	tongue	primary	Stage I
-TCGA-MT-A67D	55.0	0.0	56.0	0.0	56.0	0.0	56.0	MALE	mouth	primary	Stage II
-TCGA-MT-A67F	60.0	0.0	384.0	0.0	384.0			FEMALE	mouth	primary	Stage IVA
-TCGA-MT-A7BN	74.0	0.0	469.0	0.0	469.0			MALE	mouth	metastasis	NA
-TCGA-MZ-A5BI	53.0	1.0	217.0		217.0			MALE	Tonsil	primary	NA
-TCGA-MZ-A6I9	68.0	1.0	489.0	1.0	489.0			MALE	Oropharynx	primary	NA
-TCGA-MZ-A7D7	51.0	0.0	547.0	0.0	547.0			MALE	tongue	metastasis	NA
-TCGA-P3-A5Q5	54.0	0.0	910.0	0.0	910.0			MALE	Tonsil	primary	Stage IVA
-TCGA-P3-A5Q6	49.0	1.0	480.0	1.0	480.0			MALE	Tonsil	primary	Stage IVA
-TCGA-P3-A5QA	41.0	0.0	2182.0	0.0	2182.0	1.0	1601.0	MALE	tongue	recurrence	NA
-TCGA-P3-A5QE	49.0	0.0	1559.0	0.0	1559.0	0.0	1559.0	MALE	tongue	primary	Stage III
-TCGA-P3-A5QF	49.0	1.0	330.0	1.0	330.0			MALE	Gum	primary	Stage IVA
-TCGA-P3-A6SW	50.0	0.0	1120.0	0.0	1120.0			MALE	Tonsil	primary	Stage IVB
-TCGA-P3-A6SX	67.0	1.0	1430.0	0.0	1430.0			MALE	Tonsil	primary	Stage III
-TCGA-P3-A6T0	47.0	0.0	578.0	0.0	578.0			FEMALE	mouth	primary	Stage IVA
-TCGA-P3-A6T2	45.0	0.0	2298.0	0.0	2298.0			MALE	mouth	primary	Stage IVA
-TCGA-P3-A6T3	49.0	1.0	577.0	1.0	577.0			MALE	mouth	metastasis	NA
-TCGA-P3-A6T4	54.0	1.0	62.0	1.0	62.0			MALE	mouth	primary	Stage IVA
-TCGA-P3-A6T5	79.0	1.0	882.0	1.0	882.0			FEMALE	Gum	recurrence	NA
-TCGA-P3-A6T6	53.0	1.0	395.0	1.0	395.0			MALE	Gum	recurrence	NA
-TCGA-P3-A6T7	55.0	1.0	487.0		487.0			MALE	mouth	primary	Stage IVA
-TCGA-P3-A6T8	54.0	0.0	400.0	0.0	400.0			MALE	mouth	primary	Stage IVA
-TCGA-QK-A64Z	79.0	1.0	641.0	1.0	641.0			FEMALE	mouth	recurrence	NA
-TCGA-QK-A652	60.0	0.0	645.0	0.0	645.0	0.0	645.0	MALE	tongue	primary	Stage III
-TCGA-QK-A6IF	61.0	0.0	704.0	0.0	704.0			MALE	Tonsil	primary	NA
-TCGA-QK-A6IG	69.0	1.0	222.0	1.0	222.0			MALE	mouth	recurrence	NA
-TCGA-QK-A6IH	65.0	0.0	653.0	0.0	653.0			FEMALE	Gum	primary	Stage IVB
-TCGA-QK-A6II	52.0	1.0	284.0	1.0	284.0			MALE	mouth	primary	Stage IVA
-TCGA-QK-A6IJ	71.0	0.0	387.0	0.0	387.0			MALE	mouth	primary	Stage III
-TCGA-QK-A6V9	56.0	0.0	833.0	0.0	833.0	0.0	833.0	MALE	Oropharynx	primary	Stage II
-TCGA-QK-A6VB	66.0	0.0	641.0	0.0	641.0			MALE	mouth	primary	NA
-TCGA-QK-A6VC	62.0	0.0	600.0	0.0	600.0			FEMALE	Hypopharynx	primary	Stage IVA
-TCGA-QK-A8Z7	59.0	0.0	392.0	0.0	392.0			MALE	mouth	primary	Stage IVA
-TCGA-QK-A8Z8	60.0	1.0	171.0	1.0	171.0			FEMALE	Larynx	primary	Stage IVC
-TCGA-QK-A8Z9	56.0	1.0	449.0	1.0	449.0			MALE	mouth	primary	Stage IVA
-TCGA-QK-A8ZA	60.0	1.0	371.0	0.0	371.0			MALE	Oropharynx	primary	NA
-TCGA-QK-A8ZB	68.0	0.0	542.0	0.0	542.0			MALE	Larynx	primary	Stage IVA
-TCGA-QK-AA3J	69.0	0.0	466.0	0.0	466.0	0.0	466.0	MALE	Larynx	primary	Stage I
-TCGA-QK-AA3K	60.0	0.0	253.0	0.0	253.0			MALE	tongue	primary	Stage IVA
-TCGA-RS-A6TO	82.0	1.0	387.0	1.0	387.0			FEMALE	mouth	recurrence	NA
-TCGA-RS-A6TP	58.0	0.0	516.0	0.0	516.0	0.0	516.0	MALE	Tonsil	primary	Stage II
-TCGA-T2-A6WX	73.0	1.0	209.0	1.0	209.0			FEMALE	mouth	primary	NA
-TCGA-T2-A6WZ	53.0	1.0	484.0	1.0	484.0			MALE	tongue	primary	NA
-TCGA-T2-A6X0	49.0	0.0	216.0	0.0	216.0			MALE	Tonsil	primary	NA
-TCGA-T2-A6X2	82.0	0.0	987.0	0.0	987.0	0.0	987.0	MALE	Gum	primary	Stage III
-TCGA-T3-A92M	52.0	0.0	417.0	0.0	417.0			MALE	Larynx	metastasis	NA
-TCGA-T3-A92N	79.0	1.0	95.0	1.0	95.0			MALE	mouth	primary	Stage IVA
-TCGA-TN-A7HI	56.0	0.0	412.0	0.0	412.0			MALE	Tonsil	primary	Stage IVA
-TCGA-TN-A7HJ	51.0	0.0	403.0	0.0	403.0			MALE	Larynx	primary	Stage IVA
-TCGA-TN-A7HL	59.0	0.0	619.0	0.0	619.0			MALE	Hypopharynx	primary	Stage IVA
-TCGA-UF-A718	62.0	0.0	1971.0	0.0	1971.0			MALE	Larynx	primary	Stage IVA
-TCGA-UF-A719	54.0	0.0	1663.0	0.0	1663.0	0.0	1663.0	MALE	mouth	primary	Stage II
-TCGA-UF-A71A	67.0	1.0	86.0	1.0	86.0			MALE	mouth	primary	Stage IVA
-TCGA-UF-A71B	50.0	0.0	1506.0	0.0	1506.0			MALE	Gum	primary	Stage IVA
-TCGA-UF-A71D	54.0	0.0	1461.0	0.0	1461.0			FEMALE	Larynx	primary	Stage I
-TCGA-UF-A71E	63.0	1.0	1504.0	0.0	1504.0			MALE	mouth	primary	Stage IVA
-TCGA-UF-A7J9	75.0	0.0	1358.0	0.0	1358.0			MALE	Larynx	primary	Stage IVA
-TCGA-UF-A7JA	66.0	0.0	2265.0	0.0	2265.0			FEMALE	mouth	primary	Stage IVA
-TCGA-UF-A7JC	42.0	1.0	546.0	1.0	546.0			MALE	mouth	primary	Stage IVA
-TCGA-UF-A7JD	71.0	1.0	739.0	0.0	739.0			MALE	mouth	primary	Stage IVA
-TCGA-UF-A7JF	80.0	0.0	1686.0	0.0	1686.0			MALE	Larynx	primary	Stage IVA
-TCGA-UF-A7JH	59.0	0.0	896.0	0.0	896.0			MALE	Larynx	primary	Stage IVA
-TCGA-UF-A7JJ	68.0	0.0	549.0	0.0	549.0			MALE	Larynx	primary	Stage IVA
-TCGA-UF-A7JK	59.0	1.0	424.0	1.0	424.0			MALE	Larynx	recurrence	NA
-TCGA-UF-A7JO	79.0	1.0	631.0	1.0	631.0			FEMALE	mouth	recurrence	NA
-TCGA-UF-A7JS	59.0	1.0	680.0	1.0	680.0			MALE	tongue	primary	Stage IVA
-TCGA-UF-A7JT	72.0	1.0	993.0	1.0	993.0			FEMALE	mouth	metastasis	NA
-TCGA-UF-A7JV	62.0	1.0	90.0	1.0	90.0			FEMALE	Hypopharynx	recurrence	NA
-TCGA-UP-A6WW	58.0	0.0	518.0	0.0	518.0			MALE	tongue	primary	NA
-TCGA-WA-A7GZ	58.0	1.0	625.0	0.0	625.0	0.0	625.0	MALE	mouth	primary	NA
-TCGA-WA-A7H4	69.0	0.0	443.0	0.0	443.0	0.0	443.0	MALE	tongue	primary	Stage II
+patient_id	age	OS	OS_time	DSS	DSS_time	DFI	DFI_time	gender	tumor_site	tumor_class	tumor_stage	hpv_status
+TCGA-4P-AA8J	66.0	0.0	102.0	0.0	102.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-BA-4074	69.0	1.0	462.0	1.0	462.0			MALE	tongue	primary	Stage IVA	
+TCGA-BA-4075	49.0	1.0	283.0	1.0	283.0			MALE	tongue	primary	Stage III	
+TCGA-BA-4076	39.0	1.0	415.0	1.0	415.0			MALE	Larynx	primary	NA	
+TCGA-BA-4077	45.0	1.0	1134.0	1.0	1134.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-BA-4078	83.0	1.0	276.0	1.0	276.0			MALE	Larynx	primary	NA	
+TCGA-BA-5149	47.0	1.0	806.0	1.0	806.0			MALE	mouth	primary	Stage IVA	
+TCGA-BA-5151	72.0	0.0	722.0	0.0	722.0			MALE	mouth	primary	Stage IVA	
+TCGA-BA-5152	56.0	0.0	1288.0	0.0	1288.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-BA-5153	51.0	1.0	1762.0	1.0	1762.0	1.0	1522.0	MALE	Tonsil	metastasis	NA	
+TCGA-BA-5555	54.0	0.0	520.0	0.0	520.0			MALE	Larynx	recurrence	NA	
+TCGA-BA-5556	58.0	0.0	725.0	0.0	725.0	0.0	725.0	FEMALE	mouth	primary	Stage II	
+TCGA-BA-5557	41.0	0.0	623.0	0.0	623.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA	
+TCGA-BA-5558	65.0	0.0	1995.0	0.0	1995.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA	
+TCGA-BA-5559	71.0	1.0	2083.0	1.0	2083.0			MALE	Tonsil	primary	NA	
+TCGA-BA-6868	53.0	1.0	472.0	1.0	472.0			MALE	Larynx	metastasis	NA	
+TCGA-BA-6869	62.0	0.0	644.0	0.0	644.0	0.0	644.0	MALE	Larynx	primary	Stage III	
+TCGA-BA-6870	60.0	1.0	451.0		451.0			FEMALE	Larynx	primary	NA	
+TCGA-BA-6871	75.0	1.0	108.0	1.0	108.0			MALE	tongue	primary	NA	
+TCGA-BA-6872	47.0	1.0	384.0	1.0	384.0			MALE	mouth	primary	NA	
+TCGA-BA-6873	28.0	0.0	122.0	0.0	122.0			MALE	tongue	primary	Stage IVA	
+TCGA-BA-7269	61.0	0.0	1273.0	0.0	1273.0	0.0	1273.0	MALE	tongue	primary	Stage III	
+TCGA-BA-A4IF	59.0	0.0	895.0	0.0	895.0			MALE	Oropharynx	primary	NA	negative
+TCGA-BA-A4IG	77.0	0.0	855.0	0.0	855.0			MALE	Oropharynx	primary	NA	
+TCGA-BA-A4IH	57.0	0.0	622.0	0.0	622.0			MALE	Oropharynx	primary	NA	positive
+TCGA-BA-A4II	46.0	0.0	918.0	0.0	918.0	1.0	197.0	MALE	Oropharynx	primary	Stage II	
+TCGA-BA-A6D8	59.0	0.0	850.0	0.0	850.0			MALE	mouth	metastasis	NA	negative
+TCGA-BA-A6DA	41.0	0.0	351.0	0.0	351.0			FEMALE	Larynx	primary	Stage IVA	positive
+TCGA-BA-A6DB	24.0	0.0	216.0	0.0	216.0	1.0	208.0	FEMALE	tongue	recurrence	NA	negative
+TCGA-BA-A6DD	44.0	1.0	173.0	1.0	173.0			MALE	mouth	recurrence	NA	negative
+TCGA-BA-A6DE	70.0	0.0	440.0	0.0	440.0	0.0	440.0	FEMALE	tongue	primary	Stage II	negative
+TCGA-BA-A6DG	49.0	1.0	69.0	1.0	69.0			MALE	tongue	primary	NA	negative
+TCGA-BA-A6DI	62.0	1.0	336.0	1.0	336.0	1.0	266.0	MALE	Larynx	primary	NA	negative
+TCGA-BA-A6DJ	62.0	1.0	407.0	1.0	407.0			MALE	Gum	metastasis	NA	negative
+TCGA-BA-A6DL	59.0	0.0	623.0	0.0	623.0	0.0	623.0	MALE	Oropharynx	primary	NA	negative
+TCGA-BA-A8YP	50.0	0.0	499.0	0.0	499.0			MALE	Oropharynx	primary	Stage IVB	negative
+TCGA-BB-4217	68.0	0.0	187.0	0.0	187.0			MALE	Larynx	primary	Stage IVA	
+TCGA-BB-4223	48.0	0.0	3221.0	0.0	3221.0			MALE	Tonsil	primary	Stage IVA	
+TCGA-BB-4224	52.0	0.0	278.0	0.0	278.0			MALE	tongue	recurrence	NA	
+TCGA-BB-4225	73.0	0.0	146.0	0.0	146.0			MALE	tongue	primary	NA	
+TCGA-BB-4227	66.0	0.0	134.0	0.0	134.0			MALE	Hypopharynx	recurrence	NA	
+TCGA-BB-4228	50.0	0.0	559.0	0.0	559.0	0.0	559.0	MALE	tongue	primary	Stage III	positive
+TCGA-BB-7870	58.0	0.0	2016.0	0.0	2016.0			MALE	Larynx	primary	Stage IVA	
+TCGA-BB-8596	69.0	0.0	2161.0	0.0	2161.0			FEMALE	Hypopharynx	primary	Stage IVA	
+TCGA-BB-8601	84.0	0.0	624.0	0.0	624.0			MALE	mouth	recurrence	NA	
+TCGA-BB-A5HU	47.0	0.0	782.0	0.0	782.0			MALE	mouth	primary	NA	negative
+TCGA-BB-A5HY	64.0	1.0	321.0	1.0	321.0			MALE	Hypopharynx	metastasis	NA	negative
+TCGA-BB-A5HZ	65.0	0.0	827.0	0.0	827.0			MALE	mouth	primary	Stage IVA	
+TCGA-BB-A6UM	52.0	0.0	393.0	0.0	393.0	0.0	393.0	MALE	Tonsil	primary	Stage III	positive
+TCGA-BB-A6UO	61.0	1.0	268.0	1.0	268.0			FEMALE	tongue	metastasis	NA	
+TCGA-C9-A47Z	72.0	1.0	191.0	0.0	191.0	0.0	191.0	FEMALE	tongue	primary	Stage III	
+TCGA-C9-A480	45.0	0.0	386.0	0.0	386.0	0.0	386.0	FEMALE	tongue	primary	Stage III	
+TCGA-CN-4723	67.0	0.0	1699.0	0.0	1699.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-4725	60.0	0.0	1157.0	0.0	1157.0	0.0	1157.0	MALE	tongue	primary	Stage II	positive
+TCGA-CN-4726	68.0	1.0	142.0	1.0	142.0			MALE	mouth	metastasis	NA	positive
+TCGA-CN-4727	56.0	0.0	1560.0	0.0	1560.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-4728	56.0	0.0	1724.0	0.0	1724.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	negative
+TCGA-CN-4729	73.0	0.0	392.0	0.0	392.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CN-4730	62.0	0.0	817.0	0.0	817.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CN-4731	63.0	1.0	998.0	1.0	998.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	negative
+TCGA-CN-4733	61.0	0.0	1586.0	0.0	1586.0	0.0	1586.0	MALE	tongue	primary	Stage III	positive
+TCGA-CN-4734	70.0	0.0	1690.0	0.0	1690.0	0.0	1690.0	MALE	mouth	primary	Stage II	positive
+TCGA-CN-4735	52.0	0.0	1737.0	0.0	1737.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-4736	70.0	1.0	395.0	1.0	395.0	1.0	209.0	FEMALE	tongue	recurrence	NA	
+TCGA-CN-4737	19.0	0.0	625.0	0.0	625.0			MALE	tongue	primary	Stage IVA	positive
+TCGA-CN-4738	53.0	1.0	436.0		436.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-4739	71.0	1.0	1394.0	1.0	1394.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-4740	79.0	1.0	839.0	1.0	839.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-CN-4741	75.0	0.0	2239.0	0.0	2239.0			MALE	Gum	metastasis	NA	
+TCGA-CN-4742	48.0	1.0	397.0	1.0	397.0			FEMALE	tongue	primary	Stage IVA	negative
+TCGA-CN-5355	64.0	0.0	1278.0	0.0	1278.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-5356	56.0	0.0	1409.0	0.0	1409.0	0.0	1409.0	MALE	Larynx	primary	Stage III	negative
+TCGA-CN-5358	60.0	1.0	261.0	0.0	261.0	1.0	145.0	MALE	mouth	primary	Stage II	negative
+TCGA-CN-5359	59.0	1.0	377.0	1.0	377.0			MALE	mouth	primary	Stage IVA	negative
+TCGA-CN-5360	68.0	0.0	2169.0	0.0	2169.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-5361	80.0	1.0	2120.0	0.0	2120.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CN-5363	48.0	1.0	253.0	1.0	253.0			MALE	Larynx	metastasis	NA	
+TCGA-CN-5364	55.0	1.0	493.0	0.0	493.0			MALE	mouth	primary	Stage IVA	
+TCGA-CN-5365	38.0	1.0	351.0	1.0	351.0			MALE	Tonsil	primary	Stage IVB	
+TCGA-CN-5366	51.0	1.0	360.0	1.0	360.0			MALE	Larynx	recurrence	NA	
+TCGA-CN-5367	60.0	1.0	352.0	0.0	352.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CN-5369	90.0	1.0	380.0	0.0	380.0			FEMALE	Palate	primary	Stage IVA	
+TCGA-CN-5370	78.0	1.0	259.0	1.0	259.0	1.0	123.0	MALE	tongue	recurrence	NA	negative
+TCGA-CN-5373	55.0	0.0	1584.0	0.0	1584.0	0.0	1584.0	FEMALE	mouth	primary	Stage I	positive
+TCGA-CN-5374	56.0	1.0	1732.0	0.0	1732.0			FEMALE	Tonsil	metastasis	NA	positive
+TCGA-CN-6010	53.0	0.0	1523.0	0.0	1523.0			MALE	Larynx	primary	NA	positive
+TCGA-CN-6011	57.0	0.0	933.0	0.0	933.0			MALE	Gum	primary	Stage IVA	
+TCGA-CN-6012	66.0	0.0	1460.0	0.0	1460.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-6013	56.0	1.0	727.0	1.0	727.0			MALE	Gum	metastasis	NA	negative
+TCGA-CN-6016	64.0	0.0	1443.0	0.0	1443.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-CN-6017	55.0	1.0	853.0	0.0	853.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-CN-6018	85.0	1.0	580.0	0.0	580.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CN-6019	61.0	0.0	1038.0	0.0	1038.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-CN-6020	58.0	1.0	205.0	0.0	205.0			MALE	mouth	primary	Stage III	positive
+TCGA-CN-6021	63.0	1.0	276.0	1.0	276.0			FEMALE	Larynx	primary	NA	
+TCGA-CN-6022	49.0	1.0	281.0	1.0	281.0			MALE	Larynx	recurrence	NA	negative
+TCGA-CN-6023	73.0	0.0	1584.0	0.0	1584.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-6024	66.0	1.0	337.0	1.0	337.0			MALE	tongue	recurrence	NA	negative
+TCGA-CN-6988	47.0	0.0	318.0	0.0	318.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-6989	64.0	1.0	980.0	1.0	980.0			MALE	Larynx	metastasis	NA	negative
+TCGA-CN-6992	61.0	0.0	1066.0	0.0	1066.0			MALE	Larynx	primary	NA	negative
+TCGA-CN-6994	67.0	0.0	1183.0	0.0	1183.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CN-6995	78.0	1.0	112.0	0.0	112.0			MALE	mouth	primary	Stage IVA	
+TCGA-CN-6996	58.0	1.0	530.0	1.0	530.0			FEMALE	tongue	recurrence	NA	
+TCGA-CN-6997	66.0	1.0	988.0	0.0	988.0			MALE	Larynx	primary	Stage IVA	positive
+TCGA-CN-6998	53.0	1.0	357.0	1.0	357.0			MALE	tongue	recurrence	NA	positive
+TCGA-CN-A497	63.0	0.0	1065.0	0.0	1065.0			MALE	Larynx	primary	Stage III	negative
+TCGA-CN-A498	61.0	1.0	773.0	1.0	773.0	1.0	186.0	FEMALE	tongue	recurrence	NA	
+TCGA-CN-A499	60.0	0.0	717.0	0.0	717.0	0.0	717.0	FEMALE	Tonsil	primary	Stage II	positive
+TCGA-CN-A49A	60.0	1.0	526.0	1.0	526.0			MALE	Palate	metastasis	NA	
+TCGA-CN-A49B	71.0	0.0	904.0	0.0	904.0	0.0	904.0	MALE	Larynx	primary	Stage III	negative
+TCGA-CN-A49C	67.0	0.0	645.0	0.0	645.0			MALE	Tonsil	primary	NA	positive
+TCGA-CN-A63T	60.0	0.0	225.0	0.0	225.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-A63U	50.0	0.0	964.0	0.0	964.0			MALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-A63V	59.0	0.0	679.0	0.0	679.0			MALE	mouth	primary	Stage IVA	negative
+TCGA-CN-A63W	48.0	1.0	377.0	0.0	377.0			FEMALE	Larynx	primary	Stage IVA	negative
+TCGA-CN-A641	47.0	0.0	367.0	0.0	367.0			MALE	Larynx	primary	Stage IVA	positive
+TCGA-CN-A642	57.0	1.0	82.0	1.0	82.0			MALE	tongue	primary	Stage IVB	negative
+TCGA-CN-A6UY	57.0	0.0	713.0	0.0	713.0			MALE	tongue	primary	Stage IVA	positive
+TCGA-CN-A6V1	59.0	0.0	603.0	0.0	603.0			MALE	Tonsil	primary	Stage IVA	positive
+TCGA-CN-A6V3	61.0	0.0	742.0	0.0	742.0			MALE	Larynx	primary	NA	
+TCGA-CN-A6V6	59.0	0.0	635.0	0.0	635.0			MALE	tongue	primary	Stage IVA	positive
+TCGA-CN-A6V7	40.0	0.0	594.0	0.0	594.0			MALE	Tonsil	primary	Stage IVA	positive
+TCGA-CQ-5323	82.0	0.0	1466.0	0.0	1466.0	0.0	1466.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I	
+TCGA-CQ-5324	59.0	0.0	1593.0	0.0	1593.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CQ-5325	65.0	1.0	654.0	1.0	654.0	1.0	204.0	MALE	tongue	recurrence	NA	
+TCGA-CQ-5326	67.0	1.0	89.0	1.0	89.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CQ-5327	61.0	0.0	1660.0	0.0	1660.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CQ-5329	46.0	0.0	2143.0	0.0	2143.0	0.0	2143.0	FEMALE	tongue	primary	Stage II	
+TCGA-CQ-5330	69.0	0.0	1897.0	0.0	1897.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CQ-5331	73.0	0.0	1399.0	0.0	1399.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA	
+TCGA-CQ-5332	87.0	1.0	317.0		317.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CQ-5333	74.0	1.0	341.0	1.0	341.0	1.0	176.0	MALE	tongue	primary	Stage II	
+TCGA-CQ-5334	87.0	1.0	129.0	1.0	129.0			MALE	mouth	recurrence	NA	
+TCGA-CQ-6218	52.0	0.0	1253.0	0.0	1253.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CQ-6219	50.0	1.0	479.0	1.0	479.0			FEMALE	tongue	recurrence	NA	
+TCGA-CQ-6220	69.0	1.0	985.0		985.0	0.0	985.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CQ-6221	79.0	0.0	1000.0	0.0	1000.0	0.0	1000.0	MALE	tongue	primary	NA	
+TCGA-CQ-6222	63.0	0.0	2016.0	0.0	2016.0			MALE	tongue	primary	Stage IVA	
+TCGA-CQ-6223	69.0	0.0	1428.0	0.0	1428.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CQ-6224	52.0	0.0	1721.0	0.0	1721.0			MALE	tongue	primary	Stage IVA	
+TCGA-CQ-6225	65.0	1.0	403.0		403.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CQ-6227	77.0	1.0	129.0	1.0	129.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CQ-6228	71.0	1.0	456.0		456.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CQ-6229	61.0	0.0	1179.0	0.0	1179.0	0.0	1179.0	MALE	tongue	primary	Stage II	
+TCGA-CQ-7063	59.0	0.0	2133.0	0.0	2133.0	1.0	1160.0	FEMALE	mouth	primary	Stage I	
+TCGA-CQ-7065	40.0	0.0	1628.0	0.0	1628.0	1.0	230.0	MALE	tongue	primary	Stage II	
+TCGA-CQ-7068	80.0	0.0	1309.0	0.0	1309.0	0.0	1309.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	NA	
+TCGA-CQ-7069	77.0	0.0	1274.0	0.0	1274.0	0.0	1274.0	FEMALE	mouth	primary	Stage II	
+TCGA-CQ-7071	76.0	0.0	1311.0	0.0	1311.0			FEMALE	mouth	primary	Stage III	
+TCGA-CQ-7072	51.0	0.0	2359.0	0.0	2359.0			MALE	tongue	primary	Stage II	
+TCGA-CQ-A4C6	63.0	0.0	1353.0	0.0	1353.0	0.0	1353.0	MALE	mouth	primary	Stage II	
+TCGA-CQ-A4C7	88.0	1.0	353.0		353.0	1.0	207.0	MALE	mouth	recurrence	NA	
+TCGA-CQ-A4C9	56.0	0.0	707.0	0.0	707.0	1.0	287.0	MALE	mouth	recurrence	NA	
+TCGA-CQ-A4CB	59.0	0.0	893.0	0.0	893.0	0.0	893.0	MALE	mouth	primary	Stage III	
+TCGA-CQ-A4CD	69.0	0.0	1022.0	0.0	1022.0			MALE	Bones, joints and articular cartilage of other and unspecified sites	primary	Stage IVA	
+TCGA-CQ-A4CE	76.0	0.0	897.0	0.0	897.0	0.0	897.0	FEMALE	tongue	primary	Stage II	
+TCGA-CQ-A4CG	78.0	1.0	430.0	1.0	430.0	1.0	350.0	FEMALE	mouth	primary	Stage III	
+TCGA-CQ-A4CH	58.0	1.0	379.0	1.0	379.0			MALE	tongue	metastasis	NA	
+TCGA-CQ-A4CI	73.0	0.0	950.0	0.0	950.0	1.0	517.0	MALE	mouth	metastasis	NA	
+TCGA-CR-5243	51.0	0.0	2562.0	0.0	2562.0			MALE	Tonsil	primary	NA	
+TCGA-CR-5247	48.0	0.0	358.0	0.0	358.0	0.0	358.0	MALE	Tonsil	primary	NA	
+TCGA-CR-5248	53.0	0.0	1663.0	0.0	1663.0			MALE	Tonsil	metastasis	NA	
+TCGA-CR-5249	35.0	0.0	1152.0	0.0	1152.0	0.0	1152.0	FEMALE	Tonsil	primary	Stage II	
+TCGA-CR-5250	71.0	0.0	799.0	0.0	799.0	0.0	799.0	MALE	tongue	primary	NA	positive
+TCGA-CR-6467	59.0	0.0	1777.0	0.0	1777.0			MALE	Tonsil	primary	Stage III	
+TCGA-CR-6470	38.0	0.0	1521.0	0.0	1521.0			MALE	Tonsil	primary	Stage II	
+TCGA-CR-6471	58.0	1.0	1202.0	1.0	1202.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA	
+TCGA-CR-6472	59.0	0.0	1050.0	0.0	1050.0			MALE	tongue	primary	NA	
+TCGA-CR-6473	68.0	0.0	1125.0	0.0	1125.0			MALE	Hypopharynx	primary	NA	
+TCGA-CR-6474	51.0	1.0	564.0	1.0	564.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CR-6477	56.0	0.0	514.0	0.0	514.0			FEMALE	tongue	primary	NA	negative
+TCGA-CR-6478	66.0	1.0	183.0		183.0			FEMALE	Tonsil	primary	NA	
+TCGA-CR-6480	53.0	0.0	362.0	0.0	362.0			MALE	Tonsil	primary	NA	positive
+TCGA-CR-6481	47.0	0.0	311.0	0.0	311.0			MALE	Tonsil	primary	NA	positive
+TCGA-CR-6482	62.0	0.0	345.0	0.0	345.0			MALE	Tonsil	primary	NA	positive
+TCGA-CR-6484	67.0	0.0	354.0	0.0	354.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	negative
+TCGA-CR-6487	50.0	0.0	234.0	0.0	234.0	0.0	234.0	MALE	Tonsil	primary	Stage I	positive
+TCGA-CR-6488	68.0	0.0	379.0	0.0	379.0	0.0	379.0	FEMALE	tongue	primary	Stage II	
+TCGA-CR-6491	60.0	0.0	693.0	0.0	693.0			MALE	mouth	primary	NA	negative
+TCGA-CR-6492	78.0	0.0	479.0	0.0	479.0			MALE	Palate	primary	Stage III	negative
+TCGA-CR-6493	69.0	1.0	282.0	1.0	282.0			MALE	tongue	primary	Stage IVA	
+TCGA-CR-7364	66.0	0.0	1435.0	0.0	1435.0	0.0	1435.0	MALE	Larynx	primary	Stage III	
+TCGA-CR-7365	60.0	0.0	1191.0	0.0	1191.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CR-7367	52.0	0.0	1440.0	0.0	1440.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CR-7368	54.0	0.0	1245.0	0.0	1245.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CR-7369	59.0	1.0	1090.0	0.0	1090.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CR-7370	72.0	0.0	105.0	0.0	105.0	0.0	105.0	FEMALE	Larynx	primary	NA	
+TCGA-CR-7371	45.0	1.0	94.0		94.0			FEMALE	Larynx	primary	Stage III	
+TCGA-CR-7372	45.0	0.0	759.0	0.0	759.0	0.0	759.0	MALE	tongue	primary	Stage I	negative
+TCGA-CR-7373	66.0	0.0	889.0	0.0	889.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	negative
+TCGA-CR-7374	67.0	0.0	30.0	0.0	30.0			FEMALE	Larynx	primary	NA	
+TCGA-CR-7376	83.0	0.0	972.0	0.0	972.0	0.0	972.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	negative
+TCGA-CR-7377	58.0	1.0	279.0		279.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CR-7379	78.0	0.0	1036.0	0.0	1036.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	negative
+TCGA-CR-7380	58.0	1.0	606.0	1.0	606.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVB	
+TCGA-CR-7382	49.0	0.0	796.0	0.0	796.0			MALE	tongue	primary	Stage IVA	
+TCGA-CR-7383	79.0	1.0	521.0	1.0	521.0	1.0	454.0	FEMALE	Tonsil	recurrence	NA	
+TCGA-CR-7385	42.0	0.0	997.0	0.0	997.0			MALE	Tonsil	primary	NA	
+TCGA-CR-7386	69.0	0.0	1430.0	0.0	1430.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	metastasis	NA	
+TCGA-CR-7388	70.0	1.0	823.0	1.0	823.0			FEMALE	Larynx	recurrence	NA	
+TCGA-CR-7389	55.0	0.0	392.0	0.0	392.0	0.0	392.0	MALE	Larynx	primary	NA	
+TCGA-CR-7390	67.0	0.0	1508.0	0.0	1508.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-CR-7391	36.0	0.0	913.0	0.0	913.0	0.0	913.0	FEMALE	tongue	primary	Stage I	negative
+TCGA-CR-7392	67.0	0.0	1425.0	0.0	1425.0			FEMALE	tongue	primary	Stage IVA	negative
+TCGA-CR-7394	70.0	0.0	1346.0	0.0	1346.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-CR-7395	80.0	0.0	930.0	0.0	930.0	0.0	930.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	negative
+TCGA-CR-7397	44.0	0.0	754.0	0.0	754.0			MALE	tongue	primary	Stage IVA	
+TCGA-CR-7398	53.0	0.0	156.0	0.0	156.0	0.0	156.0	FEMALE	Larynx	primary	Stage II	
+TCGA-CR-7399	60.0	0.0	181.0	0.0	181.0			FEMALE	Larynx	primary	Stage IVA	
+TCGA-CR-7401	64.0	0.0	1077.0	0.0	1077.0	0.0	1077.0	MALE	tongue	primary	Stage I	
+TCGA-CR-7402	68.0	0.0	911.0	0.0	911.0	0.0	911.0	MALE	Larynx	primary	NA	
+TCGA-CR-7404	53.0	0.0	1472.0	0.0	1472.0			MALE	Tonsil	recurrence	NA	positive
+TCGA-CV-5430	61.0	0.0	4241.0	0.0	4241.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-5432	68.0	0.0	3930.0	0.0	3930.0			MALE	Larynx	primary	Stage III	
+TCGA-CV-5434	60.0	1.0	3314.0	0.0	3314.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-5435	57.0	1.0	2319.0	1.0	2319.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-5436	65.0	1.0	584.0	1.0	584.0			MALE	mouth	primary	Stage IVA	
+TCGA-CV-5439	62.0	1.0	546.0	1.0	546.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-5440	52.0	0.0	3270.0	0.0	3270.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-5441	58.0	0.0	2886.0	0.0	2886.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-5442	76.0	0.0	2327.0	0.0	2327.0			FEMALE	Palate	primary	Stage IVA	
+TCGA-CV-5443	63.0	0.0	2784.0	0.0	2784.0			MALE	Larynx	primary	Stage III	
+TCGA-CV-5444	64.0	0.0	2437.0	0.0	2437.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-5966	63.0	1.0	545.0	0.0	545.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-5970	59.0	1.0	406.0	1.0	406.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-5971	60.0	0.0	701.0	0.0	701.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-5973	62.0	0.0	2641.0	0.0	2641.0	0.0	2641.0	FEMALE	tongue	primary	Stage III	
+TCGA-CV-5976	50.0	0.0	1478.0	0.0	1478.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-5977	66.0	0.0	1840.0	0.0	1840.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-5978	53.0	1.0	215.0	1.0	215.0			FEMALE	Larynx	primary	Stage IVB	
+TCGA-CV-5979	26.0	0.0	1315.0	0.0	1315.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6003	50.0	0.0	1665.0	0.0	1665.0			FEMALE	tongue	primary	Stage III	
+TCGA-CV-6433	57.0	0.0	641.0	0.0	641.0	0.0	641.0	MALE	tongue	primary	Stage II	
+TCGA-CV-6436	62.0	0.0	1899.0	0.0	1899.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6441	60.0	1.0	292.0	1.0	292.0			MALE	tongue	primary	Stage III	
+TCGA-CV-6933	53.0	1.0	2741.0	0.0	2741.0			MALE	tongue	primary	Stage III	
+TCGA-CV-6934	66.0	1.0	65.0	1.0	65.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CV-6935	67.0	1.0	295.0	1.0	295.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-6936	68.0	1.0	166.0	1.0	166.0			MALE	mouth	primary	Stage IVA	
+TCGA-CV-6937	71.0	1.0	624.0	0.0	624.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-6938	87.0	1.0	144.0	0.0	144.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-6939	60.0	1.0	666.0	1.0	666.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6940	80.0	1.0	804.0	0.0	804.0	0.0	804.0	FEMALE	mouth	primary	Stage III	
+TCGA-CV-6941	51.0	1.0	342.0	0.0	342.0	0.0	342.0	MALE	tongue	primary	Stage III	
+TCGA-CV-6942	73.0	0.0	4282.0	0.0	4282.0	0.0	4282.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-6943	74.0	1.0	602.0	1.0	602.0			MALE	tongue	primary	Stage III	
+TCGA-CV-6945	41.0	1.0	366.0	1.0	366.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6948	79.0	1.0	1289.0	0.0	1289.0			FEMALE	mouth	primary	Stage IVB	
+TCGA-CV-6950	64.0	1.0	459.0	1.0	459.0			MALE	tongue	recurrence	NA	
+TCGA-CV-6951	57.0	1.0	915.0	1.0	915.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6952	65.0	1.0	185.0	0.0	185.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CV-6953	80.0	1.0	1641.0	1.0	1641.0	1.0	1521.0	FEMALE	mouth	recurrence	NA	
+TCGA-CV-6954	59.0	1.0	2002.0	0.0	2002.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-6955	74.0	1.0	334.0	1.0	334.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-6956	67.0	1.0	217.0	1.0	217.0			MALE	tongue	primary	Stage III	
+TCGA-CV-6959	48.0	1.0	256.0	1.0	256.0			MALE	tongue	primary	Stage III	
+TCGA-CV-6960	49.0	1.0	862.0	0.0	862.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CV-6961	61.0	1.0	76.0	1.0	76.0			MALE	tongue	primary	Stage II	
+TCGA-CV-6962	65.0	1.0	126.0	0.0	126.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7089	74.0	1.0	1972.0	0.0	1972.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7090	39.0	0.0	5252.0	0.0	5252.0	0.0	5252.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7091	54.0	0.0	3381.0	0.0	3381.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I	
+TCGA-CV-7095	87.0	1.0	572.0	0.0	572.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7097	53.0	1.0	385.0	1.0	385.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7099	85.0	1.0	243.0	0.0	243.0	0.0	243.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7100	66.0	1.0	274.0	1.0	274.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CV-7101	80.0	1.0	160.0	0.0	160.0			MALE	Larynx	primary	Stage II	
+TCGA-CV-7102	76.0	1.0	56.0		56.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-CV-7103	49.0	1.0	1591.0	1.0	1591.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-7104	61.0	1.0	393.0	0.0	393.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CV-7177	82.0	1.0	663.0	1.0	663.0			FEMALE	Larynx	primary	Stage II	
+TCGA-CV-7178	64.0	1.0	2166.0	1.0	2166.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7180	34.0	1.0	327.0	1.0	327.0			MALE	tongue	primary	Stage II	
+TCGA-CV-7183	53.0	0.0	3981.0	0.0	3981.0	0.0	3981.0	MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7235	67.0	0.0	2347.0	0.0	2347.0	0.0	2347.0	MALE	mouth	primary	Stage II	
+TCGA-CV-7236	77.0	1.0	144.0	0.0	144.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CV-7238	69.0	0.0	2727.0	0.0	2727.0	0.0	2727.0	FEMALE	tongue	primary	Stage II	
+TCGA-CV-7242	60.0	0.0	1095.0	0.0	1095.0			FEMALE	Larynx	primary	Stage II	
+TCGA-CV-7243	50.0	0.0	954.0	0.0	954.0			MALE	tongue	primary	Stage III	
+TCGA-CV-7245	62.0	0.0	797.0	0.0	797.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7247	55.0	1.0	577.0	1.0	577.0			MALE	Larynx	primary	Stage III	
+TCGA-CV-7248	63.0	1.0	521.0	0.0	521.0			FEMALE	Larynx	primary	Stage IVA	
+TCGA-CV-7250	64.0	1.0	2900.0	0.0	2900.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-7252	62.0	1.0	151.0	1.0	151.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7253	58.0	1.0	361.0	1.0	361.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7254	55.0	1.0	1459.0	1.0	1459.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7255	32.0	1.0	64.0	1.0	64.0			FEMALE	tongue	primary	Stage IVA	
+TCGA-CV-7261	57.0	0.0	1512.0	0.0	1512.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7263	64.0	1.0	560.0	1.0	560.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7406	49.0	1.0	1748.0		1748.0			MALE	tongue	primary	Stage II	
+TCGA-CV-7407	67.0	1.0	1081.0		1081.0			FEMALE	mouth	primary	Stage II	
+TCGA-CV-7410	61.0	1.0	6417.0	1.0	6417.0			MALE	Larynx	primary	Stage III	
+TCGA-CV-7411	64.0	1.0	2717.0		2717.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7413	74.0	1.0	294.0		294.0	0.0	294.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7414	78.0	1.0	14.0		14.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7415	60.0	1.0	695.0	1.0	695.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7416	29.0	1.0	763.0		763.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7418	62.0	1.0	789.0	0.0	789.0			MALE	Larynx	recurrence	NA	
+TCGA-CV-7421	76.0	1.0	2.0		2.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7422	60.0	1.0	1037.0	1.0	1037.0			FEMALE	Larynx	primary	Stage IVA	
+TCGA-CV-7423	65.0	1.0	3059.0		3059.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7424	67.0	1.0	453.0	1.0	453.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7425	77.0	1.0	1718.0	1.0	1718.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage III	
+TCGA-CV-7427	73.0	1.0	4760.0	0.0	4760.0	1.0	3282.0	FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA	
+TCGA-CV-7429	55.0	1.0	107.0	1.0	107.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7430	56.0	1.0	495.0	1.0	495.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-7432	79.0	1.0	2570.0	1.0	2570.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage II	
+TCGA-CV-7433	49.0	1.0	601.0	1.0	601.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-7434	64.0	1.0	218.0	0.0	218.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7435	57.0	1.0	4680.0	0.0	4680.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-7437	77.0	1.0	506.0	1.0	506.0			MALE	Larynx	primary	Stage II	
+TCGA-CV-7438	87.0	1.0	194.0	1.0	194.0			FEMALE	tongue	primary	Stage I	
+TCGA-CV-7440	38.0	1.0	675.0		675.0			MALE	Larynx	primary	Stage II	
+TCGA-CV-7446	66.0	1.0	1093.0	1.0	1093.0			MALE	tongue	primary	Stage IVA	
+TCGA-CV-7568	48.0	1.0	927.0		927.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-CV-A45O	57.0	0.0	851.0	0.0	851.0			MALE	Gum	primary	NA	
+TCGA-CV-A45P	82.0	0.0	639.0	0.0	639.0	1.0	639.0	FEMALE	tongue	primary	Stage I	
+TCGA-CV-A45Q	69.0	1.0	5152.0	0.0	5152.0			FEMALE	mouth	primary	NA	
+TCGA-CV-A45R	46.0	0.0	5480.0	0.0	5480.0	0.0	5480.0	MALE	tongue	primary	Stage III	
+TCGA-CV-A45T	64.0	1.0	4856.0	0.0	4856.0			FEMALE	tongue	primary	NA	
+TCGA-CV-A45U	59.0	1.0	1079.0	1.0	1079.0			MALE	mouth	metastasis	NA	
+TCGA-CV-A45V	87.0	1.0	32.0		32.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-CV-A45W	75.0	1.0	1398.0	0.0	1398.0			MALE	Larynx	primary	Stage II	
+TCGA-CV-A45X	47.0	1.0	198.0	0.0	198.0			MALE	mouth	primary	Stage IVA	
+TCGA-CV-A45Y	61.0	1.0	2703.0	0.0	2703.0			MALE	Larynx	metastasis	NA	
+TCGA-CV-A45Z	75.0	1.0	1466.0	1.0	1466.0			MALE	Larynx	primary	NA	
+TCGA-CV-A460	72.0	1.0	1838.0		1838.0			MALE	Larynx	primary	NA	
+TCGA-CV-A461	65.0	1.0	2064.0	0.0	2064.0	0.0	2064.0	MALE	Larynx	primary	NA	
+TCGA-CV-A463	82.0	1.0	23.0	0.0	23.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-CV-A464	48.0	0.0	1722.0	0.0	1722.0			MALE	mouth	recurrence	NA	
+TCGA-CV-A465	24.0	1.0	215.0	0.0	215.0	0.0	215.0	MALE	tongue	primary	Stage III	
+TCGA-CV-A468	42.0	1.0	464.0	0.0	464.0			MALE	Lip	primary	Stage IVA	
+TCGA-CV-A6JD	82.0	1.0	182.0	0.0	182.0			FEMALE	mouth	primary	NA	
+TCGA-CV-A6JE	78.0	0.0	1075.0	0.0	1075.0	0.0	1075.0	MALE	mouth	primary	NA	
+TCGA-CV-A6JM	85.0	1.0	194.0	0.0	194.0			MALE	Larynx	recurrence	NA	
+TCGA-CV-A6JN	53.0	0.0	906.0	0.0	906.0	0.0	906.0	MALE	mouth	primary	NA	
+TCGA-CV-A6JO	69.0	1.0	197.0	1.0	197.0			MALE	tongue	recurrence	NA	
+TCGA-CV-A6JT	65.0	0.0	852.0	0.0	852.0	0.0	852.0	MALE	tongue	primary	Stage II	
+TCGA-CV-A6JU	61.0	0.0	110.0	0.0	110.0			FEMALE	tongue	primary	Stage IVB	
+TCGA-CV-A6JY	69.0	0.0	646.0	0.0	646.0			MALE	mouth	primary	Stage IVA	
+TCGA-CV-A6JZ	68.0	0.0	714.0	0.0	714.0			MALE	mouth	recurrence	NA	
+TCGA-CV-A6K0	58.0	0.0	606.0	0.0	606.0	1.0	146.0	MALE	tongue	primary	Stage I	
+TCGA-CV-A6K1	65.0	0.0	685.0	0.0	685.0			MALE	Larynx	primary	Stage IVA	
+TCGA-CV-A6K2	79.0	1.0	317.0	1.0	317.0			MALE	mouth	recurrence	NA	
+TCGA-CX-7082	82.0	1.0	11.0	0.0	11.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage I	
+TCGA-CX-7085	77.0	0.0	321.0	0.0	321.0	1.0	92.0	FEMALE	tongue	recurrence	NA	
+TCGA-CX-7086	53.0	0.0	573.0	0.0	573.0			MALE	mouth	primary	Stage III	
+TCGA-CX-7219	47.0	0.0	1045.0	0.0	1045.0			MALE	mouth	primary	Stage IVA	
+TCGA-CX-A4AQ	56.0	0.0	1555.0	0.0	1555.0			MALE	mouth	primary	Stage IVA	unknown
+TCGA-D6-6515	82.0	1.0	403.0	0.0	403.0	1.0	195.0	FEMALE	tongue	primary	Stage II	
+TCGA-D6-6516	69.0	0.0	773.0	0.0	773.0	0.0	773.0	MALE	Lip	primary	Stage I	
+TCGA-D6-6517	59.0	0.0	292.0	0.0	292.0			MALE	Larynx	metastasis	NA	
+TCGA-D6-6823	50.0	0.0	701.0	0.0	701.0	0.0	701.0	MALE	tongue	primary	Stage II	
+TCGA-D6-6824	61.0	0.0	77.0	0.0	77.0			MALE	Larynx	primary	Stage IVA	
+TCGA-D6-6825	73.0	0.0	491.0	0.0	491.0	0.0	491.0	MALE	tongue	primary	Stage I	
+TCGA-D6-6826	64.0	1.0	348.0	0.0	348.0			FEMALE	Larynx	primary	Stage IVA	
+TCGA-D6-6827	55.0	0.0	568.0	0.0	568.0	0.0	568.0	FEMALE	Lip	primary	Stage I	
+TCGA-D6-8568	62.0	0.0	759.0	0.0	759.0			MALE	Larynx	primary	Stage II	
+TCGA-D6-8569	52.0	0.0	770.0	0.0	770.0			MALE	tongue	primary	Stage II	
+TCGA-D6-A4Z9	59.0	0.0	539.0	0.0	539.0			MALE	tongue	primary	Stage IVA	
+TCGA-D6-A4ZB	61.0	0.0	376.0	0.0	376.0	0.0	376.0	MALE	tongue	primary	Stage III	
+TCGA-D6-A6EK	67.0	0.0	875.0	0.0	875.0			MALE	Larynx	primary	Stage III	
+TCGA-D6-A6EM	65.0	0.0	232.0	0.0	232.0	1.0	232.0	FEMALE	mouth	primary	Stage III	
+TCGA-D6-A6EN	71.0	0.0	687.0	0.0	687.0	0.0	687.0	MALE	mouth	primary	Stage III	
+TCGA-D6-A6EO	44.0	0.0	759.0	0.0	759.0			MALE	mouth	primary	Stage IVA	
+TCGA-D6-A6EP	62.0	0.0	424.0	0.0	424.0	0.0	424.0	MALE	Hypopharynx	primary	Stage III	
+TCGA-D6-A6EQ	57.0	0.0	368.0	0.0	368.0			MALE	Larynx	primary	Stage IVA	
+TCGA-D6-A6ES	50.0	0.0	389.0	0.0	389.0			MALE	Larynx	primary	Stage IVA	
+TCGA-D6-A74Q	67.0	0.0	710.0	0.0	710.0			MALE	Larynx	primary	Stage IVA	
+TCGA-DQ-5624	43.0	0.0	1778.0	0.0	1778.0			FEMALE	tongue	primary	NA	
+TCGA-DQ-5625	52.0	1.0	1133.0	0.0	1133.0	1.0	1058.0	FEMALE	tongue	recurrence	NA	
+TCGA-DQ-5629	64.0	1.0	941.0	0.0	941.0			MALE	Larynx	primary	NA	negative
+TCGA-DQ-5630	73.0	0.0	1030.0	0.0	1030.0	0.0	1030.0	MALE	tongue	primary	NA	
+TCGA-DQ-5631	52.0	1.0	548.0	1.0	548.0			MALE	tongue	primary	NA	
+TCGA-DQ-7588	66.0	1.0	427.0	1.0	427.0			MALE	Other and ill-defined sites in lip, oral cavity and pharynx	recurrence	NA	negative
+TCGA-DQ-7591	62.0	0.0	622.0	0.0	622.0			MALE	tongue	primary	NA	positive
+TCGA-DQ-7592	57.0	0.0	1143.0	0.0	1143.0			MALE	tongue	primary	NA	negative
+TCGA-DQ-7593	58.0	0.0	1224.0	0.0	1224.0			MALE	tongue	primary	NA	positive
+TCGA-DQ-7596	48.0	0.0	1265.0	0.0	1265.0			MALE	Tonsil	primary	NA	
+TCGA-F7-7848	47.0	0.0	1131.0	0.0	1131.0			MALE	Larynx	primary	Stage IVA	
+TCGA-F7-8298	58.0	0.0	995.0	0.0	995.0	0.0	995.0	MALE	Larynx	primary	Stage I	
+TCGA-F7-8489	48.0	0.0	658.0	0.0	658.0	0.0	658.0	MALE	mouth	primary	Stage II	unknown
+TCGA-F7-A50G	66.0	0.0	616.0	0.0	616.0	0.0	616.0	MALE	tongue	primary	Stage III	unknown
+TCGA-F7-A50I	72.0	0.0	92.0	0.0	92.0			MALE	Larynx	primary	Stage IVA	unknown
+TCGA-F7-A50J	67.0	0.0	947.0	0.0	947.0	0.0	947.0	FEMALE	tongue	primary	Stage III	unknown
+TCGA-F7-A61S	62.0	0.0	576.0	0.0	576.0	1.0	213.0	MALE	tongue	primary	Stage III	
+TCGA-F7-A61V	54.0	0.0	759.0	0.0	759.0	0.0	759.0	MALE	tongue	primary	Stage II	negative
+TCGA-F7-A61W	51.0	0.0	14.0	0.0	14.0			MALE	tongue	primary	Stage IVA	
+TCGA-F7-A620	47.0	0.0	543.0	0.0	543.0	0.0	543.0	MALE	tongue	primary	Stage III	
+TCGA-F7-A622	75.0	1.0	359.0	1.0	359.0			MALE	Larynx	recurrence	NA	
+TCGA-F7-A623	70.0	0.0	616.0	0.0	616.0			MALE	Larynx	primary	Stage IVA	
+TCGA-F7-A624	73.0	0.0	378.0	0.0	378.0	0.0	378.0	MALE	mouth	primary	Stage II	
+TCGA-H7-7774	75.0	0.0	407.0	0.0	407.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-H7-8501	54.0	0.0	461.0	0.0	461.0			MALE	mouth	primary	Stage IVA	unknown
+TCGA-H7-A6C4	35.0	0.0	414.0	0.0	414.0			FEMALE	tongue	recurrence	NA	negative
+TCGA-H7-A6C5	65.0	0.0	642.0	0.0	642.0	0.0	642.0	MALE	Larynx	primary	Stage II	
+TCGA-H7-A76A	57.0	0.0	637.0	0.0	637.0			MALE	Tonsil	primary	NA	positive
+TCGA-HD-7229	60.0	0.0	1027.0	0.0	1027.0			MALE	Larynx	recurrence	NA	
+TCGA-HD-7753	62.0	0.0	866.0	0.0	866.0	0.0	866.0	MALE	Oropharynx	primary	Stage I	
+TCGA-HD-7754	69.0	0.0	783.0	0.0	783.0			MALE	Oropharynx	primary	Stage IVA	
+TCGA-HD-7831	74.0	0.0	667.0	0.0	667.0			MALE	tongue	metastasis	NA	
+TCGA-HD-7832	52.0	0.0	836.0	0.0	836.0			MALE	mouth	primary	Stage IVA	
+TCGA-HD-8224	63.0	1.0	446.0	1.0	446.0			MALE	tongue	primary	Stage IVA	negative
+TCGA-HD-8314	58.0	0.0	670.0	0.0	670.0	0.0	670.0	MALE	tongue	primary	Stage III	positive
+TCGA-HD-8634	51.0	1.0	385.0	0.0	385.0	0.0	385.0	FEMALE	tongue	primary	Stage I	unknown
+TCGA-HD-8635	61.0	0.0	695.0	0.0	695.0	0.0	695.0	FEMALE	tongue	primary	Stage 0	negative
+TCGA-HD-A4C1	41.0	0.0	11.0	0.0	11.0			FEMALE	mouth	primary	Stage IVA	negative
+TCGA-HD-A633	74.0	0.0	421.0	0.0	421.0			MALE	mouth	primary	Stage IVA	unknown
+TCGA-HD-A634	56.0	1.0	130.0	1.0	130.0			MALE	Tonsil	primary	Stage IVA	positive
+TCGA-HD-A6HZ	79.0	0.0	111.0	0.0	111.0			FEMALE	tongue	primary	Stage III	unknown
+TCGA-HD-A6I0	56.0	0.0	210.0	0.0	210.0			MALE	mouth	primary	Stage IVA	unknown
+TCGA-IQ-7630	49.0	0.0	485.0	0.0	485.0	0.0	485.0	MALE	Oropharynx	primary	Stage II	
+TCGA-IQ-7631	60.0	0.0	1172.0	0.0	1172.0	0.0	1172.0	FEMALE	mouth	primary	Stage II	
+TCGA-IQ-7632	68.0	0.0	441.0	0.0	441.0			FEMALE	Other and ill-defined sites in lip, oral cavity and pharynx	primary	Stage IVA	
+TCGA-IQ-A61E	55.0	0.0	1147.0	0.0	1147.0	0.0	1147.0	FEMALE	tongue	primary	Stage III	
+TCGA-IQ-A61G	57.0	0.0	360.0	0.0	360.0			MALE	mouth	primary	Stage IVA	
+TCGA-IQ-A61H	76.0	0.0	1138.0	0.0	1138.0	0.0	1138.0	MALE	tongue	primary	Stage II	
+TCGA-IQ-A61I	63.0	1.0	2.0	0.0	2.0			MALE	Tonsil	primary	Stage IVA	
+TCGA-IQ-A61J	54.0	0.0	1021.0	0.0	1021.0			MALE	tongue	primary	Stage IVA	
+TCGA-IQ-A61O	43.0	1.0	421.0	0.0	421.0			MALE	tongue	primary	Stage IVA	
+TCGA-IQ-A6SG	61.0	0.0	579.0	0.0	579.0	0.0	579.0	FEMALE	tongue	primary	Stage III	unknown
+TCGA-IQ-A6SH	55.0	0.0	471.0	0.0	471.0			MALE	tongue	primary	Stage III	
+TCGA-KU-A66S	69.0	1.0	406.0	1.0	406.0	1.0	389.0	FEMALE	Larynx	metastasis	NA	
+TCGA-KU-A66T	53.0	0.0	552.0	0.0	552.0			FEMALE	mouth	recurrence	NA	
+TCGA-KU-A6H7	55.0	0.0	586.0	0.0	586.0			FEMALE	Tonsil	primary	Stage IVA	positive
+TCGA-KU-A6H8	41.0	1.0	327.0	1.0	327.0			MALE	tongue	primary	Stage IVA	
+TCGA-MT-A51W	52.0	0.0	437.0	0.0	437.0	0.0	437.0	FEMALE	tongue	primary	Stage I	negative
+TCGA-MT-A51X	30.0	0.0	242.0	0.0	242.0			MALE	tongue	primary	Stage IVA	
+TCGA-MT-A67A	85.0	0.0	914.0	0.0	914.0	0.0	914.0	FEMALE	tongue	primary	Stage I	
+TCGA-MT-A67D	55.0	0.0	56.0	0.0	56.0	0.0	56.0	MALE	mouth	primary	Stage II	
+TCGA-MT-A67F	60.0	0.0	384.0	0.0	384.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-MT-A7BN	74.0	0.0	469.0	0.0	469.0			MALE	mouth	metastasis	NA	unknown
+TCGA-MZ-A5BI	53.0	1.0	217.0		217.0			MALE	Tonsil	primary	NA	positive
+TCGA-MZ-A6I9	68.0	1.0	489.0	1.0	489.0			MALE	Oropharynx	primary	NA	positive
+TCGA-MZ-A7D7	51.0	0.0	547.0	0.0	547.0			MALE	tongue	metastasis	NA	negative
+TCGA-P3-A5Q5	54.0	0.0	910.0	0.0	910.0			MALE	Tonsil	primary	Stage IVA	
+TCGA-P3-A5Q6	49.0	1.0	480.0	1.0	480.0			MALE	Tonsil	primary	Stage IVA	
+TCGA-P3-A5QA	41.0	0.0	2182.0	0.0	2182.0	1.0	1601.0	MALE	tongue	recurrence	NA	
+TCGA-P3-A5QE	49.0	0.0	1559.0	0.0	1559.0	0.0	1559.0	MALE	tongue	primary	Stage III	
+TCGA-P3-A5QF	49.0	1.0	330.0	1.0	330.0			MALE	Gum	primary	Stage IVA	
+TCGA-P3-A6SW	50.0	0.0	1120.0	0.0	1120.0			MALE	Tonsil	primary	Stage IVB	
+TCGA-P3-A6SX	67.0	1.0	1430.0	0.0	1430.0			MALE	Tonsil	primary	Stage III	
+TCGA-P3-A6T0	47.0	0.0	578.0	0.0	578.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-P3-A6T2	45.0	0.0	2298.0	0.0	2298.0			MALE	mouth	primary	Stage IVA	
+TCGA-P3-A6T3	49.0	1.0	577.0	1.0	577.0			MALE	mouth	metastasis	NA	
+TCGA-P3-A6T4	54.0	1.0	62.0	1.0	62.0			MALE	mouth	primary	Stage IVA	
+TCGA-P3-A6T5	79.0	1.0	882.0	1.0	882.0			FEMALE	Gum	recurrence	NA	
+TCGA-P3-A6T6	53.0	1.0	395.0	1.0	395.0			MALE	Gum	recurrence	NA	
+TCGA-P3-A6T7	55.0	1.0	487.0		487.0			MALE	mouth	primary	Stage IVA	
+TCGA-P3-A6T8	54.0	0.0	400.0	0.0	400.0			MALE	mouth	primary	Stage IVA	
+TCGA-QK-A64Z	79.0	1.0	641.0	1.0	641.0			FEMALE	mouth	recurrence	NA	
+TCGA-QK-A652	60.0	0.0	645.0	0.0	645.0	0.0	645.0	MALE	tongue	primary	Stage III	
+TCGA-QK-A6IF	61.0	0.0	704.0	0.0	704.0			MALE	Tonsil	primary	NA	positive
+TCGA-QK-A6IG	69.0	1.0	222.0	1.0	222.0			MALE	mouth	recurrence	NA	
+TCGA-QK-A6IH	65.0	0.0	653.0	0.0	653.0			FEMALE	Gum	primary	Stage IVB	
+TCGA-QK-A6II	52.0	1.0	284.0	1.0	284.0			MALE	mouth	primary	Stage IVA	
+TCGA-QK-A6IJ	71.0	0.0	387.0	0.0	387.0			MALE	mouth	primary	Stage III	negative
+TCGA-QK-A6V9	56.0	0.0	833.0	0.0	833.0	0.0	833.0	MALE	Oropharynx	primary	Stage II	positive
+TCGA-QK-A6VB	66.0	0.0	641.0	0.0	641.0			MALE	mouth	primary	NA	
+TCGA-QK-A6VC	62.0	0.0	600.0	0.0	600.0			FEMALE	Hypopharynx	primary	Stage IVA	negative
+TCGA-QK-A8Z7	59.0	0.0	392.0	0.0	392.0			MALE	mouth	primary	Stage IVA	
+TCGA-QK-A8Z8	60.0	1.0	171.0	1.0	171.0			FEMALE	Larynx	primary	Stage IVC	
+TCGA-QK-A8Z9	56.0	1.0	449.0	1.0	449.0			MALE	mouth	primary	Stage IVA	
+TCGA-QK-A8ZA	60.0	1.0	371.0	0.0	371.0			MALE	Oropharynx	primary	NA	positive
+TCGA-QK-A8ZB	68.0	0.0	542.0	0.0	542.0			MALE	Larynx	primary	Stage IVA	
+TCGA-QK-AA3J	69.0	0.0	466.0	0.0	466.0	0.0	466.0	MALE	Larynx	primary	Stage I	
+TCGA-QK-AA3K	60.0	0.0	253.0	0.0	253.0			MALE	tongue	primary	Stage IVA	positive
+TCGA-RS-A6TO	82.0	1.0	387.0	1.0	387.0			FEMALE	mouth	recurrence	NA	negative
+TCGA-RS-A6TP	58.0	0.0	516.0	0.0	516.0	0.0	516.0	MALE	Tonsil	primary	Stage II	positive
+TCGA-T2-A6WX	73.0	1.0	209.0	1.0	209.0			FEMALE	mouth	primary	NA	
+TCGA-T2-A6WZ	53.0	1.0	484.0	1.0	484.0			MALE	tongue	primary	NA	negative
+TCGA-T2-A6X0	49.0	0.0	216.0	0.0	216.0			MALE	Tonsil	primary	NA	positive
+TCGA-T2-A6X2	82.0	0.0	987.0	0.0	987.0	0.0	987.0	MALE	Gum	primary	Stage III	negative
+TCGA-T3-A92M	52.0	0.0	417.0	0.0	417.0			MALE	Larynx	metastasis	NA	
+TCGA-T3-A92N	79.0	1.0	95.0	1.0	95.0			MALE	mouth	primary	Stage IVA	unknown
+TCGA-TN-A7HI	56.0	0.0	412.0	0.0	412.0			MALE	Tonsil	primary	Stage IVA	positive
+TCGA-TN-A7HJ	51.0	0.0	403.0	0.0	403.0			MALE	Larynx	primary	Stage IVA	
+TCGA-TN-A7HL	59.0	0.0	619.0	0.0	619.0			MALE	Hypopharynx	primary	Stage IVA	positive
+TCGA-UF-A718	62.0	0.0	1971.0	0.0	1971.0			MALE	Larynx	primary	Stage IVA	
+TCGA-UF-A719	54.0	0.0	1663.0	0.0	1663.0	0.0	1663.0	MALE	mouth	primary	Stage II	
+TCGA-UF-A71A	67.0	1.0	86.0	1.0	86.0			MALE	mouth	primary	Stage IVA	
+TCGA-UF-A71B	50.0	0.0	1506.0	0.0	1506.0			MALE	Gum	primary	Stage IVA	
+TCGA-UF-A71D	54.0	0.0	1461.0	0.0	1461.0			FEMALE	Larynx	primary	Stage I	
+TCGA-UF-A71E	63.0	1.0	1504.0	0.0	1504.0			MALE	mouth	primary	Stage IVA	
+TCGA-UF-A7J9	75.0	0.0	1358.0	0.0	1358.0			MALE	Larynx	primary	Stage IVA	
+TCGA-UF-A7JA	66.0	0.0	2265.0	0.0	2265.0			FEMALE	mouth	primary	Stage IVA	
+TCGA-UF-A7JC	42.0	1.0	546.0	1.0	546.0			MALE	mouth	primary	Stage IVA	
+TCGA-UF-A7JD	71.0	1.0	739.0	0.0	739.0			MALE	mouth	primary	Stage IVA	
+TCGA-UF-A7JF	80.0	0.0	1686.0	0.0	1686.0			MALE	Larynx	primary	Stage IVA	
+TCGA-UF-A7JH	59.0	0.0	896.0	0.0	896.0			MALE	Larynx	primary	Stage IVA	
+TCGA-UF-A7JJ	68.0	0.0	549.0	0.0	549.0			MALE	Larynx	primary	Stage IVA	
+TCGA-UF-A7JK	59.0	1.0	424.0	1.0	424.0			MALE	Larynx	recurrence	NA	
+TCGA-UF-A7JO	79.0	1.0	631.0	1.0	631.0			FEMALE	mouth	recurrence	NA	
+TCGA-UF-A7JS	59.0	1.0	680.0	1.0	680.0			MALE	tongue	primary	Stage IVA	
+TCGA-UF-A7JT	72.0	1.0	993.0	1.0	993.0			FEMALE	mouth	metastasis	NA	
+TCGA-UF-A7JV	62.0	1.0	90.0	1.0	90.0			FEMALE	Hypopharynx	recurrence	NA	
+TCGA-UP-A6WW	58.0	0.0	518.0	0.0	518.0			MALE	tongue	primary	NA	
+TCGA-WA-A7GZ	58.0	1.0	625.0	0.0	625.0	0.0	625.0	MALE	mouth	primary	NA	
+TCGA-WA-A7H4	69.0	0.0	443.0	0.0	443.0	0.0	443.0	MALE	tongue	primary	Stage II	
