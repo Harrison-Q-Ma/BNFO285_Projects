@@ -1,3 +1,6 @@
 .DS_Store
 __MACOSX/
 Harrison_Local_Data/
+.vscode/
+.RData
+.Rhistory
