@@ -5,10 +5,10 @@
 
                     ################ Sample 1 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  16.0   3.0  89.0   28.0    8.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   3.0  15.0   2.0  42.0   25.0   32.0   11.0   14.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
 0  15.927217  100.841269  27.231513
@@ -45,9 +45,9 @@ Cosine Similarity: 0.81
 
                     ################ Sample 2 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  15.0   7.0   7.0  74.0   16.0   10.0   25.0
-L2 Error %: 0.42
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  17.0   7.0   7.0  49.0   18.0   10.0   12.0   25.0    9.0
+L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS19
@@ -85,10 +85,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 3 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   8.0   9.0   5.0  96.0    1.0    3.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  11.0   8.0   6.0  55.0    1.0    8.0    6.0   27.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  122.0
@@ -125,8 +125,8 @@ Cosine Similarity: 0.78
 
                     ################ Sample 4 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0   1.0   7.0  212.0  160.0   21.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS85
+0   3.0   6.0  208.0  134.0   20.0    9.0   21.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -205,8 +205,8 @@ Cosine Similarity: 0.92
 
                     ################ Sample 6 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   3.0  19.0  263.0  255.0    9.0    9.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   3.0  19.0  263.0  253.0    9.0    9.0    2.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -245,10 +245,10 @@ Cosine Similarity: 0.88
 
                     ################ Sample 7 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   8.0   2.0  13.0  71.0    4.0   23.0    8.0
-L2 Error %: 0.5
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   9.0   2.0  14.0  44.0    6.0   22.0    7.0    9.0   16.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS13
 0  107.759926  21.240074
@@ -365,10 +365,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 10 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b
-0   4.0   1.0  32.0    5.0
-L2 Error %: 0.65
-Cosine Similarity: 0.76
+   SBS1  SBS2  SBS5  SBS7b  SBS16
+0   5.0   1.0  22.0    6.0    8.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  42.0
@@ -405,10 +405,10 @@ Cosine Similarity: 0.74
 
                     ################ Sample 11 #################
 ############################# Initial Composition ####################################
-   SBS4  SBS5  SBS13  SBS19
-0  38.0  96.0    8.0   13.0
-L2 Error %: 0.51
-Cosine Similarity: 0.86
+   SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  37.0  80.0    7.0    7.0   14.0   10.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
         SBS4        SBS5
 0  37.463743  117.536257
@@ -445,10 +445,10 @@ Cosine Similarity: 0.83
 
                     ################ Sample 12 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  17.0   8.0   9.0  83.0   11.0   10.0
-L2 Error %: 0.53
-Cosine Similarity: 0.85
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  19.0   7.0  10.0  50.0    1.0   11.0    9.0   11.0   20.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  138.0
@@ -486,7 +486,7 @@ Cosine Similarity: 0.8
                     ################ Sample 13 #################
 ############################# Initial Composition ####################################
    SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   4.0   3.0   5.0    3.0    5.0    5.0
+0   6.0   4.0   3.0   4.0    3.0    5.0    5.0
 L2 Error %: 0.68
 Cosine Similarity: 0.73
 ############################## Composition After Initial Remove ###############################
@@ -565,8 +565,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 15 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   8.0   6.0   7.0  20.0    4.0    2.0   21.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   8.0   6.0   7.0  13.0    4.0    2.0   21.0    7.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -605,9 +605,9 @@ Cosine Similarity: 0.84
 
                     ################ Sample 16 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4   SBS5  SBS13
-0  22.0  13.0  114.0   22.0
-L2 Error %: 0.63
+   SBS2  SBS4  SBS5  SBS13  SBS16  SBS85
+0  21.0  13.0  97.0   21.0    5.0   14.0
+L2 Error %: 0.62
 Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
@@ -645,10 +645,10 @@ Cosine Similarity: 0.78
 
                     ################ Sample 17 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   3.0  27.0  260.0  228.0   35.0    4.0
-L2 Error %: 0.36
-Cosine Similarity: 0.93
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS19  SBS85
+0   6.0  27.0  257.0  186.0   34.0   20.0    7.0   20.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
 0  261.877559  295.122441
@@ -685,39 +685,39 @@ Cosine Similarity: 0.9
 
                     ################ Sample 18 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0  14.0  53.0    3.0    3.0    1.0
-L2 Error %: 0.64
-Cosine Similarity: 0.77
+   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16
+0  12.0  12.0  25.0    6.0    2.0   29.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
-        SBS2       SBS5
-0  13.217588  72.782412
-L2 Error %: 0.67
-Cosine Similarity: 0.75
+        SBS2       SBS5      SBS16
+0  12.727146  43.048106  30.224748
+L2 Error %: 0.59
+Cosine Similarity: 0.8
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS2', 'SBS5']
-L2 Error % 0.67
-Cosine Similarity 0.75
+Best Signature Composition ['SBS2', 'SBS5', 'SBS16']
+L2 Error % 0.59
+Cosine Similarity 0.8
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS2', 'SBS5']
-L2 Error % 0.67
-Cosine Similarity 0.75
+Best Signature Composition ['SBS2', 'SBS5', 'SBS16']
+L2 Error % 0.59
+Cosine Similarity 0.8
 
 #################### Final Composition #################################
-['SBS2', 'SBS5']
-L2 Error % 0.67
-Cosine Similarity 0.75
+['SBS2', 'SBS5', 'SBS16']
+L2 Error % 0.59
+Cosine Similarity 0.8
 ####################################### Composition After Add-Remove #######################################
-   SBS2  SBS5
-0  13.0  73.0
-L2 Error %: 0.67
-Cosine Similarity: 0.75
+   SBS2  SBS5  SBS16
+0  13.0  43.0   30.0
+L2 Error %: 0.59
+Cosine Similarity: 0.8
 
 
 
@@ -765,10 +765,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 20 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS13
-0  10.0  15.0  124.0   22.0
-L2 Error %: 0.55
-Cosine Similarity: 0.83
+   SBS1  SBS2   SBS5  SBS13  SBS16  SBS19  SBS85
+0  11.0  14.0  101.0   21.0    1.0    2.0   21.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
 0  13.794074  136.794881  20.411045
@@ -805,8 +805,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 21 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  16.0   5.0   4.0  19.0    6.0   18.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  17.0   5.0   4.0  12.0    5.0    7.0   18.0
 L2 Error %: 0.43
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -885,10 +885,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 23 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  14.0   9.0  21.0  23.0   12.0   21.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  14.0   9.0  21.0  11.0   12.0    7.0   21.0    5.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2       SBS4      SBS13     SBS19
 0  18.029763  11.367859  28.825439  14.292629  27.48431
@@ -925,10 +925,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 24 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  22.0   5.0  84.0   17.0    3.0
-L2 Error %: 0.59
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   5.0  20.0   5.0  32.0   15.0   23.0    7.0   24.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  21.984199  92.011169  17.004632
@@ -1005,8 +1005,8 @@ Cosine Similarity: 0.69
 
                     ################ Sample 26 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   6.0   8.0  14.0  60.0    8.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS85
+0   6.0   8.0  14.0  51.0    9.0    5.0    4.0    4.0
 L2 Error %: 0.59
 Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
@@ -1085,8 +1085,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 28 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0  13.0  11.0  406.0  341.0   36.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS85
+0  15.0  11.0  400.0  320.0   35.0   26.0
 L2 Error %: 0.4
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
@@ -1165,10 +1165,10 @@ Cosine Similarity: 0.59
 
                     ################ Sample 30 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0   1.0   5.0  29.0    4.0    1.0    2.0
-L2 Error %: 0.67
-Cosine Similarity: 0.74
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  10.0   5.0  14.0    5.0    1.0    3.0    3.0   10.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
        SBS1       SBS5
 0  8.095435  42.904565
@@ -1205,9 +1205,9 @@ Cosine Similarity: 0.72
 
                     ################ Sample 31 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13
-0   6.0  18.0  17.0  82.0   16.0
-L2 Error %: 0.53
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16
+0   6.0  18.0  16.0  76.0   16.0    7.0
+L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
@@ -1245,10 +1245,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 32 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b
-0   2.0   1.0  11.0    7.0
-L2 Error %: 0.77
-Cosine Similarity: 0.64
+   SBS1  SBS4  SBS7b  SBS16  SBS85
+0   3.0   1.0    8.0    8.0    1.0
+L2 Error %: 0.74
+Cosine Similarity: 0.68
 ############################## Composition After Initial Remove ###############################
    SBS7b
 0   21.0
@@ -1285,8 +1285,8 @@ Cosine Similarity: 0.64
 
                     ################ Sample 33 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   3.0   8.0  25.0  64.0    5.0    3.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   4.0   7.0  25.0  59.0    4.0    4.0    5.0
 L2 Error %: 0.64
 Cosine Similarity: 0.77
 ############################## Composition After Initial Remove ###############################
@@ -1365,8 +1365,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 35 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0   9.0  13.0  46.0    8.0   10.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   7.0   9.0  13.0  42.0    8.0   10.0    3.0
 L2 Error %: 0.62
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
@@ -1445,39 +1445,39 @@ Cosine Similarity: 0.87
 
                     ################ Sample 37 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS5  SBS19
-0   1.0  13.0    5.0
-L2 Error %: 0.87
-Cosine Similarity: 0.49
+   SBS1  SBS2  SBS16  SBS19  SBS85
+0   1.0   1.0   11.0    5.0    1.0
+L2 Error %: 0.78
+Cosine Similarity: 0.62
 ############################## Composition After Initial Remove ###############################
-   SBS5
-0  19.0
-L2 Error %: 0.9
-Cosine Similarity: 0.44
+       SBS16     SBS19
+0  13.688511  5.311489
+L2 Error %: 0.79
+Cosine Similarity: 0.62
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS5']
-L2 Error % 0.9
-Cosine Similarity 0.44
+Best Signature Composition ['SBS1', 'SBS16', 'SBS19']
+L2 Error % 0.79
+Cosine Similarity 0.62
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS5']
-L2 Error % 0.9
-Cosine Similarity 0.44
+Best Signature Composition ['SBS1', 'SBS16', 'SBS19']
+L2 Error % 0.79
+Cosine Similarity 0.62
 
 #################### Final Composition #################################
-['SBS5']
-L2 Error % 0.9
-Cosine Similarity 0.44
+['SBS1', 'SBS16', 'SBS19']
+L2 Error % 0.79
+Cosine Similarity 0.62
 ####################################### Composition After Add-Remove #######################################
-   SBS5
-0  19.0
-L2 Error %: 0.9
-Cosine Similarity: 0.44
+   SBS1  SBS16  SBS19
+0   1.0   13.0    5.0
+L2 Error %: 0.79
+Cosine Similarity: 0.62
 
 
 
@@ -1485,8 +1485,8 @@ Cosine Similarity: 0.44
 
                     ################ Sample 38 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS13  SBS19
-0   7.0  21.0  22.0   28.0   10.0
+   SBS1  SBS2  SBS5  SBS13  SBS16  SBS19
+0   7.0  21.0  21.0   28.0    1.0   10.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -1525,8 +1525,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 39 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  15.0  19.0   7.0  13.0   21.0   18.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  15.0  19.0   7.0  12.0   21.0    1.0   18.0
 L2 Error %: 0.48
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -1685,8 +1685,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 43 #################
 ############################# Initial Composition ####################################
-   SBS1   SBS4   SBS5  SBS13  SBS19
-0  13.0  134.0  169.0    5.0    4.0
+   SBS1   SBS4   SBS5  SBS13  SBS16  SBS19  SBS85
+0  14.0  132.0  146.0    5.0   10.0    6.0   12.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -1725,8 +1725,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 44 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS5  SBS7b  SBS13  SBS19
-0   2.0  67.0    3.0   19.0    2.0
+   SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   2.0  67.0    3.0   18.0    2.0    1.0
 L2 Error %: 0.68
 Cosine Similarity: 0.73
 ############################## Composition After Initial Remove ###############################
@@ -1765,10 +1765,10 @@ Cosine Similarity: 0.73
 
                     ################ Sample 45 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS19
-0   1.0   6.0  62.0    3.0
-L2 Error %: 0.67
-Cosine Similarity: 0.74
+   SBS1  SBS4  SBS5  SBS16  SBS19  SBS85
+0   2.0   6.0  46.0    9.0    4.0    5.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  72.0
@@ -1965,10 +1965,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 50 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS19
-0   7.0   3.0  91.0    6.0   11.0
-L2 Error %: 0.58
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0   3.0   6.0   4.0  48.0    9.0   19.0   12.0   17.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  118.0
@@ -2005,8 +2005,8 @@ Cosine Similarity: 0.77
 
                     ################ Sample 51 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  23.0   4.0  27.0  51.0    1.0   15.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  23.0   4.0  27.0  45.0    1.0   16.0    5.0
 L2 Error %: 0.47
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -2125,8 +2125,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 54 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  10.0   5.0  11.0  42.0    3.0    1.0   11.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0   4.0  11.0  40.0    3.0    1.0   11.0    3.0
 L2 Error %: 0.56
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
@@ -2165,9 +2165,9 @@ Cosine Similarity: 0.78
 
                     ################ Sample 55 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS19
-0  14.0  11.0  205.0  234.0    1.0   14.0    7.0
-L2 Error %: 0.47
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0  11.0  204.0  228.0    2.0   14.0    7.0    6.0
+L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
@@ -2205,8 +2205,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 56 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  11.0   9.0  37.0    9.0   12.0    5.0
+   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  11.0   9.0  33.0    9.0   12.0    5.0    4.0
 L2 Error %: 0.62
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
@@ -2285,8 +2285,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 58 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   7.0  26.0   7.0  98.0   12.0   41.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS85
+0   8.0  24.0   7.0  85.0   13.0   40.0   14.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -2325,8 +2325,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 59 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  15.0  14.0  11.0  62.0    8.0   13.0    8.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  16.0  14.0  11.0  50.0    9.0   12.0    1.0    8.0   10.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -2485,10 +2485,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 63 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0  11.0   3.0  17.0  47.0   17.0    1.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  12.0   2.0  17.0  34.0   17.0    1.0    1.0   12.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  96.0
@@ -2605,10 +2605,10 @@ Cosine Similarity: 0.76
 
                     ################ Sample 66 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13
-0  11.0   2.0  89.0  126.0    8.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4   SBS5  SBS13  SBS16  SBS85
+0  12.0   2.0  87.0  105.0    7.0    9.0   14.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
         SBS4        SBS5
 0  84.316843  151.683157
@@ -2645,8 +2645,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 67 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  10.0  28.0   9.0  50.0   16.0   20.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  10.0  27.0  10.0  42.0   15.0   20.0    9.0
 L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -2685,8 +2685,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 68 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  14.0  16.0  12.0  65.0    3.0    5.0    1.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0  16.0  12.0  63.0    3.0    5.0    1.0    2.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -2725,10 +2725,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 69 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  14.0   3.0   9.0  36.0    2.0    9.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  15.0   3.0   9.0  17.0    2.0    4.0   10.0   13.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
        SBS1      SBS5
 0  11.89384  61.10616
@@ -2765,10 +2765,10 @@ Cosine Similarity: 0.79
 
                     ################ Sample 70 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0  15.0  35.0  59.0    2.0    4.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  17.0  33.0  32.0    2.0   14.0    6.0   11.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS4       SBS5
 0  14.534984  34.225288  66.239728
@@ -2805,8 +2805,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 71 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   3.0   2.0  108.0  259.0   17.0    8.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS19  SBS85
+0   4.0   2.0  107.0  244.0   17.0    2.0    9.0   12.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -2845,10 +2845,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 72 #################
 ############################# Initial Composition ####################################
-   SBS4  SBS5  SBS7b  SBS13
-0   3.0   7.0    4.0    2.0
-L2 Error %: 0.9
-Cosine Similarity: 0.44
+   SBS4  SBS5  SBS7b  SBS13  SBS85
+0   3.0   3.0    4.0    2.0    4.0
+L2 Error %: 0.89
+Cosine Similarity: 0.46
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  16.0
@@ -2885,10 +2885,10 @@ Cosine Similarity: 0.36
 
                     ################ Sample 73 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0  14.0   8.0  32.0  52.0    7.0    4.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS85
+0  14.0   7.0  31.0  42.0    8.0    4.0   11.0
 L2 Error %: 0.55
-Cosine Similarity: 0.83
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  117.0
@@ -2965,9 +2965,9 @@ Cosine Similarity: 0.92
 
                     ################ Sample 75 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0  20.0  20.0  62.0    8.0   12.0
-L2 Error %: 0.53
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   7.0  19.0  20.0  46.0    8.0    6.0   12.0   10.0
+L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
        SBS2       SBS5
@@ -3005,8 +3005,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 76 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  10.0  72.0  96.0   14.0   15.0
+   SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   9.0  70.0  81.0   13.0    3.0   16.0   15.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -3045,10 +3045,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 77 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   1.0  19.0  12.0  84.0   12.0   11.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   4.0  18.0  12.0  49.0   11.0   16.0   13.0   16.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  19.375952  119.624048
@@ -3085,9 +3085,9 @@ Cosine Similarity: 0.81
 
                     ################ Sample 78 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  10.0   9.0  44.0    3.0    7.0
-L2 Error %: 0.72
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   1.0  10.0   9.0  37.0    3.0    7.0    6.0
+L2 Error %: 0.71
 Cosine Similarity: 0.7
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5
@@ -3125,14 +3125,14 @@ Cosine Similarity: 0.67
 
                     ################ Sample 79 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0  13.0   8.0  36.0    1.0    7.0   23.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  13.0  12.0   8.0  11.0    3.0    6.0   10.0   24.0   13.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
-        SBS2       SBS5      SBS19
-0  11.493276  69.803545  18.703179
-L2 Error %: 0.62
+        SBS1       SBS2      SBS19
+0  25.505062  23.568973  50.925965
+L2 Error %: 0.63
 Cosine Similarity: 0.78
 
 ############################## Performing Add-Remove Step ##############################
@@ -3165,10 +3165,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 80 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0   8.0   2.0   2.0  74.0    3.0
-L2 Error %: 0.6
-Cosine Similarity: 0.8
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  10.0   2.0   2.0  49.0    1.0   15.0    5.0    5.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  89.0
@@ -3285,9 +3285,9 @@ Cosine Similarity: 0.84
 
                     ################ Sample 83 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0  17.0  16.0   7.0  98.0   24.0
-L2 Error %: 0.39
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  19.0  16.0   7.0  73.0    1.0   14.0   25.0    7.0
+L2 Error %: 0.38
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2        SBS5      SBS19
@@ -3365,8 +3365,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 85 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   7.0  19.0  82.0    4.0    3.0    3.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   7.0  19.0  78.0    4.0    3.0    3.0    4.0
 L2 Error %: 0.61
 Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
@@ -3445,9 +3445,9 @@ Cosine Similarity: 0.88
 
                     ################ Sample 87 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   2.0   9.0  16.0  53.0   17.0   11.0
-L2 Error %: 0.58
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0   2.0   9.0  16.0  48.0   17.0    4.0   12.0
+L2 Error %: 0.57
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS13
@@ -3525,8 +3525,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 89 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS13  SBS19
-0   9.0   9.0  75.0   20.0   10.0
+   SBS1  SBS2  SBS5  SBS13  SBS16  SBS19  SBS85
+0  10.0   9.0  64.0   19.0    6.0   10.0    5.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -3605,9 +3605,9 @@ Cosine Similarity: 0.91
 
                     ################ Sample 91 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0   5.0   9.0  28.0  85.0    7.0
-L2 Error %: 0.62
+   SBS1  SBS2  SBS4  SBS5  SBS19  SBS85
+0   5.0   8.0  27.0  74.0    8.0   12.0
+L2 Error %: 0.61
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -3645,8 +3645,8 @@ Cosine Similarity: 0.73
 
                     ################ Sample 92 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  14.0  12.0  21.0  43.0   14.0    7.0   10.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  15.0  12.0  21.0  37.0   14.0    6.0    3.0   10.0    3.0
 L2 Error %: 0.5
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -3685,10 +3685,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 93 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   4.0  19.0  121.0  157.0   10.0    7.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS19  SBS85
+0   6.0  18.0  119.0  136.0    9.0    9.0    9.0   12.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
 0  115.032846  202.967154
@@ -3805,10 +3805,10 @@ Cosine Similarity: 0.83
 
                     ################ Sample 96 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS19
-0   8.0   9.0  16.0  153.0    2.0
-L2 Error %: 0.51
-Cosine Similarity: 0.86
+   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS19  SBS85
+0   9.0   8.0  16.0  127.0    1.0    4.0   23.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  188.0
@@ -3845,8 +3845,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 97 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0  13.0   4.0  59.0  82.0   14.0    6.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS85
+0  13.0   3.0  59.0  80.0   14.0    6.0    3.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -3885,10 +3885,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 98 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   4.0  16.0   7.0  78.0    4.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS85
+0   5.0  16.0   7.0  64.0    5.0    5.0    7.0    5.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
        SBS2      SBS5
 0  16.07096  97.92904
@@ -4005,10 +4005,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 101 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19
-0   2.0   9.0  70.0  149.0    4.0   13.0
+   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19  SBS85
+0   4.0   8.0  68.0  129.0    4.0   14.0   20.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS4        SBS5
 0  64.849993  182.150007
@@ -4045,10 +4045,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 102 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  12.0  11.0   4.0  13.0    6.0    6.0
-L2 Error %: 0.59
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  11.0  10.0   5.0   3.0    5.0    7.0   11.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2
 0  27.718781  24.281219
@@ -4085,10 +4085,10 @@ Cosine Similarity: 0.79
 
                     ################ Sample 103 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0   1.0  14.0  17.0  101.0    7.0   10.0    4.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   3.0  13.0  18.0  77.0    8.0   10.0    4.0    5.0   16.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  14.867052  139.132948
@@ -4125,8 +4125,8 @@ Cosine Similarity: 0.8
 
                     ################ Sample 104 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  23.0  14.0   1.0  28.0    8.0   16.0    8.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  23.0  13.0   1.0  28.0    8.0   15.0    8.0    2.0
 L2 Error %: 0.4
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
@@ -4165,8 +4165,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 105 #################
 ############################# Initial Composition ####################################
-   SBS2   SBS4   SBS5  SBS13  SBS19
-0  12.0  227.0  133.0    4.0   26.0
+   SBS2   SBS4   SBS5  SBS13  SBS16  SBS19  SBS85
+0  11.0  220.0  114.0    4.0    1.0   27.0   25.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -4205,8 +4205,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 106 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  23.0   4.0  64.0   21.0   15.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   1.0  23.0   5.0  58.0   21.0   16.0    3.0
 L2 Error %: 0.4
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
@@ -4245,8 +4245,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 107 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS5  SBS7b  SBS19
-0  11.0  12.0    3.0    7.0
+   SBS1  SBS5  SBS7b  SBS16  SBS19
+0  11.0   9.0    3.0    3.0    7.0
 L2 Error %: 0.48
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -4325,8 +4325,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 109 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0  10.0   1.0  56.0    4.0   13.0   16.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  14.0  10.0   2.0  40.0    5.0   13.0   10.0   16.0    2.0
 L2 Error %: 0.56
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
@@ -4405,8 +4405,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 111 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13
-0  12.0   8.0  93.0  165.0   10.0
+   SBS1  SBS2  SBS4   SBS5  SBS13  SBS16
+0  13.0   8.0  93.0  154.0    9.0   11.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -4445,10 +4445,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 112 #################
 ############################# Initial Composition ####################################
-   SBS2   SBS4   SBS5  SBS13  SBS19
-0   2.0  275.0  319.0   10.0   14.0
-L2 Error %: 0.37
-Cosine Similarity: 0.93
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   3.0   1.0  266.0  271.0   10.0   18.0   51.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
 0  273.623709  346.376291
@@ -4485,8 +4485,8 @@ Cosine Similarity: 0.93
 
                     ################ Sample 113 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS19
-0  26.0   9.0  36.0   12.0    7.0
+   SBS1  SBS4  SBS5  SBS7b  SBS19  SBS85
+0  26.0   9.0  35.0   12.0    7.0    1.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -4525,8 +4525,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 114 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0  11.0   7.0  191.0  223.0   26.0
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS85
+0  12.0   7.0  188.0  208.0    1.0   26.0   16.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -4565,8 +4565,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 115 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4  SBS5  SBS13
-0  17.0  20.0  116.0  86.0    7.0
+   SBS1  SBS2   SBS4  SBS5  SBS13  SBS16  SBS85
+0  18.0  19.0  113.0  74.0    7.0    3.0   12.0
 L2 Error %: 0.56
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
@@ -4605,8 +4605,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 116 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  21.0  13.0   2.0  18.0    8.0    9.0   12.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  21.0  12.0   2.0  15.0    8.0    9.0   12.0    4.0
 L2 Error %: 0.37
 Cosine Similarity: 0.93
 ############################## Composition After Initial Remove ###############################
@@ -4725,8 +4725,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 119 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13
-0   4.0  11.0  101.0  130.0    6.0   13.0
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS16  SBS85
+0   5.0  11.0  100.0  116.0    8.0   12.0    7.0    6.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -4925,10 +4925,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 124 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS19
-0   3.0   1.0  35.0    3.0    3.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+   SBS2  SBS4  SBS5  SBS7b  SBS19  SBS85
+0   2.0   1.0  24.0    3.0    3.0   12.0
+L2 Error %: 0.71
+Cosine Similarity: 0.7
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  45.0
@@ -5045,10 +5045,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 127 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS7b
-0  11.0   1.0   7.0   12.0
-L2 Error %: 0.58
-Cosine Similarity: 0.82
+   SBS1  SBS4  SBS7b  SBS16
+0  11.0   4.0   10.0    6.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
        SBS1     SBS7b
 0  15.07605  15.92395
@@ -5085,39 +5085,39 @@ Cosine Similarity: 0.81
 
                     ################ Sample 128 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   8.0   4.0   1.0  32.0    9.0    8.0
-L2 Error %: 0.51
-Cosine Similarity: 0.86
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0   9.0   4.0   1.0  18.0   10.0    9.0    8.0    3.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
-        SBS5      SBS7b
-0  51.293328  10.706672
-L2 Error %: 0.6
-Cosine Similarity: 0.8
+       SBS1      SBS7b      SBS16
+0  13.79241  24.842494  23.365096
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.55
-Cosine Similarity 0.83
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b', 'SBS16']
+L2 Error % 0.54
+Cosine Similarity 0.84
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.55
-Cosine Similarity 0.83
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b', 'SBS16']
+L2 Error % 0.54
+Cosine Similarity 0.84
 
 #################### Final Composition #################################
-['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.55
-Cosine Similarity 0.83
+['SBS1', 'SBS5', 'SBS7b', 'SBS16']
+L2 Error % 0.54
+Cosine Similarity 0.84
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS5  SBS7b
-0   7.0  42.0   13.0
-L2 Error %: 0.55
-Cosine Similarity: 0.83
+   SBS1  SBS5  SBS7b  SBS16
+0   8.0  31.0   14.0    9.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
 
 
 
@@ -5165,9 +5165,9 @@ Cosine Similarity: 0.86
 
                     ################ Sample 130 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  20.0   9.0  24.0  70.0   15.0    4.0   13.0
-L2 Error %: 0.55
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  20.0   9.0  24.0  57.0   15.0    4.0   14.0   12.0
+L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -5285,8 +5285,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 133 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  12.0  21.0   6.0  76.0   17.0   18.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  13.0  22.0   5.0  68.0   17.0    7.0   18.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -5325,10 +5325,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 134 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   3.0   4.0  38.0    2.0    7.0    1.0
-L2 Error %: 0.64
-Cosine Similarity: 0.77
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   3.0   4.0  27.0    2.0    7.0    2.0   10.0
+L2 Error %: 0.62
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
         SBS5     SBS13
 0  48.673426  6.326574
@@ -5405,8 +5405,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 136 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   3.0  24.0   4.0  42.0   34.0   14.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   3.0  23.0   4.0  40.0   34.0   14.0    3.0
 L2 Error %: 0.59
 Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
@@ -5445,9 +5445,9 @@ Cosine Similarity: 0.8
 
                     ################ Sample 137 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0  10.0   1.0   9.0   3.0   23.0
-L2 Error %: 0.52
+   SBS1  SBS2  SBS4  SBS16  SBS19  SBS85
+0   9.0   1.0   8.0    4.0   23.0    1.0
+L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS19
@@ -5485,8 +5485,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 138 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  13.0  17.0  29.0    7.0    6.0   24.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0  13.0  17.0  28.0    7.0    5.0    2.0   24.0
 L2 Error %: 0.52
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -5565,10 +5565,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 140 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  11.0   6.0  13.0  98.0   16.0    2.0
-L2 Error %: 0.48
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  14.0   5.0  13.0  60.0   15.0   21.0    5.0   13.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS13
 0  130.661702  15.338298
@@ -5645,10 +5645,10 @@ Cosine Similarity: 0.8
 
                     ################ Sample 142 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0   5.0   4.0  65.0    6.0   26.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   7.0   5.0  39.0    6.0   14.0   27.0    8.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS19
 0  82.276067  23.723933
@@ -5685,8 +5685,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 143 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS19
-0   7.0   1.0   5.0   16.0
+   SBS1  SBS2  SBS4  SBS19  SBS85
+0   7.0   1.0   5.0   15.0    1.0
 L2 Error %: 0.61
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
@@ -5765,15 +5765,15 @@ Cosine Similarity: 0.88
 
                     ################ Sample 145 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   2.0   4.0   1.0  13.0    3.0   10.0
-L2 Error %: 0.74
-Cosine Similarity: 0.67
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19  SBS85
+0   3.0   3.0   2.0   5.0    3.0    8.0    9.0
+L2 Error %: 0.72
+Cosine Similarity: 0.69
 ############################## Composition After Initial Remove ###############################
-        SBS5     SBS19
-0  23.116847  9.883153
-L2 Error %: 0.78
-Cosine Similarity: 0.63
+   SBS19
+0   33.0
+L2 Error %: 0.83
+Cosine Similarity: 0.56
 
 ############################## Performing Add-Remove Step ##############################
 
@@ -5925,9 +5925,9 @@ Cosine Similarity: 0.88
 
                     ################ Sample 149 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   1.0  17.0  91.0   10.0    2.0    3.0
-L2 Error %: 0.58
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   2.0   1.0  17.0  70.0   12.0    2.0   11.0    3.0    6.0
+L2 Error %: 0.57
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -5965,8 +5965,8 @@ Cosine Similarity: 0.79
 
                     ################ Sample 150 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  13.0  21.0   9.0  31.0    5.0   27.0   20.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0  21.0  10.0  26.0    5.0   25.0   20.0    5.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -6005,8 +6005,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 151 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b
-0   3.0   6.0  31.0    7.0
+   SBS1  SBS2  SBS5  SBS7b  SBS16  SBS85
+0   3.0   6.0  28.0    7.0    1.0    2.0
 L2 Error %: 0.6
 Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
@@ -6045,10 +6045,10 @@ Cosine Similarity: 0.77
 
                     ################ Sample 152 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  10.0   7.0   6.0  40.0    7.0    7.0   14.0
-L2 Error %: 0.59
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0   6.0   6.0  30.0    7.0    7.0   14.0   11.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  91.0
@@ -6085,10 +6085,10 @@ Cosine Similarity: 0.72
 
                     ################ Sample 153 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   4.0   7.0   2.0  40.0   11.0   10.0   19.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   4.0   7.0   3.0  28.0   12.0   10.0   19.0   10.0
 L2 Error %: 0.55
-Cosine Similarity: 0.83
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS19
 0  70.426895  22.573105
@@ -6165,8 +6165,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 155 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  19.0   5.0   8.0   8.0    2.0    6.0   17.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  19.0   5.0   8.0   5.0    2.0    6.0    1.0   17.0    2.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -6245,12 +6245,12 @@ Cosine Similarity: 0.77
 
                     ################ Sample 157 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS7b  SBS19
-0   1.0   1.0    2.0    2.0
-L2 Error %: 0.87
-Cosine Similarity: 0.49
+   SBS1  SBS7b  SBS16  SBS19
+0   1.0    1.0    3.0    1.0
+L2 Error %: 0.85
+Cosine Similarity: 0.52
 ############################## Composition After Initial Remove ###############################
-   SBS19
+   SBS7b
 0    6.0
 L2 Error %: 0.92
 Cosine Similarity: 0.4
@@ -6259,25 +6259,25 @@ Cosine Similarity: 0.4
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS19']
-L2 Error % 0.88
-Cosine Similarity 0.47
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.89
+Cosine Similarity 0.46
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS19']
-L2 Error % 0.88
-Cosine Similarity 0.47
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.89
+Cosine Similarity 0.46
 
 #################### Final Composition #################################
-['SBS1', 'SBS5', 'SBS19']
-L2 Error % 0.88
-Cosine Similarity 0.47
+['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.89
+Cosine Similarity 0.46
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS5  SBS19
-0   1.0   2.0    3.0
-L2 Error %: 0.88
-Cosine Similarity: 0.47
+   SBS1  SBS5  SBS7b
+0   1.0   3.0    2.0
+L2 Error %: 0.89
+Cosine Similarity: 0.46
 
 
 
@@ -6285,8 +6285,8 @@ Cosine Similarity: 0.47
 
                     ################ Sample 158 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0   2.0  17.0  58.0   15.0    5.0   11.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  12.0   2.0  17.0  52.0   16.0    5.0   12.0    4.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -6325,8 +6325,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 159 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  16.0   6.0   6.0  12.0   12.0   15.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  16.0   6.0   6.0   9.0   12.0    2.0   15.0    1.0
 L2 Error %: 0.52
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -6365,10 +6365,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 160 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b
-0   8.0   2.0   5.0  50.0   10.0
-L2 Error %: 0.55
-Cosine Similarity: 0.83
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS85
+0   8.0   1.0   5.0  36.0   11.0    2.0   12.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  75.0
@@ -6565,10 +6565,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 165 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   9.0   2.0   6.0    4.0    2.0   13.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS7b  SBS13  SBS16  SBS19
+0   9.0   2.0    5.0    1.0    6.0   13.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS19
 0  13.486853  22.513147
@@ -6605,8 +6605,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 166 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  15.0  17.0  80.0   20.0    1.0   15.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  16.0  17.0  72.0   20.0    1.0   15.0    7.0
 L2 Error %: 0.43
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -6725,10 +6725,10 @@ Cosine Similarity: 0.89
 
                     ################ Sample 169 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   2.0   9.0  16.0  50.0   17.0    8.0
-L2 Error %: 0.5
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   3.0   8.0  16.0  37.0   16.0    9.0   13.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
        SBS2       SBS5     SBS13
 0  8.779011  75.898909  17.32208
@@ -6765,10 +6765,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 170 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   6.0  50.0    9.0    5.0    3.0
-L2 Error %: 0.64
-Cosine Similarity: 0.77
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   2.0   5.0   6.0  31.0   10.0    4.0   11.0    3.0    6.0
+L2 Error %: 0.62
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  78.0
@@ -6805,8 +6805,8 @@ Cosine Similarity: 0.7
 
                     ################ Sample 171 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   2.0  30.0  86.0    2.0    4.0    4.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   2.0  29.0  80.0    3.0    4.0    4.0    6.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -7085,10 +7085,10 @@ Cosine Similarity: 0.71
 
                     ################ Sample 178 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0   2.0   2.0   7.0  103.0    2.0    1.0   11.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   5.0   2.0   8.0  69.0    4.0    1.0    7.0   11.0   21.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  128.0
@@ -7125,10 +7125,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 179 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS5  SBS7b  SBS13  SBS19
-0   5.0  28.0    1.0    3.0    1.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   1.0   5.0  20.0    1.0    3.0    1.0    2.0    5.0
 L2 Error %: 0.73
-Cosine Similarity: 0.68
+Cosine Similarity: 0.69
 ############################## Composition After Initial Remove ###############################
     SBS2    SBS5
 0  5.242  32.758
@@ -7205,9 +7205,9 @@ Cosine Similarity: 0.67
 
                     ################ Sample 181 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13
-0  20.0  11.0  200.0  269.0   11.0   16.0
-L2 Error %: 0.39
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS16  SBS85
+0  22.0  11.0  199.0  248.0   13.0   16.0   13.0    5.0
+L2 Error %: 0.38
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
@@ -7245,8 +7245,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 182 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   2.0  44.0   7.0  76.0   66.0    4.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   2.0  44.0   8.0  71.0   65.0    4.0    5.0
 L2 Error %: 0.32
 Cosine Similarity: 0.95
 ############################## Composition After Initial Remove ###############################
@@ -7285,8 +7285,8 @@ Cosine Similarity: 0.95
 
                     ################ Sample 183 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0   9.0  25.0  96.0   10.0    5.0   24.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  10.0   9.0  25.0  82.0   11.0    4.0    9.0   24.0    4.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -7365,39 +7365,39 @@ Cosine Similarity: 0.85
 
                     ################ Sample 185 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   6.0   6.0  22.0  29.0    3.0    3.0   13.0
-L2 Error %: 0.65
-Cosine Similarity: 0.76
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   7.0   6.0  20.0  13.0    4.0    3.0    4.0   13.0   12.0
+L2 Error %: 0.63
+Cosine Similarity: 0.77
 ############################## Composition After Initial Remove ###############################
-   SBS5
-0  82.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+        SBS1       SBS4      SBS19
+0  13.057332  39.367995  29.574673
+L2 Error %: 0.72
+Cosine Similarity: 0.69
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5', 'SBS19']
+L2 Error % 0.69
+Cosine Similarity 0.73
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5', 'SBS19']
+L2 Error % 0.69
+Cosine Similarity 0.73
 
 #################### Final Composition #################################
-['SBS1', 'SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+['SBS1', 'SBS4', 'SBS5', 'SBS19']
+L2 Error % 0.69
+Cosine Similarity 0.73
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS5
-0   2.0  80.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+   SBS1  SBS4  SBS5  SBS19
+0   5.0  20.0  43.0   14.0
+L2 Error %: 0.69
+Cosine Similarity: 0.73
 
 
 
@@ -7485,8 +7485,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 188 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS19
-0   8.0   9.0  21.0    2.0   10.0
+   SBS1  SBS4  SBS5  SBS7b  SBS19  SBS85
+0   9.0   9.0  18.0    2.0   10.0    2.0
 L2 Error %: 0.64
 Cosine Similarity: 0.77
 ############################## Composition After Initial Remove ###############################
@@ -7605,8 +7605,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 191 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   7.0   1.0  17.0    3.0    6.0    3.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   7.0   1.0  14.0    3.0    6.0    3.0    3.0
 L2 Error %: 0.69
 Cosine Similarity: 0.72
 ############################## Composition After Initial Remove ###############################
@@ -7645,9 +7645,9 @@ Cosine Similarity: 0.7
 
                     ################ Sample 192 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS13  SBS19
-0  11.0   9.0  74.0    6.0   18.0
-L2 Error %: 0.46
+   SBS1  SBS2  SBS5  SBS13  SBS16  SBS19  SBS85
+0  13.0   9.0  55.0    6.0   15.0   19.0    1.0
+L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -7685,9 +7685,9 @@ Cosine Similarity: 0.82
 
                     ################ Sample 193 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  26.0   9.0  13.0  63.0    5.0    7.0   29.0
-L2 Error %: 0.39
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  26.0   9.0  13.0  59.0    5.0    7.0   28.0    5.0
+L2 Error %: 0.38
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS5     SBS19
@@ -7805,8 +7805,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 196 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  17.0   2.0  17.0  79.0    5.0   13.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  18.0   3.0  17.0  67.0    5.0    8.0   14.0    1.0
 L2 Error %: 0.48
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -7965,10 +7965,10 @@ Cosine Similarity: 0.94
 
                     ################ Sample 200 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS5  SBS19
-0   6.0  75.0    7.0
+   SBS1  SBS5  SBS19  SBS85
+0   6.0  66.0    7.0    9.0
 L2 Error %: 0.63
-Cosine Similarity: 0.77
+Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  88.0
@@ -8005,8 +8005,8 @@ Cosine Similarity: 0.77
 
                     ################ Sample 201 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   6.0  15.0   4.0  90.0    5.0   24.0   10.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   6.0  15.0   4.0  89.0    5.0   24.0   10.0    1.0
 L2 Error %: 0.45
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -8085,10 +8085,10 @@ Cosine Similarity: 0.57
 
                     ################ Sample 203 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS7b  SBS19
-0   1.0   3.0    2.0    1.0
-L2 Error %: 0.78
-Cosine Similarity: 0.62
+   SBS1  SBS2  SBS7b  SBS19  SBS85
+0   1.0   2.0    2.0    1.0    1.0
+L2 Error %: 0.77
+Cosine Similarity: 0.63
 ############################## Composition After Initial Remove ###############################
        SBS2     SBS7b
 0  3.057868  3.942132
@@ -8285,8 +8285,8 @@ Cosine Similarity: 0.92
 
                     ################ Sample 208 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS19
-0  22.0  25.0  129.0  105.0    7.0   20.0   10.0
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS16  SBS19
+0  22.0  25.0  129.0  102.0    7.0   20.0    3.0   10.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -8325,8 +8325,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 209 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0  23.0   4.0  49.0    8.0    6.0    9.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  23.0   3.0  44.0    8.0    6.0    9.0    6.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -8445,9 +8445,9 @@ Cosine Similarity: 0.81
 
                     ################ Sample 212 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13
-0  12.0   7.0  128.0  153.0    1.0   16.0
-L2 Error %: 0.4
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS85
+0  14.0   6.0  125.0  125.0    3.0   15.0   29.0
+L2 Error %: 0.39
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
@@ -8525,10 +8525,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 214 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   9.0   7.0  19.0  78.0    5.0   10.0
-L2 Error %: 0.61
-Cosine Similarity: 0.79
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  10.0   7.0  18.0  55.0    4.0   13.0   12.0    9.0
+L2 Error %: 0.59
+Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  128.0
@@ -8565,10 +8565,10 @@ Cosine Similarity: 0.75
 
                     ################ Sample 215 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   2.0  14.0  83.0    3.0    7.0    2.0
-L2 Error %: 0.48
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   4.0  13.0  55.0    4.0    7.0    7.0    3.0   18.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5
 0  13.852335  97.147665
@@ -8645,8 +8645,8 @@ Cosine Similarity: 0.78
 
                     ################ Sample 217 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0  18.0  11.0  58.0   26.0    7.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   7.0  18.0  11.0  50.0   25.0    7.0    8.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -8685,8 +8685,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 218 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0  27.0  11.0  232.0  164.0    2.0    5.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0  29.0  10.0  229.0  144.0    2.0    6.0   21.0
 L2 Error %: 0.37
 Cosine Similarity: 0.93
 ############################## Composition After Initial Remove ###############################
@@ -8765,8 +8765,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 220 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0  14.0   7.0  14.0  13.0    4.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19  SBS85
+0  14.0   6.0  14.0  13.0    4.0    5.0    1.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -8845,10 +8845,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 222 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  13.0  12.0   7.0  74.0   11.0   11.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  15.0  11.0   8.0  45.0   10.0    8.0   12.0   19.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  128.0
@@ -8925,13 +8925,13 @@ Cosine Similarity: 0.86
 
                     ################ Sample 224 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS19
-0   4.0   2.0    3.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2  SBS16  SBS19
+0   3.0   2.0    1.0    3.0
+L2 Error %: 0.53
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
-   SBS1  SBS2  SBS19
-0   4.0   2.0    3.0
+       SBS1      SBS2     SBS19
+0  4.025837  1.780172  3.193991
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 
@@ -9045,8 +9045,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 227 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  17.0   8.0   5.0  28.0    6.0   18.0   16.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  17.0   8.0   5.0  25.0    6.0   18.0   16.0    3.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -9085,9 +9085,9 @@ Cosine Similarity: 0.89
 
                     ################ Sample 228 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0   2.0   6.0  60.0  100.0    3.0    5.0    9.0
-L2 Error %: 0.52
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0   4.0   7.0  60.0  85.0    5.0    4.0   11.0    9.0
+L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS4        SBS5
@@ -9125,10 +9125,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 229 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   6.0   6.0   4.0    9.0    2.0    3.0
+   SBS1  SBS4  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   6.0   6.0   10.0    1.0    4.0    2.0    1.0
 L2 Error %: 0.69
-Cosine Similarity: 0.72
+Cosine Similarity: 0.73
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS7b
 0  10.724348  19.275652
@@ -9205,8 +9205,8 @@ Cosine Similarity: 0.74
 
                     ################ Sample 231 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS13  SBS19
-0   8.0   2.0  34.0    1.0    3.0
+   SBS1  SBS2  SBS5  SBS13  SBS16  SBS19  SBS85
+0   8.0   2.0  30.0    1.0    3.0    3.0    1.0
 L2 Error %: 0.6
 Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
@@ -9285,8 +9285,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 233 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0  46.0  19.0  93.0   71.0   26.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   6.0  46.0  19.0  91.0   70.0   26.0    3.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -9325,10 +9325,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 234 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   4.0   9.0   7.0  80.0   10.0   11.0
-L2 Error %: 0.64
-Cosine Similarity: 0.77
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   8.0   9.0   7.0  35.0    3.0    9.0   31.0   12.0    7.0
+L2 Error %: 0.59
+Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  121.0
@@ -9365,8 +9365,8 @@ Cosine Similarity: 0.7
 
                     ################ Sample 235 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   2.0   5.0  75.0   10.0    4.0    2.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   3.0   5.0  65.0   10.0    4.0    4.0    2.0    5.0
 L2 Error %: 0.61
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
@@ -9405,8 +9405,8 @@ Cosine Similarity: 0.77
 
                     ################ Sample 236 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   1.0  28.0  99.0  93.0   18.0   10.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   2.0  28.0  98.0  88.0   18.0   11.0    4.0
 L2 Error %: 0.39
 Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
@@ -9485,9 +9485,9 @@ Cosine Similarity: 0.91
 
                     ################ Sample 238 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  10.0  17.0  12.0  76.0    1.0    5.0   11.0
-L2 Error %: 0.5
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0  16.0  12.0  66.0    2.0    5.0   11.0   10.0
+L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
@@ -9645,10 +9645,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 242 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0  25.0  11.0  23.0  83.0   21.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS19  SBS85
+0  25.0  10.0  23.0  65.0   22.0   18.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
        SBS1       SBS5
 0  18.66897  144.33103
@@ -9765,8 +9765,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 245 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  14.0   6.0  42.0  76.0    3.0    6.0    8.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0   6.0  42.0  71.0    4.0    6.0    8.0    4.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -9845,10 +9845,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 247 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   2.0   2.0  10.0  37.0    9.0    1.0
-L2 Error %: 0.63
-Cosine Similarity: 0.77
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0   3.0   1.0  10.0  22.0    9.0    2.0    2.0   12.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  61.0
@@ -9885,8 +9885,8 @@ Cosine Similarity: 0.72
 
                     ################ Sample 248 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0  19.0  11.0  92.0   16.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0   7.0  19.0  11.0  88.0   16.0    3.0    5.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -9925,10 +9925,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 249 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS13  SBS19
-0   1.0  18.0  143.0   24.0    4.0
-L2 Error %: 0.5
-Cosine Similarity: 0.86
+   SBS1  SBS2  SBS5  SBS13  SBS16  SBS19  SBS85
+0   6.0  18.0  90.0   22.0   29.0    7.0   18.0
+L2 Error %: 0.47
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
 0  18.180916  148.624932  23.194152
@@ -10005,10 +10005,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 251 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   2.0  10.0   8.0  76.0    6.0   11.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   3.0  10.0   8.0  59.0    7.0   11.0    8.0    5.0    7.0
 L2 Error %: 0.58
-Cosine Similarity: 0.81
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  10.744757  107.255243
@@ -10045,8 +10045,8 @@ Cosine Similarity: 0.8
 
                     ################ Sample 252 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  11.0   7.0  12.0  32.0   14.0    6.0    3.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  11.0   6.0  12.0  28.0   13.0    6.0    4.0    5.0
 L2 Error %: 0.56
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
@@ -10085,10 +10085,10 @@ Cosine Similarity: 0.78
 
                     ################ Sample 253 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0  12.0  15.0  37.0  108.0   10.0   23.0   21.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  13.0  14.0  37.0  94.0   11.0   23.0    3.0   21.0   10.0
 L2 Error %: 0.5
-Cosine Similarity: 0.86
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  226.0
@@ -10171,8 +10171,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 255 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   7.0  78.0  79.0    4.0   20.0    9.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   1.0   7.0  78.0  70.0    5.0   19.0    1.0    9.0    7.0
 L2 Error %: 0.47
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -10251,8 +10251,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 257 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   6.0   1.0  36.0  99.0    5.0    9.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19  SBS85
+0   7.0   1.0  35.0  88.0    5.0    9.0   11.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -10291,10 +10291,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 258 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS5  SBS13  SBS19
-0  46.0  68.0   47.0    7.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS2  SBS5  SBS13  SBS16  SBS19
+0  45.0  52.0   46.0   17.0    8.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
         SBS2      SBS13
 0  84.372295  83.627705
@@ -10371,10 +10371,10 @@ Cosine Similarity: 0.75
 
                     ################ Sample 260 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   3.0  11.0  14.0  83.0    4.0   11.0   11.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   4.0  10.0  15.0  70.0    5.0   11.0   11.0   11.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  137.0
@@ -10451,10 +10451,10 @@ Cosine Similarity: 0.89
 
                     ################ Sample 262 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0   8.0   7.0  30.0    3.0    9.0   18.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  13.0   7.0   7.0  13.0    4.0    8.0    9.0   19.0    7.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2      SBS13      SBS19
 0  22.565884  13.086076  14.516354  36.831686
@@ -10651,10 +10651,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 267 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   4.0   1.0  27.0    4.0    7.0    3.0
+   SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   3.0   1.0  21.0    4.0    7.0    4.0    3.0    3.0
 L2 Error %: 0.68
-Cosine Similarity: 0.73
+Cosine Similarity: 0.74
 ############################## Composition After Initial Remove ###############################
         SBS5     SBS13
 0  39.602986  6.397014
@@ -10691,8 +10691,8 @@ Cosine Similarity: 0.71
 
                     ################ Sample 268 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  20.0  20.0  26.0  21.0    9.0   20.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  20.0  20.0  26.0  20.0    9.0    1.0   20.0
 L2 Error %: 0.56
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
@@ -10771,8 +10771,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 270 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  26.0  11.0   6.0  72.0   13.0    6.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  26.0  11.0   6.0  67.0   13.0    7.0    4.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -10811,10 +10811,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 271 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   5.0   4.0   7.0  36.0    2.0    5.0
-L2 Error %: 0.66
-Cosine Similarity: 0.75
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0   6.0   4.0   7.0  22.0    1.0    2.0   12.0    5.0
+L2 Error %: 0.64
+Cosine Similarity: 0.77
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  59.0
@@ -10851,13 +10851,13 @@ Cosine Similarity: 0.71
 
                     ################ Sample 272 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS19
-0  16.0   7.0  25.0   17.0
+   SBS1  SBS2  SBS4  SBS19  SBS85
+0  16.0   7.0  23.0   17.0    2.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
-   SBS1  SBS2  SBS4  SBS19
-0  16.0   7.0  25.0   17.0
+        SBS1      SBS2       SBS4      SBS19
+0  16.396894  7.078212  24.103178  17.421716
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 
@@ -10891,8 +10891,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 273 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0  10.0   6.0  98.0   19.0    6.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   6.0   9.0   6.0  92.0   19.0    7.0    6.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -10971,8 +10971,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 275 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   7.0   5.0  30.0    1.0    1.0    3.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   7.0   5.0  28.0    1.0    1.0    3.0    2.0
 L2 Error %: 0.63
 Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
@@ -11011,8 +11011,8 @@ Cosine Similarity: 0.73
 
                     ################ Sample 276 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0  10.0  12.0  134.0  175.0   14.0    1.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0  12.0  11.0  132.0  154.0   14.0    3.0   20.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -11051,8 +11051,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 277 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  20.0  13.0   4.0  25.0    4.0    4.0    4.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  19.0  13.0   5.0  18.0    5.0    4.0    4.0    6.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -11091,8 +11091,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 278 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0   3.0   9.0  218.0  352.0   17.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS85
+0   4.0   9.0  216.0  336.0   17.0    3.0   14.0
 L2 Error %: 0.37
 Cosine Similarity: 0.93
 ############################## Composition After Initial Remove ###############################
@@ -11131,8 +11131,8 @@ Cosine Similarity: 0.92
 
                     ################ Sample 279 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   3.0   8.0  14.0  18.0    6.0   12.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   3.0   8.0  14.0  17.0    6.0   12.0    1.0
 L2 Error %: 0.67
 Cosine Similarity: 0.75
 ############################## Composition After Initial Remove ###############################
@@ -11171,10 +11171,10 @@ Cosine Similarity: 0.69
 
                     ################ Sample 280 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0   3.0  23.0  145.0  129.0   12.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS85
+0   4.0  22.0  143.0  120.0   12.0   11.0
 L2 Error %: 0.45
-Cosine Similarity: 0.89
+Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS4       SBS5
 0  22.621479  147.10754  142.27098
@@ -11291,10 +11291,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 283 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0  16.0   1.0  45.0  101.0    4.0    2.0   21.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  16.0  45.0  93.0    4.0    2.0   21.0    9.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  190.0
@@ -11331,8 +11331,8 @@ Cosine Similarity: 0.8
 
                     ################ Sample 284 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   1.0   5.0  125.0  115.0   10.0   21.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   2.0   5.0  123.0  111.0   10.0   21.0    5.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -11371,8 +11371,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 285 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  13.0   2.0  15.0  44.0   10.0    3.0   20.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  13.0   2.0  15.0  41.0   10.0    3.0   20.0    3.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -11411,9 +11411,9 @@ Cosine Similarity: 0.83
 
                     ################ Sample 286 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  16.0  10.0  22.0  42.0    9.0   15.0
-L2 Error %: 0.45
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  16.0  10.0  22.0  34.0    9.0   15.0    8.0
+L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2       SBS4      SBS13      SBS19
@@ -11451,10 +11451,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 287 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS19
-0  11.0   6.0  91.0   19.0
-L2 Error %: 0.52
-Cosine Similarity: 0.85
+   SBS1  SBS2  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  12.0   5.0  64.0    1.0    7.0   19.0   19.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  127.0
@@ -11531,9 +11531,9 @@ Cosine Similarity: 0.87
 
                     ################ Sample 289 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   2.0   3.0  78.0   13.0    5.0   11.0
-L2 Error %: 0.55
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   2.0   3.0  67.0   14.0    5.0    7.0   11.0    3.0
+L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS7b
@@ -11611,8 +11611,8 @@ Cosine Similarity: 0.73
 
                     ################ Sample 291 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   3.0  15.0  19.0  63.0   10.0    8.0    3.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   3.0  15.0  19.0  62.0   10.0    8.0    3.0    1.0
 L2 Error %: 0.58
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
@@ -11697,8 +11697,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 293 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS7b  SBS13  SBS19
-0  10.0  44.0  112.0    8.0   65.0   17.0
+   SBS1  SBS2   SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  10.0  44.0  110.0    8.0   65.0    1.0   17.0    1.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -11737,10 +11737,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 294 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  18.0  17.0  14.0   4.0   18.0    7.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2  SBS4  SBS13  SBS19  SBS85
+0  17.0  15.0  12.0   16.0    7.0   11.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2      SBS13
 0  26.440264  25.208545  26.351191
@@ -11817,10 +11817,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 296 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   8.0   4.0  22.0  94.0    9.0   23.0   13.0
-L2 Error %: 0.55
-Cosine Similarity: 0.83
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   9.0   4.0  22.0  75.0   10.0   22.0   13.0   18.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS13
 0  151.994151  21.005849
@@ -11857,8 +11857,8 @@ Cosine Similarity: 0.8
 
                     ################ Sample 297 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   5.0   5.0  29.0    1.0   14.0    5.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   5.0   5.0   5.0  27.0    1.0   13.0    5.0    3.0
 L2 Error %: 0.59
 Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
@@ -11937,8 +11937,8 @@ Cosine Similarity: 0.77
 
                     ################ Sample 299 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0   6.0   7.0  25.0    5.0    5.0   16.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   9.0   6.0   7.0  19.0    5.0    5.0    2.0   16.0    4.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -12137,8 +12137,8 @@ Cosine Similarity: 0.74
 
                     ################ Sample 304 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5
-0   8.0  10.0  13.0  95.0
+   SBS1  SBS2  SBS4  SBS5  SBS16  SBS85
+0   9.0  10.0  13.0  92.0    1.0    1.0
 L2 Error %: 0.55
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -12177,10 +12177,10 @@ Cosine Similarity: 0.8
 
                     ################ Sample 305 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  17.0   9.0  49.0  76.0   16.0   10.0    4.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  18.0   8.0  48.0  52.0   17.0    9.0    6.0    5.0   18.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  181.0
@@ -12217,10 +12217,10 @@ Cosine Similarity: 0.76
 
                     ################ Sample 306 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   7.0  14.0  18.0  50.0   10.0    4.0
-L2 Error %: 0.62
-Cosine Similarity: 0.78
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   9.0  14.0  18.0  32.0    9.0   14.0    5.0    2.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5
 0  13.965726  89.034274
@@ -12257,10 +12257,10 @@ Cosine Similarity: 0.77
 
                     ################ Sample 307 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0  17.0  26.0  49.0    8.0   11.0
-L2 Error %: 0.51
-Cosine Similarity: 0.86
+   SBS1  SBS4  SBS5  SBS13  SBS19  SBS85
+0  17.0  26.0  35.0    8.0   12.0   13.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
      SBS1    SBS5
 0  13.984  97.016
@@ -12297,10 +12297,10 @@ Cosine Similarity: 0.8
 
                     ################ Sample 308 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0   7.0   9.0  55.0    5.0    9.0
-L2 Error %: 0.68
-Cosine Similarity: 0.73
+   SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   6.0   8.0  28.0    4.0   19.0   10.0   10.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  85.0
@@ -12337,8 +12337,8 @@ Cosine Similarity: 0.66
 
                     ################ Sample 309 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  22.0  15.0  22.0  28.0    4.0   14.0   30.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  22.0  14.0  22.0  24.0    4.0   14.0   31.0    4.0
 L2 Error %: 0.38
 Cosine Similarity: 0.93
 ############################## Composition After Initial Remove ###############################
@@ -12377,8 +12377,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 310 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  21.0   9.0   5.0  43.0   15.0    9.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  21.0   9.0   6.0  37.0   15.0    9.0    5.0
 L2 Error %: 0.48
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -12417,9 +12417,9 @@ Cosine Similarity: 0.87
 
                     ################ Sample 311 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19
-0   4.0  12.0  70.0  117.0   14.0    6.0
-L2 Error %: 0.53
+   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   5.0  11.0  69.0  109.0    1.0   14.0    2.0    7.0    5.0
+L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS4        SBS5
@@ -12457,8 +12457,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 312 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   5.0  19.0  29.0  83.0   18.0   12.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   5.0  19.0  29.0  78.0   18.0   12.0    5.0
 L2 Error %: 0.57
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
@@ -12658,8 +12658,8 @@ Cosine Similarity: 0.89
                     ################ Sample 317 #################
 ############################# Initial Composition ####################################
    SBS1  SBS5  SBS7b
-0   4.0   4.0    1.0
-L2 Error %: 0.67
+0   4.0   3.0    2.0
+L2 Error %: 0.66
 Cosine Similarity: 0.75
 ############################## Composition After Initial Remove ###############################
    SBS1
@@ -12737,8 +12737,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 319 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  17.0  17.0  15.0  14.0   14.0   10.0   32.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  17.0  16.0  15.0   6.0   14.0   10.0   32.0    9.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -12777,9 +12777,9 @@ Cosine Similarity: 0.85
 
                     ################ Sample 320 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0   6.0  30.0  244.0  238.0   22.0   14.0
-L2 Error %: 0.43
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   8.0  29.0  241.0  217.0   22.0   16.0   21.0
+L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
@@ -12817,8 +12817,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 321 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   5.0  10.0  75.0    2.0   10.0    8.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   5.0   5.0  11.0  69.0    2.0   10.0    8.0    5.0
 L2 Error %: 0.57
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
@@ -12857,10 +12857,10 @@ Cosine Similarity: 0.76
 
                     ################ Sample 322 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0   6.0   6.0  11.0    8.0   10.0
-L2 Error %: 0.74
-Cosine Similarity: 0.67
+   SBS1  SBS4  SBS13  SBS16  SBS19  SBS85
+0   7.0   6.0    7.0    9.0   10.0    2.0
+L2 Error %: 0.73
+Cosine Similarity: 0.69
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS13      SBS19
 0  11.038014  12.034672  17.927314
@@ -12897,8 +12897,8 @@ Cosine Similarity: 0.66
 
                     ################ Sample 323 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13
-0   1.0  14.0  314.0  289.0   33.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS16  SBS85
+0   3.0  14.0  311.0  271.0   33.0    9.0   10.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -12937,10 +12937,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 324 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   8.0   3.0   5.0  46.0    9.0    2.0
-L2 Error %: 0.63
-Cosine Similarity: 0.77
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16
+0   9.0   3.0   5.0  29.0   11.0    1.0   15.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  73.0
@@ -12977,10 +12977,10 @@ Cosine Similarity: 0.74
 
                     ################ Sample 325 #################
 ############################# Initial Composition ####################################
-   SBS2   SBS4   SBS5  SBS13  SBS19
-0  31.0  298.0  334.0   22.0    3.0
-L2 Error %: 0.43
-Cosine Similarity: 0.9
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   1.0  29.0  292.0  303.0   22.0    6.0   35.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
          SBS4        SBS5
 0  296.938937  391.061063
@@ -13217,10 +13217,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 331 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS7b  SBS13
-0  20.0   1.0  99.0    6.0   28.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   1.0  19.0   2.0  85.0    6.0   28.0    1.0   12.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
 0  20.532588  105.670439  27.796973
@@ -13297,10 +13297,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 333 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b
-0   5.0   3.0   6.0  69.0    6.0
-L2 Error %: 0.6
-Cosine Similarity: 0.8
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS85
+0   7.0   3.0   6.0  41.0    8.0   17.0    7.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  89.0
@@ -13337,10 +13337,10 @@ Cosine Similarity: 0.78
 
                     ################ Sample 334 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0  16.0   5.0  25.0    1.0   18.0
+   SBS1  SBS4  SBS5  SBS13  SBS19  SBS85
+0  16.0   5.0  22.0    1.0   18.0    3.0
 L2 Error %: 0.5
-Cosine Similarity: 0.86
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS19
 0  29.067053  35.932947
@@ -13377,8 +13377,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 335 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  10.0   4.0   7.0  13.0    1.0    3.0   21.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0   4.0   7.0  11.0    2.0    3.0   19.0    3.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -13417,9 +13417,9 @@ Cosine Similarity: 0.86
 
                     ################ Sample 336 #################
 ############################# Initial Composition ####################################
-   SBS4   SBS5  SBS13  SBS19
-0  21.0  103.0    3.0   13.0
-L2 Error %: 0.66
+   SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  20.0  85.0    3.0    9.0   13.0   10.0
+L2 Error %: 0.65
 Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -13497,10 +13497,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 338 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   5.0   4.0  20.0  66.0    5.0    7.0
-L2 Error %: 0.65
-Cosine Similarity: 0.76
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19  SBS85
+0   7.0   3.0  20.0  44.0    6.0    7.0   20.0
+L2 Error %: 0.62
+Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  107.0
@@ -13537,8 +13537,8 @@ Cosine Similarity: 0.72
 
                     ################ Sample 339 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4
-0   4.0   2.0   1.0
+   SBS1  SBS2  SBS4  SBS85
+0   4.0   1.0   1.0    1.0
 L2 Error %: 0.76
 Cosine Similarity: 0.64
 ############################## Composition After Initial Remove ###############################
@@ -13657,39 +13657,39 @@ Cosine Similarity: 0.91
 
                     ################ Sample 342 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13
-0   4.0   5.0   2.0  87.0    7.0
-L2 Error %: 0.6
-Cosine Similarity: 0.8
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   7.0   5.0   2.0  42.0    2.0    6.0   27.0    2.0   12.0
+L2 Error %: 0.52
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
-    SBS5
-0  105.0
-L2 Error %: 0.64
-Cosine Similarity: 0.76
+        SBS5      SBS16
+0  78.798111  26.201889
+L2 Error %: 0.59
+Cosine Similarity: 0.81
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.64
-Cosine Similarity 0.77
+Best Signature Composition ['SBS1', 'SBS5', 'SBS16']
+L2 Error % 0.58
+Cosine Similarity 0.82
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.64
-Cosine Similarity 0.77
+Best Signature Composition ['SBS1', 'SBS5', 'SBS16']
+L2 Error % 0.58
+Cosine Similarity 0.82
 
 #################### Final Composition #################################
-['SBS1', 'SBS5']
-L2 Error % 0.64
-Cosine Similarity 0.77
+['SBS1', 'SBS5', 'SBS16']
+L2 Error % 0.58
+Cosine Similarity 0.82
 ####################################### Composition After Add-Remove #######################################
-   SBS1   SBS5
-0   3.0  102.0
-L2 Error %: 0.64
-Cosine Similarity: 0.77
+   SBS1  SBS5  SBS16
+0   5.0  70.0   30.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
 
 
 
@@ -13737,8 +13737,8 @@ Cosine Similarity: 0.88
 
                     ################ Sample 344 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19
-0   9.0  28.0  22.0  135.0   33.0   24.0
+   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19  SBS85
+0  10.0  27.0  22.0  119.0   32.0   25.0   16.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -13817,9 +13817,9 @@ Cosine Similarity: 0.89
 
                     ################ Sample 346 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   8.0   9.0  11.0  63.0   10.0   10.0    1.0
-L2 Error %: 0.46
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   8.0   8.0  11.0  62.0   10.0   10.0    1.0    2.0
+L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
        SBS2        SBS5
@@ -13897,10 +13897,10 @@ Cosine Similarity: 0.89
 
                     ################ Sample 348 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  11.0   3.0  11.0  41.0    1.0    8.0
-L2 Error %: 0.68
-Cosine Similarity: 0.73
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  11.0   3.0  11.0  23.0    1.0    6.0    9.0   11.0
+L2 Error %: 0.66
+Cosine Similarity: 0.75
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  75.0
@@ -13937,10 +13937,10 @@ Cosine Similarity: 0.71
 
                     ################ Sample 349 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0   3.0  12.0  82.0    4.0   11.0
-L2 Error %: 0.65
-Cosine Similarity: 0.76
+   SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   2.0  11.0  52.0    3.0   20.0   12.0   12.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  112.0
@@ -13977,8 +13977,8 @@ Cosine Similarity: 0.73
 
                     ################ Sample 350 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b
-0   1.0   1.0   8.0   7.0    1.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS85
+0   1.0   1.0   9.0   5.0    1.0    1.0
 L2 Error %: 0.86
 Cosine Similarity: 0.5
 ############################## Composition After Initial Remove ###############################
@@ -14017,39 +14017,39 @@ Cosine Similarity: 0.41
 
                     ################ Sample 351 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  16.0   7.0  12.0  25.0   16.0    3.0    3.0
-L2 Error %: 0.46
-Cosine Similarity: 0.89
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  17.0   7.0  12.0  10.0   17.0    3.0    8.0    3.0    5.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
-        SBS1       SBS5      SBS7b
-0  14.922258  47.494255  19.583488
-L2 Error %: 0.52
+        SBS1       SBS2      SBS7b
+0  30.707706  12.907529  38.384766
+L2 Error %: 0.53
 Cosine Similarity: 0.85
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.52
-Cosine Similarity 0.85
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS7b']
+L2 Error % 0.48
+Cosine Similarity 0.88
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.52
-Cosine Similarity 0.85
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS7b']
+L2 Error % 0.48
+Cosine Similarity 0.88
 
 #################### Final Composition #################################
-['SBS1', 'SBS5', 'SBS7b']
-L2 Error % 0.52
-Cosine Similarity 0.85
+['SBS1', 'SBS2', 'SBS5', 'SBS7b']
+L2 Error % 0.48
+Cosine Similarity 0.88
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS5  SBS7b
-0  15.0  47.0   20.0
-L2 Error %: 0.52
-Cosine Similarity: 0.85
+   SBS1  SBS2  SBS5  SBS7b
+0  16.0   7.0  41.0   18.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 
 
 
@@ -14097,10 +14097,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 353 #################
 ############################# Initial Composition ####################################
-   SBS4  SBS5  SBS7b
-0   1.0   2.0    9.0
+   SBS1  SBS4  SBS7b  SBS85
+0   1.0   1.0    7.0    3.0
 L2 Error %: 0.85
-Cosine Similarity: 0.52
+Cosine Similarity: 0.53
 ############################## Composition After Initial Remove ###############################
    SBS7b
 0   12.0
@@ -14137,10 +14137,10 @@ Cosine Similarity: 0.52
 
                     ################ Sample 354 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   4.0   8.0  15.0  65.0    6.0   12.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   5.0   8.0  15.0  47.0    6.0    7.0   13.0    9.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  110.0
@@ -14177,10 +14177,10 @@ Cosine Similarity: 0.75
 
                     ################ Sample 355 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4   SBS5  SBS13  SBS19
-0   1.0  19.0  102.0    2.0   21.0
-L2 Error %: 0.51
-Cosine Similarity: 0.86
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   3.0  19.0  73.0    1.0    1.0   12.0   22.0   14.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS19
 0  123.906141  21.093859
@@ -14217,10 +14217,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 356 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   8.0   2.0  17.0  67.0    1.0    5.0    6.0
-L2 Error %: 0.63
-Cosine Similarity: 0.78
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  10.0   1.0  17.0  34.0    4.0    4.0   13.0    7.0   16.0
+L2 Error %: 0.59
+Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  106.0
@@ -14257,10 +14257,10 @@ Cosine Similarity: 0.75
 
                     ################ Sample 357 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   3.0  10.0   9.0  56.0    2.0   31.0    8.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   4.0  10.0   9.0  49.0    2.0   30.0    8.0    7.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS13
 0  89.533543  29.466457
@@ -14297,8 +14297,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 358 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS19
-0  11.0   6.0  36.0  129.0    4.0
+   SBS1  SBS2  SBS4   SBS5  SBS16  SBS19
+0  12.0   6.0  36.0  114.0   13.0    5.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -14337,10 +14337,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 359 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  13.0   6.0   7.0  59.0    1.0   14.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0   6.0   8.0  45.0    1.0    1.0   14.0   11.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  100.0
@@ -14377,8 +14377,8 @@ Cosine Similarity: 0.78
 
                     ################ Sample 360 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0  11.0  16.0  33.0   25.0    8.0    7.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   9.0  11.0  16.0  31.0   25.0    8.0    7.0    2.0
 L2 Error %: 0.48
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -14423,8 +14423,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 361 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   7.0   3.0  11.0  56.0    5.0   15.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   7.0   3.0  11.0  46.0    5.0    1.0   16.0    8.0
 L2 Error %: 0.6
 Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
@@ -14463,8 +14463,8 @@ Cosine Similarity: 0.74
 
                     ################ Sample 362 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13
-0  10.0  29.0  99.0   11.0
+   SBS2  SBS4   SBS5  SBS13  SBS85
+0   9.0  28.0  100.0   11.0    1.0
 L2 Error %: 0.59
 Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
@@ -14503,8 +14503,8 @@ Cosine Similarity: 0.72
 
                     ################ Sample 363 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0  15.0   9.0  54.0    8.0    8.0    2.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   5.0  14.0   9.0  50.0    8.0    8.0    2.0    5.0
 L2 Error %: 0.57
 Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
@@ -14663,8 +14663,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 367 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   9.0  35.0  86.0    5.0   62.0   13.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0  33.0  67.0    6.0   60.0   14.0   20.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -14703,8 +14703,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 368 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0  20.0  18.0  126.0  185.0   19.0   11.0
+   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0  21.0  17.0  124.0  162.0   18.0   13.0   24.0
 L2 Error %: 0.47
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -14743,8 +14743,8 @@ Cosine Similarity: 0.85
 
                     ################ Sample 369 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13
-0  11.0   1.0  35.0    6.0    4.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS85
+0  11.0   1.0  34.0    6.0    4.0    1.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -14823,10 +14823,10 @@ Cosine Similarity: 0.71
 
                     ################ Sample 371 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   2.0  18.0  11.0  66.0   15.0    3.0
-L2 Error %: 0.61
-Cosine Similarity: 0.8
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   5.0  17.0  11.0  32.0   14.0   24.0    5.0    7.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  17.799996  81.862069  15.337934
@@ -14863,39 +14863,39 @@ Cosine Similarity: 0.79
 
                     ################ Sample 372 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   5.0   2.0  20.0    6.0    1.0    6.0
-L2 Error %: 0.74
-Cosine Similarity: 0.67
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   6.0   1.0   1.0   5.0    6.0    1.0    4.0    6.0   10.0
+L2 Error %: 0.72
+Cosine Similarity: 0.7
 ############################## Composition After Initial Remove ###############################
-   SBS5
-0  40.0
-L2 Error %: 0.81
-Cosine Similarity: 0.59
+        SBS1      SBS7b
+0  13.696625  26.303375
+L2 Error %: 0.8
+Cosine Similarity: 0.6
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.8
-Cosine Similarity 0.61
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.76
+Cosine Similarity 0.65
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS5']
-L2 Error % 0.8
-Cosine Similarity 0.61
+Best Signature Composition ['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.76
+Cosine Similarity 0.65
 
 #################### Final Composition #################################
-['SBS1', 'SBS5']
-L2 Error % 0.8
-Cosine Similarity 0.61
+['SBS1', 'SBS5', 'SBS7b']
+L2 Error % 0.76
+Cosine Similarity 0.65
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS5
-0   3.0  37.0
-L2 Error %: 0.8
-Cosine Similarity: 0.61
+   SBS1  SBS5  SBS7b
+0   4.0  27.0    9.0
+L2 Error %: 0.76
+Cosine Similarity: 0.65
 
 
 
@@ -14944,9 +14944,9 @@ Cosine Similarity: 0.77
                     ################ Sample 374 #################
 ############################# Initial Composition ####################################
    SBS1  SBS4  SBS5  SBS7b  SBS19
-0   3.0   2.0   7.0    1.0   10.0
+0   4.0   2.0   7.0    1.0    9.0
 L2 Error %: 0.65
-Cosine Similarity: 0.75
+Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
        SBS1      SBS19
 0  6.543007  16.456993
@@ -15023,8 +15023,8 @@ Cosine Similarity: 0.66
 
                     ################ Sample 376 #################
 ############################# Initial Composition ####################################
-   SBS2   SBS4   SBS5  SBS13  SBS19
-0   8.0  159.0  191.0    8.0    4.0
+   SBS2   SBS4   SBS5  SBS13  SBS19  SBS85
+0   7.0  157.0  184.0    7.0    4.0   11.0
 L2 Error %: 0.45
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -15063,10 +15063,10 @@ Cosine Similarity: 0.89
 
                     ################ Sample 377 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   7.0  17.0   4.0  51.0   26.0    6.0
-L2 Error %: 0.62
-Cosine Similarity: 0.78
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   8.0  17.0   4.0  32.0   24.0   15.0    7.0    4.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  15.733783  71.432884  23.833333
@@ -15103,9 +15103,9 @@ Cosine Similarity: 0.78
 
                     ################ Sample 378 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   4.0  12.0   5.0  86.0   12.0    1.0
-L2 Error %: 0.63
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   5.0  12.0   5.0  77.0   11.0    7.0    2.0    1.0
+L2 Error %: 0.62
 Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
        SBS2       SBS5
@@ -15183,10 +15183,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 380 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   9.0   8.0  34.0  84.0    5.0   11.0
-L2 Error %: 0.5
-Cosine Similarity: 0.86
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  10.0   7.0  34.0  62.0    1.0    5.0   11.0   21.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  151.0
@@ -15303,9 +15303,9 @@ Cosine Similarity: 0.81
 
                     ################ Sample 383 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   4.0  17.0  19.0  61.0    2.0   11.0
-L2 Error %: 0.51
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16
+0   5.0  17.0  19.0  52.0    3.0   11.0    7.0
+L2 Error %: 0.5
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
@@ -15343,39 +15343,39 @@ Cosine Similarity: 0.85
 
                     ################ Sample 384 #################
 ############################# Initial Composition ####################################
-   SBS4  SBS5  SBS13
-0   3.0  68.0    3.0
-L2 Error %: 0.74
-Cosine Similarity: 0.67
+   SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   2.0  31.0    2.0   20.0    2.0   17.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
 ############################## Composition After Initial Remove ###############################
-   SBS5
-0  74.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+        SBS5      SBS16
+0  46.258171  27.741829
+L2 Error %: 0.67
+Cosine Similarity: 0.74
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+Best Signature Composition ['SBS5', 'SBS16']
+L2 Error % 0.67
+Cosine Similarity 0.74
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+Best Signature Composition ['SBS5', 'SBS16']
+L2 Error % 0.67
+Cosine Similarity 0.74
 
 #################### Final Composition #################################
-['SBS5']
-L2 Error % 0.75
-Cosine Similarity 0.66
+['SBS5', 'SBS16']
+L2 Error % 0.67
+Cosine Similarity 0.74
 ####################################### Composition After Add-Remove #######################################
-   SBS5
-0  74.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+   SBS5  SBS16
+0  46.0   28.0
+L2 Error %: 0.67
+Cosine Similarity: 0.74
 
 
 
@@ -15383,8 +15383,8 @@ Cosine Similarity: 0.66
 
                     ################ Sample 385 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0   4.0   2.0   1.0  42.0    7.0
+   SBS1  SBS2  SBS4  SBS5  SBS19  SBS85
+0   4.0   2.0   1.0  40.0    7.0    2.0
 L2 Error %: 0.67
 Cosine Similarity: 0.74
 ############################## Composition After Initial Remove ###############################
@@ -15423,10 +15423,10 @@ Cosine Similarity: 0.72
 
                     ################ Sample 386 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS19
-0   9.0   5.0  34.0    1.0   14.0
-L2 Error %: 0.62
-Cosine Similarity: 0.79
+   SBS1  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  10.0   5.0  19.0    2.0    5.0   14.0    8.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
 ############################## Composition After Initial Remove ###############################
        SBS1       SBS5      SBS19
 0  9.281925  39.177057  14.541019
@@ -15463,10 +15463,10 @@ Cosine Similarity: 0.78
 
                     ################ Sample 387 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19
-0  13.0  22.0  13.0  115.0   14.0   26.0
-L2 Error %: 0.43
-Cosine Similarity: 0.9
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  15.0  23.0  13.0  87.0   13.0   24.0   28.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  20.778748  182.221252
@@ -15623,9 +15623,9 @@ Cosine Similarity: 0.85
 
                     ################ Sample 391 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  17.0   2.0  30.0  46.0    2.0   20.0
-L2 Error %: 0.53
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  18.0   1.0  30.0  36.0    2.0    2.0   20.0    8.0
+L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS4      SBS19
@@ -15743,10 +15743,10 @@ Cosine Similarity: 0.77
 
                     ################ Sample 394 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0   1.0  20.0  69.0    5.0    8.0
-L2 Error %: 0.73
-Cosine Similarity: 0.69
+   SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  17.0  36.0    4.0   13.0    9.0   24.0
+L2 Error %: 0.66
+Cosine Similarity: 0.75
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  103.0
@@ -15783,10 +15783,10 @@ Cosine Similarity: 0.64
 
                     ################ Sample 395 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0  15.0   4.0   2.0  18.0    7.0   23.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19
+0  16.0   4.0   2.0   9.0    8.0    7.0   23.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS19
 0  24.296111  44.703889
@@ -15823,10 +15823,10 @@ Cosine Similarity: 0.87
 
                     ################ Sample 396 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0   2.0   5.0   9.0    2.0   12.0
-L2 Error %: 0.66
-Cosine Similarity: 0.75
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   7.0   2.0   4.0   3.0    2.0    3.0   12.0    3.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS19
 0  11.750297  24.249703
@@ -15863,10 +15863,10 @@ Cosine Similarity: 0.73
 
                     ################ Sample 397 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   3.0  17.0   1.0  71.0    7.0    1.0   16.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   4.0  16.0   1.0  60.0    8.0    1.0    2.0   16.0    8.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  15.891488  100.108512
@@ -15903,10 +15903,10 @@ Cosine Similarity: 0.82
 
                     ################ Sample 398 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0   4.0  14.0  17.0   14.0    4.0   11.0
-L2 Error %: 0.56
-Cosine Similarity: 0.83
+   SBS1  SBS2  SBS4  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  10.0   3.0  13.0   13.0    4.0    8.0   11.0   11.0
+L2 Error %: 0.53
+Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS7b
 0  21.026784  51.973216
@@ -15983,9 +15983,9 @@ Cosine Similarity: 0.93
 
                     ################ Sample 400 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   9.0   9.0   9.0  10.0    9.0    4.0   13.0
-L2 Error %: 0.56
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   9.0   8.0   9.0   5.0    9.0    4.0   13.0    6.0
+L2 Error %: 0.55
 Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS2      SBS19
@@ -16023,8 +16023,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 401 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19
-0   7.0  31.0  28.0  109.0   49.0   12.0
+   SBS1  SBS2  SBS4   SBS5  SBS13  SBS19  SBS85
+0   8.0  30.0  28.0  103.0   48.0   13.0    6.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -16063,8 +16063,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 402 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS7b  SBS13  SBS19
-0  14.0  44.0  116.0   17.0   33.0    4.0
+   SBS1  SBS2   SBS5  SBS7b  SBS13  SBS19  SBS85
+0  14.0  43.0  110.0   17.0   32.0    5.0    7.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -16143,8 +16143,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 404 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS19
-0  15.0   3.0  19.0   1.0    6.0
+   SBS1  SBS2  SBS4  SBS19  SBS85
+0  14.0   3.0  20.0    6.0    1.0
 L2 Error %: 0.47
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -16343,10 +16343,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 409 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b
-0   1.0   3.0  35.0    2.0
-L2 Error %: 0.75
-Cosine Similarity: 0.66
+   SBS1  SBS4  SBS5  SBS7b  SBS16
+0   2.0   3.0  29.0    3.0    4.0
+L2 Error %: 0.74
+Cosine Similarity: 0.67
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  41.0
@@ -16423,9 +16423,9 @@ Cosine Similarity: 0.88
 
                     ################ Sample 411 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   6.0   4.0  23.0  83.0   16.0    4.0   13.0
-L2 Error %: 0.51
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   6.0   3.0  23.0  76.0   16.0    4.0   13.0    8.0
+L2 Error %: 0.5
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
     SBS5
@@ -16543,10 +16543,10 @@ Cosine Similarity: 0.96
 
                     ################ Sample 414 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  14.0   8.0   1.0    8.0    1.0    7.0
-L2 Error %: 0.55
-Cosine Similarity: 0.84
+   SBS1  SBS4  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  12.0   6.0    7.0    1.0    6.0    6.0    1.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS7b
 0  19.251607  19.748393
@@ -16623,10 +16623,10 @@ Cosine Similarity: 0.78
 
                     ################ Sample 416 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0   8.0   2.0  28.0  62.0    3.0   12.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  10.0   2.0  27.0  36.0    5.0   10.0   12.0   13.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  115.0
@@ -16663,10 +16663,10 @@ Cosine Similarity: 0.81
 
                     ################ Sample 417 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  16.0   9.0   1.0  39.0    5.0    1.0   15.0
-L2 Error %: 0.44
-Cosine Similarity: 0.9
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  17.0   9.0   2.0  21.0    6.0    1.0    4.0   15.0   11.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
         SBS1      SBS2      SBS5      SBS19
 0  15.802716  9.600266  43.99366  16.603358
@@ -16823,10 +16823,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 421 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0   2.0   2.0  14.0    1.0    2.0
-L2 Error %: 0.79
-Cosine Similarity: 0.62
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   2.0   2.0   7.0    1.0    1.0    5.0    2.0    1.0
+L2 Error %: 0.77
+Cosine Similarity: 0.64
 ############################## Composition After Initial Remove ###############################
    SBS5
 0  21.0
@@ -16863,10 +16863,10 @@ Cosine Similarity: 0.6
 
                     ################ Sample 422 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13
-0   2.0  12.0   2.0  35.0   18.0
-L2 Error %: 0.66
-Cosine Similarity: 0.75
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS85
+0   3.0  12.0   2.0  21.0   17.0   11.0    3.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  11.657146  39.522345  17.820509
@@ -16903,8 +16903,8 @@ Cosine Similarity: 0.75
 
                     ################ Sample 423 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  16.0   2.0  16.0    1.0    4.0   18.0
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0  16.0   2.0  14.0    1.0    4.0    2.0   18.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -16983,10 +16983,10 @@ Cosine Similarity: 0.9
 
                     ################ Sample 425 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0   5.0   8.0  45.0   13.0    2.0   20.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0  13.0   6.0   8.0  33.0   14.0    1.0   10.0   20.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
         SBS5      SBS19
 0  84.549136  20.450864
@@ -17103,8 +17103,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 428 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   8.0   1.0  11.0    4.0    4.0    7.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   8.0   1.0   9.0    4.0    4.0    7.0    2.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -17183,10 +17183,10 @@ Cosine Similarity: 0.67
 
                     ################ Sample 430 #################
 ############################# Initial Composition ####################################
-   SBS2  SBS4  SBS5  SBS13  SBS19
-0  19.0  18.0  57.0   28.0   15.0
-L2 Error %: 0.52
-Cosine Similarity: 0.86
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   3.0  19.0  17.0  22.0   27.0   20.0   17.0   12.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  19.578862  89.008194  28.412944
@@ -17263,8 +17263,8 @@ Cosine Similarity: 0.91
 
                     ################ Sample 432 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  12.0  14.0  10.0  85.0    8.0   12.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  13.0  14.0  10.0  72.0    7.0   12.0   13.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -17343,8 +17343,8 @@ Cosine Similarity: 0.86
 
                     ################ Sample 434 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS7b  SBS13  SBS19
-0  13.0   3.0   7.0    4.0    5.0   13.0
+   SBS1  SBS2  SBS4  SBS7b  SBS13  SBS19  SBS85
+0  12.0   3.0   7.0    4.0    5.0   12.0    2.0
 L2 Error %: 0.53
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
@@ -17463,9 +17463,9 @@ Cosine Similarity: 0.77
 
                     ################ Sample 437 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4   SBS5  SBS7b  SBS13
-0   6.0  30.0  115.0   19.0   31.0
-L2 Error %: 0.53
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS85
+0   8.0  30.0  85.0   21.0   30.0    6.0   21.0
+L2 Error %: 0.52
 Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
          SBS5      SBS13
@@ -17503,8 +17503,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 438 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  17.0   1.0   5.0  40.0    2.0   37.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  17.0   1.0   5.0  38.0    2.0   37.0    2.0
 L2 Error %: 0.42
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -17623,8 +17623,8 @@ Cosine Similarity: 0.83
 
                     ################ Sample 441 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   3.0  31.0   3.0  74.0   47.0    4.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   3.0  30.0   4.0  68.0   46.0    5.0    6.0
 L2 Error %: 0.44
 Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
@@ -17743,8 +17743,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 444 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0  12.0   2.0  89.0    1.0   22.0   13.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  12.0  12.0   2.0  84.0    2.0   22.0   13.0    4.0
 L2 Error %: 0.51
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -17783,10 +17783,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 445 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS19
-0   3.0   5.0  65.0   14.0    8.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0   4.0   5.0  50.0   14.0    2.0    8.0   12.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
        SBS5     SBS7b
 0  78.19625  16.80375
@@ -17823,8 +17823,8 @@ Cosine Similarity: 0.81
 
                     ################ Sample 446 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   4.0  13.0   2.0  36.0    9.0   18.0    6.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   4.0  13.0   2.0  34.0    9.0   18.0    6.0    2.0
 L2 Error %: 0.5
 Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
@@ -17863,8 +17863,8 @@ Cosine Similarity: 0.84
 
                     ################ Sample 447 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   2.0   8.0  15.0    1.0    1.0   15.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   5.0   2.0   8.0  13.0    1.0    1.0    1.0   15.0    1.0
 L2 Error %: 0.58
 Cosine Similarity: 0.81
 ############################## Composition After Initial Remove ###############################
@@ -17983,8 +17983,8 @@ Cosine Similarity: 0.89
 
                     ################ Sample 450 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19
-0   8.0   7.0  33.0   14.0    9.0    7.0
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   8.0   7.0  31.0   14.0    9.0    7.0    2.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -18023,10 +18023,10 @@ Cosine Similarity: 0.77
 
                     ################ Sample 451 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS7b  SBS13
-0   4.0  26.0  103.0    7.0   60.0
-L2 Error %: 0.57
-Cosine Similarity: 0.82
+   SBS1  SBS2  SBS5  SBS7b  SBS13  SBS85
+0   5.0  24.0  91.0    8.0   58.0   14.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5     SBS13
 0  25.195173  117.269907  57.53492
@@ -18064,7 +18064,7 @@ Cosine Similarity: 0.82
                     ################ Sample 452 #################
 ############################# Initial Composition ####################################
    SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0  18.0   1.0   6.0  22.0    1.0    4.0
+0  17.0   1.0   6.0  23.0    1.0    4.0
 L2 Error %: 0.49
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -18223,10 +18223,10 @@ Cosine Similarity: 0.89
 
                     ################ Sample 456 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  21.0  29.0  67.0    6.0    5.0   18.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  22.0  28.0  51.0    7.0    5.0    3.0   18.0   12.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS1        SBS5
 0  15.866361  130.133639
@@ -18263,8 +18263,8 @@ Cosine Similarity: 0.8
 
                     ################ Sample 457 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS4   SBS5  SBS13  SBS19
-0  12.0  15.0  236.0  190.0    5.0    1.0
+   SBS1  SBS2   SBS4   SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  15.0  14.0  231.0  154.0    1.0    5.0   12.0    4.0   23.0
 L2 Error %: 0.35
 Cosine Similarity: 0.94
 ############################## Composition After Initial Remove ###############################
@@ -18303,8 +18303,8 @@ Cosine Similarity: 0.93
 
                     ################ Sample 458 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2   SBS5  SBS7b  SBS13
-0   7.0  10.0  109.0    8.0    9.0
+   SBS1  SBS2   SBS5  SBS7b  SBS13  SBS16  SBS85
+0   7.0   9.0  102.0    9.0    9.0    4.0    3.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -18343,10 +18343,10 @@ Cosine Similarity: 0.79
 
                     ################ Sample 459 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  14.0  19.0  29.0  59.0    9.0    8.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0  16.0  19.0  29.0  39.0    9.0   17.0    9.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  17.652418  120.347582
@@ -18383,8 +18383,8 @@ Cosine Similarity: 0.79
 
                     ################ Sample 460 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0   9.0  13.0  39.0    5.0   24.0    9.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  12.0   8.0  13.0  32.0    5.0   24.0    9.0    8.0
 L2 Error %: 0.47
 Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
@@ -18423,10 +18423,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 461 #################
 ############################# Initial Composition ####################################
-   SBS2   SBS5  SBS13
-0  20.0  109.0   13.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS2  SBS5  SBS13  SBS16
+0  20.0  91.0   12.0   19.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  20.746501  121.253499
@@ -18463,10 +18463,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 462 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0  12.0   7.0  14.0  60.0    6.0    5.0
-L2 Error %: 0.54
-Cosine Similarity: 0.84
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS85
+0  13.0   7.0  14.0  37.0    8.0    5.0   14.0    6.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  104.0
@@ -18503,8 +18503,8 @@ Cosine Similarity: 0.79
 
                     ################ Sample 463 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  21.0  40.0  18.0  44.0    8.0   22.0   19.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  21.0  39.0  18.0  38.0    9.0   22.0   19.0    6.0
 L2 Error %: 0.41
 Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
@@ -18623,9 +18623,9 @@ Cosine Similarity: 0.87
 
                     ################ Sample 466 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   6.0   4.0   4.0  68.0    7.0   10.0
-L2 Error %: 0.62
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0   7.0   4.0   5.0  57.0    7.0    4.0   10.0    5.0
+L2 Error %: 0.61
 Cosine Similarity: 0.79
 ############################## Composition After Initial Remove ###############################
    SBS5
@@ -18663,8 +18663,8 @@ Cosine Similarity: 0.75
 
                     ################ Sample 467 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS7b  SBS19
-0  22.0   4.0   7.0    1.0   31.0
+   SBS1  SBS2  SBS4  SBS7b  SBS16  SBS19
+0  22.0   4.0   6.0    1.0    1.0   31.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -18783,8 +18783,8 @@ Cosine Similarity: 0.87
 
                     ################ Sample 470 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  16.0  42.0   5.0  93.0    1.0   13.0   16.0
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0  16.0  42.0   5.0  92.0    1.0   13.0   16.0    1.0
 L2 Error %: 0.46
 Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
@@ -18943,8 +18943,8 @@ Cosine Similarity: 0.93
 
                     ################ Sample 474 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS7b  SBS19
-0   8.0  11.0  31.0    3.0    9.0
+   SBS1  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0   8.0  11.0  28.0    3.0    2.0    9.0    1.0
 L2 Error %: 0.66
 Cosine Similarity: 0.75
 ############################## Composition After Initial Remove ###############################
@@ -18983,8 +18983,8 @@ Cosine Similarity: 0.7
 
                     ################ Sample 475 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4   SBS5  SBS19
-0   6.0   1.0  106.0   10.0
+   SBS1  SBS4   SBS5  SBS19  SBS85
+0   6.0   1.0  105.0   10.0    1.0
 L2 Error %: 0.5
 Cosine Similarity: 0.87
 ############################## Composition After Initial Remove ###############################
@@ -19023,10 +19023,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 476 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13
-0   9.0   6.0  20.0  151.0   26.0    9.0
-L2 Error %: 0.48
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS16  SBS85
+0  12.0   6.0  20.0  111.0   30.0    8.0   29.0    5.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  221.0
@@ -19063,10 +19063,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 477 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4   SBS5  SBS7b  SBS13  SBS19
-0   1.0   9.0   7.0  115.0    1.0    9.0   15.0
-L2 Error %: 0.47
-Cosine Similarity: 0.88
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19  SBS85
+0   3.0   8.0   8.0  90.0    3.0    8.0   15.0   22.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  157.0
@@ -19143,8 +19143,8 @@ Cosine Similarity: 0.9
 
                     ################ Sample 479 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  31.0   5.0  31.0  91.0    1.0   35.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0  31.0   5.0  31.0  85.0    1.0   36.0    5.0
 L2 Error %: 0.36
 Cosine Similarity: 0.93
 ############################## Composition After Initial Remove ###############################
@@ -19183,10 +19183,10 @@ Cosine Similarity: 0.92
 
                     ################ Sample 480 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0  18.0  35.0  67.0  91.0   13.0   45.0
-L2 Error %: 0.41
-Cosine Similarity: 0.91
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  19.0  34.0  67.0  67.0   14.0   43.0    5.0    1.0   19.0
+L2 Error %: 0.4
+Cosine Similarity: 0.92
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS4        SBS5      SBS13
 0  33.024643  55.372373  139.591768  41.011217
@@ -19223,10 +19223,10 @@ Cosine Similarity: 0.91
 
                     ################ Sample 481 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   7.0  20.0  22.0  83.0   44.0   11.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   8.0  18.0  22.0  66.0   42.0   12.0   19.0
 L2 Error %: 0.52
-Cosine Similarity: 0.85
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5      SBS13
 0  18.965558  124.288216  43.746226
@@ -19263,39 +19263,39 @@ Cosine Similarity: 0.84
 
                     ################ Sample 482 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0   5.0   6.0   6.0  33.0    1.0    3.0    6.0
-L2 Error %: 0.63
-Cosine Similarity: 0.78
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0   7.0   6.0   6.0   9.0    3.0    2.0   16.0    7.0    4.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
-   SBS5
-0  60.0
-L2 Error %: 0.72
-Cosine Similarity: 0.7
+       SBS1      SBS2      SBS16      SBS19
+0  9.930951  8.458948  28.631812  12.978289
+L2 Error %: 0.61
+Cosine Similarity: 0.79
 
 ############################## Performing Add-Remove Step ##############################
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS2', 'SBS5']
-L2 Error % 0.66
-Cosine Similarity 0.75
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS16', 'SBS19']
+L2 Error % 0.6
+Cosine Similarity 0.8
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
-Best Signature Composition ['SBS1', 'SBS2', 'SBS5']
-L2 Error % 0.66
-Cosine Similarity 0.75
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS16', 'SBS19']
+L2 Error % 0.6
+Cosine Similarity 0.8
 
 #################### Final Composition #################################
-['SBS1', 'SBS2', 'SBS5']
-L2 Error % 0.66
-Cosine Similarity 0.75
+['SBS1', 'SBS2', 'SBS5', 'SBS16', 'SBS19']
+L2 Error % 0.6
+Cosine Similarity 0.8
 ####################################### Composition After Add-Remove #######################################
-   SBS1  SBS2  SBS5
-0   3.0   6.0  51.0
-L2 Error %: 0.66
-Cosine Similarity: 0.75
+   SBS1  SBS2  SBS5  SBS16  SBS19
+0   6.0   6.0  22.0   18.0    8.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
 
 
 
@@ -19303,10 +19303,10 @@ Cosine Similarity: 0.75
 
                     ################ Sample 483 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  12.0   1.0  21.0  59.0    8.0    5.0    9.0
-L2 Error %: 0.58
-Cosine Similarity: 0.82
+   SBS1  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19  SBS85
+0  13.0  20.0  39.0    8.0    5.0    2.0   10.0   18.0
+L2 Error %: 0.55
+Cosine Similarity: 0.83
 ############################## Composition After Initial Remove ###############################
     SBS5
 0  115.0
@@ -19343,10 +19343,10 @@ Cosine Similarity: 0.77
 
                     ################ Sample 484 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   1.0  12.0  22.0  78.0    8.0    5.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS16  SBS19
+0   4.0  12.0  22.0  46.0    3.0    8.0   25.0    6.0
+L2 Error %: 0.45
+Cosine Similarity: 0.9
 ############################## Composition After Initial Remove ###############################
         SBS2        SBS5
 0  12.774038  113.225962
@@ -19383,10 +19383,10 @@ Cosine Similarity: 0.85
 
                     ################ Sample 485 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS19
-0  19.0   4.0  25.0  13.0    4.0    5.0   14.0
-L2 Error %: 0.52
-Cosine Similarity: 0.85
+   SBS1  SBS2  SBS4  SBS7b  SBS13  SBS16  SBS19
+0  20.0   4.0  26.0    5.0    4.0   11.0   14.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
 ############################## Composition After Initial Remove ###############################
         SBS1       SBS4     SBS19
 0  24.949203  35.357887  23.69291
@@ -19423,10 +19423,10 @@ Cosine Similarity: 0.83
 
                     ################ Sample 486 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS4  SBS5  SBS13  SBS19
-0   1.0  20.0  31.0    1.0    1.0
+   SBS1  SBS4  SBS5  SBS13  SBS19  SBS85
+0   2.0  19.0  25.0    1.0    1.0    6.0
 L2 Error %: 0.77
-Cosine Similarity: 0.63
+Cosine Similarity: 0.64
 ############################## Composition After Initial Remove ###############################
         SBS4       SBS5
 0  18.832511  35.167489
@@ -19463,10 +19463,10 @@ Cosine Similarity: 0.63
 
                     ################ Sample 487 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS19
-0  24.0   4.0  22.0  69.0    4.0    7.0
-L2 Error %: 0.43
-Cosine Similarity: 0.9
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS16  SBS19  SBS85
+0  25.0   3.0  22.0  44.0    5.0    6.0    8.0   17.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
 ############################## Composition After Initial Remove ###############################
         SBS1        SBS5
 0  21.147786  108.852214
@@ -19543,9 +19543,9 @@ Cosine Similarity: 0.91
 
                     ################ Sample 489 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13
-0   9.0   1.0   8.0  49.0    6.0    6.0
-L2 Error %: 0.68
+   SBS1  SBS2  SBS4  SBS5  SBS7b  SBS13  SBS85
+0   9.0   1.0   8.0  45.0    7.0    6.0    3.0
+L2 Error %: 0.67
 Cosine Similarity: 0.74
 ############################## Composition After Initial Remove ###############################
    SBS5
@@ -19663,8 +19663,8 @@ Cosine Similarity: 0.82
 
                     ################ Sample 492 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   8.0   1.0   3.0  20.0    1.0   12.0
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19  SBS85
+0   8.0   1.0   3.0  19.0    1.0   12.0    1.0
 L2 Error %: 0.54
 Cosine Similarity: 0.84
 ############################## Composition After Initial Remove ###############################
@@ -19703,10 +19703,10 @@ Cosine Similarity: 0.84
 
                     ################ Sample 493 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0  20.0  37.0  23.0  83.0   41.0   25.0
-L2 Error %: 0.49
-Cosine Similarity: 0.87
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19  SBS85
+0  21.0  36.0  23.0  63.0   39.0   10.0   26.0   11.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
 ############################## Composition After Initial Remove ###############################
         SBS2       SBS5      SBS13
 0  34.064694  158.29587  36.639436
@@ -19743,10 +19743,10 @@ Cosine Similarity: 0.86
 
                     ################ Sample 494 #################
 ############################# Initial Composition ####################################
-   SBS1  SBS2  SBS4  SBS5  SBS13  SBS19
-0   2.0   4.0   1.0  30.0    9.0    5.0
-L2 Error %: 0.58
-Cosine Similarity: 0.81
+   SBS1  SBS2  SBS4  SBS5  SBS13  SBS16  SBS19
+0   3.0   4.0   1.0  23.0    9.0    6.0    5.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
 ############################## Composition After Initial Remove ###############################
         SBS5     SBS13
 0  42.653945  8.346055
