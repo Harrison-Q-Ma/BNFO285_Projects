@@ -36,17 +36,17 @@ COSMIC MATCH
 	cosmic_fit_option: False
 
 -------Analysis Progress------- 
-[2025-05-15 21:15:55] Analysis started: 
+[2025-05-15 21:36:18] Analysis started: 
 
  Decomposing De Novo Signatures  .....
- [2025-05-15 21:15:55] Assigning decomposed signature 
+ [2025-05-15 21:36:18] Assigning decomposed signature 
 
  Finished Decompose fitting! 
-Execution time:0:02:05.448438
+Execution time:0:00:22.502678
 
-[2025-05-15 21:18:00] Analysis ended: 
+[2025-05-15 21:36:40] Analysis ended: 
 
 -------Job Status------- 
 Assignment of mutational signatures completed successfully! 
-Total execution time: 0:02:05 
+Total execution time: 0:00:22 
 Results can be found in:  .  folder
