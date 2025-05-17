@@ -3,7 +3,7 @@ THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
 
 -------System Info-------
 Operating System Name: Darwin
-Nodename: MacBook-Air.local
+Nodename: Mac.attlocal.net
 Release: 24.4.0
 Version: Darwin Kernel Version 24.4.0: Fri Apr 11 18:33:46 PDT 2025; root:xnu-11417.101.15~117/RELEASE_ARM64_T8112
 
@@ -36,17 +36,17 @@ COSMIC MATCH
 	cosmic_fit_option: False
 
 -------Analysis Progress------- 
-[2025-05-15 21:36:18] Analysis started: 
+[2025-05-16 17:16:51] Analysis started: 
 
  Decomposing De Novo Signatures  .....
- [2025-05-15 21:36:18] Assigning decomposed signature 
+ [2025-05-16 17:16:51] Assigning decomposed signature 
 
  Finished Decompose fitting! 
-Execution time:0:00:22.502678
+Execution time:0:00:24.458553
 
-[2025-05-15 21:36:40] Analysis ended: 
+[2025-05-16 17:17:16] Analysis ended: 
 
 -------Job Status------- 
 Assignment of mutational signatures completed successfully! 
-Total execution time: 0:00:22 
+Total execution time: 0:00:24 
 Results can be found in:  .  folder
