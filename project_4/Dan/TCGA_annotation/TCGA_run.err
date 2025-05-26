@@ -1,0 +1,35 @@
+SOURCE:error.converter      
+LINE:1
+INPUT:Chromosome	Start_Position	Strand	Tumor_Seq_Allele1	Tumor_Seq_Allele2	patient_id
+ERROR:2nd column must be integer
+#
+SOURCE:error.converter      
+LINE:3480
+INPUT:14	106552434	+	C	G	TCGA-BA-6869
+ERROR:Liftover failure
+#
+SOURCE:error.converter      
+LINE:43261
+INPUT:19	40408042	+	T	A	TCGA-CV-7102
+ERROR:Liftover failure
+#
+SOURCE:error.converter      
+LINE:55376
+INPUT:14	106552398	+	C	G	TCGA-CV-A6JY
+ERROR:Liftover failure
+#
+SOURCE:error.converter      
+LINE:65422
+INPUT:14	106552681	+	C	T	TCGA-IQ-A61E
+ERROR:Liftover failure
+#
+SOURCE:error.converter      
+LINE:67239
+INPUT:19	40411941	+	G	A	TCGA-MT-A51X
+ERROR:Liftover failure
+#
+SOURCE:error.converter      
+LINE:68867
+INPUT:19	54744365	+	C	T	TCGA-P3-A5QF
+ERROR:Liftover failure
+#

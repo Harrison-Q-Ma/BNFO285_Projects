@@ -1,0 +1,101 @@
+2025/05/25 15:36:42 cravat               /cellar/users/dhalmos/miniconda3/envs/cravat/bin/oc run -n TCGA_run -t text -a chasmplus -l hg19 --mp 10 -d ./TCGA_annotation ./TCGA_mutations_cravat_inp.csv
+2025/05/25 15:36:42 cravat               started: Sun May 25 15:36:42 2025
+2025/05/25 15:36:42 cravat               input files: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_mutations_cravat_inp.csv
+2025/05/25 15:36:42 cravat               input assembly: hg19
+2025/05/25 15:36:42 cravat               version: open-cravat 2.9.1 /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat
+2025/05/25 15:36:42 cravat               version: chasmplus 1.3.0 /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/annotators/chasmplus
+2025/05/25 15:36:42 cravat               version: hg38 1.11.0 /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38
+2025/05/25 15:36:42 cravat               version: textreporter 2.1.0 /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/reporters/textreporter
+2025/05/25 15:36:42 cravat.converter     started: Sun May 25 15:36:42 2025
+2025/05/25 15:36:42 cravat.converter     Input file(s): /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_mutations_cravat_inp.csv
+2025/05/25 15:36:42 cravat.converter     liftover from hg19
+2025/05/25 15:36:46 cravat.converter     input format: cravat
+2025/05/25 15:37:15 cravat.converter     error lines: 7
+2025/05/25 15:37:15 cravat.converter     finished: Sun May 25 15:37:15 2025
+2025/05/25 15:37:15 cravat.converter     num input lines: 79236
+2025/05/25 15:37:15 cravat.converter     runtime: 28.212
+2025/05/25 15:37:15 cravat               num_workers: 10
+2025/05/25 15:37:15 cravat               input line chunksize=7869 total number of input lines=78693 number of chunks=10
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:15 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation/TCGA_run.crv
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:16 cravat.mapper        mapper database: /cellar/users/dhalmos/miniconda3/envs/cravat/lib/python3.12/site-packages/cravat/modules/mappers/hg38/data/gene_33_10000.sqlite
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 1831331
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 1628637
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 808175
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 202404
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 1425849
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 402973
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 1012237
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 1223069
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 605719
+2025/05/25 15:37:17 cravat.mapper        started: Sun May 25 15:37:17 2025 | 0
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 808175
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.172
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 1425849
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.202
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 202404
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.274
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 1831331
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.386
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 402973
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.289
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 1012237
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.383
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 0
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.292
+2025/05/25 15:37:18 cravat.mapper        finished: Sun May 25 15:37:18 2025 | 1223069
+2025/05/25 15:37:18 cravat.mapper        runtime:  1.574
+2025/05/25 15:37:19 cravat.mapper        finished: Sun May 25 15:37:19 2025 | 605719
+2025/05/25 15:37:19 cravat.mapper        runtime:  1.741
+2025/05/25 15:37:19 cravat.mapper        finished: Sun May 25 15:37:19 2025 | 1628637
+2025/05/25 15:37:19 cravat.mapper        runtime:  2.068
+2025/05/25 15:37:19 cravat               num_workers: 10
+2025/05/25 15:37:19 cravat.chasmplus     started: Sun May 25 15:37:19 2025
+2025/05/25 16:30:35 cravat.chasmplus     finished: Sun May 25 16:30:35 2025
+2025/05/25 16:30:35 cravat.chasmplus     runtime: 3195.450s
+2025/05/25 16:30:36 cravat.aggregator    level: variant
+2025/05/25 16:30:36 cravat.aggregator    input directory: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation
+2025/05/25 16:30:36 cravat.aggregator    started: Sun May 25 16:30:36 2025
+2025/05/25 16:30:39 cravat.aggregator    finished: Sun May 25 16:30:39 2025
+2025/05/25 16:30:39 cravat.aggregator    runtime: 3.007
+2025/05/25 16:30:39 cravat.aggregator    level: gene
+2025/05/25 16:30:39 cravat.aggregator    input directory: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation
+2025/05/25 16:30:39 cravat.aggregator    started: Sun May 25 16:30:39 2025
+2025/05/25 16:30:39 cravat.aggregator    finished: Sun May 25 16:30:39 2025
+2025/05/25 16:30:39 cravat.aggregator    runtime: 0.095
+2025/05/25 16:30:39 cravat.aggregator    level: sample
+2025/05/25 16:30:39 cravat.aggregator    input directory: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation
+2025/05/25 16:30:39 cravat.aggregator    started: Sun May 25 16:30:39 2025
+2025/05/25 16:30:39 cravat.aggregator    finished: Sun May 25 16:30:39 2025
+2025/05/25 16:30:39 cravat.aggregator    runtime: 0.422
+2025/05/25 16:30:39 cravat.aggregator    level: mapping
+2025/05/25 16:30:39 cravat.aggregator    input directory: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/TCGA_annotation
+2025/05/25 16:30:39 cravat.aggregator    started: Sun May 25 16:30:39 2025
+2025/05/25 16:30:40 cravat.aggregator    finished: Sun May 25 16:30:40 2025
+2025/05/25 16:30:40 cravat.aggregator    runtime: 0.426
+2025/05/25 16:30:40 cravat.tagsampler    started: Sun May 25 16:30:40 2025
+2025/05/25 16:30:45 cravat.tagsampler    finished: Sun May 25 16:30:45 2025
+2025/05/25 16:30:45 cravat.tagsampler    runtime: 4.079
+2025/05/25 16:30:45 cravat.textreporter  started: Sun May 25 16:30:45 2025
+2025/05/25 16:30:45 cravat.mapper        input file: /cellar/users/dhalmos/class/BNFO285/BNFO285_Projects/project_4/Dan/__dummy__
+2025/05/25 16:30:50 cravat.textreporter  finished: Sun May 25 16:30:50 2025
+2025/05/25 16:30:50 cravat.textreporter  runtime: 4.895
+2025/05/25 16:30:50 cravat               finished: Sun May 25 16:30:50 2025
+2025/05/25 16:30:50 cravat               runtime: 3248.017s
